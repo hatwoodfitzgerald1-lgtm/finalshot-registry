@@ -1,0 +1,35 @@
+{
+  "builds": [
+    {
+      "date": "2026-07-03",
+      "brand": "BioVirtua",
+      "domain": "biovirtua.com",
+      "live_url": "https://biovirtua-site-v2.webflow.io",
+      "archetype": "Single-Object Hero (3D)",
+      "governing_idea": "Movement made measurable: a human body dissolves into tracked points that resolve into readable numbers",
+      "signature_world": { "object": "GPGPU point-cloud human body", "verb": "assemble and sequence", "camera_path": "swarm-assembly then orbit-and-rise then explode-to-data then reassemble front-on" },
+      "signature_move_id": "3DW-008",
+      "signature_move_category": "3D & WebGL",
+      "palette": { "field": "dark", "hexes": ["070B1A", "0E1B3A", "F7FAFC", "22C7D6", "FF6A4D"], "accent_hue_family": "coral", "color_story": "dark field with one warm accent" },
+      "heading_font": "Space Grotesk",
+      "body_font": "Inter Tight",
+      "motif": "tracked-point scan-line",
+      "motion_signature": { "easings": ["cubic-bezier(0.16, 0.84, 0.24, 1)", "cubic-bezier(0.65, 0.02, 0.32, 1)"], "durations": { "fast": "0.18s", "base": "0.52s", "slow": "1.1s" } },
+      "loader_transition": "boot-sequence-to-swarm-assembly",
+      "nav_style": "sticky minimal header, plain DOM over canvas, decode-on-hover links",
+      "button_style": "magnetic with layered hover choreography, coral primary",
+      "technique_ids": ["3DW-008", "3DW-010", "MOT-001", "MOT-005", "MOT-004", "LAY-018", "COL-018", "COL-011", "TYP-007", "TEX-011", "TEX-001", "CUR-004", "CUR-007", "STO-008", "TRN-001"],
+      "typographic_set_piece": "The Score Resolves",
+      "interactive_feature": "before/after mobility comparison, range-input driven",
+      "voice_stance": "clinical precise humanizing",
+      "tier": "3",
+      "tier_forced": false,
+      "engine_profile": "baseline-r128",
+      "signature_shader_id": "SHD-004",
+      "media_manifest": false,
+      "repo_name": "biovirtua-site-v2",
+      "app_name": "biovirtua-site-v2",
+      "invented_techniques": []
+    }
+  ]
+}
