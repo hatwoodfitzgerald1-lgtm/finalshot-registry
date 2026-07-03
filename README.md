@@ -1,0 +1,1 @@
+# finalshot-registry
