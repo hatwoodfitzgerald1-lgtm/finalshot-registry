@@ -30,6 +30,92 @@
       "repo_name": "biovirtua-site-v2",
       "app_name": "biovirtua-site-v2",
       "invented_techniques": []
+    },
+    {
+      "date": "2026-09-21",
+      "brand": "Astroquanta",
+      "domain": "astroquanta.com",
+      "archetype": "Sidebar-Anchored",
+      "governing_idea": "The denominator is the design: every trial the agent ran stays on the screen in grey, so the six that survived can be priced.",
+      "signature_world": {
+        "object": "a lattice of 48 trial cells in depth (instanced cubes, 8 wide by 6 high, stacked through four gate planes)",
+        "verb": "cull and hold",
+        "camera_path": "single axis dolly forward through four gate planes, then a quarter turn to elevation over the six survivors"
+      },
+      "signature_move_id": "STO-007",
+      "signature_move_category": "Storytelling & Structure",
+      "palette": {
+        "field": "dark",
+        "hexes": [
+          "0A0C0B",
+          "1F2422",
+          "3B423F",
+          "7E8682",
+          "D8DBD8",
+          "9BE15D"
+        ],
+        "accent_hue_family": "yellow green (phosphor)",
+        "color_story": "grey ladder with one surviving phosphor"
+      },
+      "heading_font": "Schibsted Grotesk",
+      "body_font": "IBM Plex Mono",
+      "motif": "the trial cell (a 12px square that is outlined, then filled grey or kept green) and the prompt glyph",
+      "motion_signature": {
+        "easings": [
+          "cubic-bezier(0.7, 0, 0.1, 1)",
+          "cubic-bezier(0.12, 0.7, 0.16, 1)"
+        ],
+        "durations": {
+          "fast": "0.12s",
+          "base": "0.36s",
+          "slow": "0.9s"
+        }
+      },
+      "loader_transition": "trial grid fill gauge: 48 cells outline in step with real load, then Flip into the hero lattice",
+      "nav_style": "persistent left status rail with ticking run clock and gate index, prompt glyph active marker, drawer on mobile",
+      "button_style": "square hairline console button, prompt glyph slides in and label shifts one character on hover, inverted fill on press, kept green primary",
+      "technique_ids": [
+        "STO-007",
+        "3DW-011",
+        "MOT-005",
+        "MOT-004",
+        "MOT-015",
+        "TYP-020",
+        "COL-018",
+        "TEX-014",
+        "TRN-002",
+        "EXP-002",
+        "CUR-007",
+        "CUR-010"
+      ],
+      "typographic_set_piece": "The Fraction: 48 over 48 becomes 6 over 48 in display mono, the numerator stepping down at each gate while the denominator never leaves the screen",
+      "interactive_feature": "simulator",
+      "voice_stance": "sober quantitative recorder",
+      "tier": "1",
+      "tier_forced": false,
+      "engine_profile": "baseline-r128",
+      "signature_shader_id": "",
+      "media_manifest": true,
+      "invented_techniques": [],
+      "live_url": "https://astroquanta-site.webflow.io",
+      "repo_name": "astroquanta-site",
+      "app_name": "astroquanta-site",
+      "mode": "net-new",
+      "history_record_path": null,
+      "oldest_backlink_date": null,
+      "reference_board": [
+        "darkroom.engineering",
+        "Maxime Heckel",
+        "Linear",
+        "Vercel",
+        "Rauno Freiberg",
+        "Terminal Industries",
+        "Axiom by Peppermint",
+        "Sanctuary Computer",
+        "Teenage Engineering"
+      ],
+      "foundry_manifest_hash": "2ebdaa2a3268d6211944a923e3b3cab64979d4ef1b2709e37d1274502f20d8c7",
+      "pass_log_path": "runs/astroquant/site/BUILD_LOG.md"
     }
   ]
 }
