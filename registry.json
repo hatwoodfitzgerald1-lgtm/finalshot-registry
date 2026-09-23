@@ -116,6 +116,106 @@
       ],
       "foundry_manifest_hash": "2ebdaa2a3268d6211944a923e3b3cab64979d4ef1b2709e37d1274502f20d8c7",
       "pass_log_path": "runs/astroquant/site/BUILD_LOG.md"
+    },
+    {
+      "date": "2026-09-23",
+      "brand": "Smart Augment",
+      "domain": "smartaugment.com",
+      "archetype": "Magazine or Cover Story (cast as a printed research note)",
+      "governing_idea": "Provenance made visible: the committee memo is a stack of paper you can see through, and every figure on the page has a hairline back to the disclosure row that produced it.",
+      "signature_world": {
+        "object": "a committee memo as a stack of five translucent paper sheets in depth (memo, comparables, model run, screen definition, disclosure file) joined by hairline provenance leaders",
+        "verb": "collate",
+        "camera_path": "orthographic reading view snaps into a raking perspective as the sheets fan apart in depth, a focus pull walks from the memo to the disclosure sheet at the back and returns, then the sheets collate flat and the camera settles to the reading view"
+      },
+      "signature_move_id": "3DW-007",
+      "signature_move_category": "3D & WebGL",
+      "palette": {
+        "field": "light",
+        "hexes": [
+          "F6F3ED",
+          "FFFFFF",
+          "EAE5DB",
+          "DCD6CB",
+          "6B665E",
+          "1A1A18",
+          "1B3A5C",
+          "E7ECF2",
+          "7A1F1F"
+        ],
+        "accent_hue_family": "prussian blue",
+        "color_story": "paper and ink with one institutional accent"
+      },
+      "heading_font": "Newsreader",
+      "body_font": "Newsreader (prose) with Spline Sans Mono (figures)",
+      "motif": "the provenance leader: a hairline with a hollow source circle and a terminal tick, joining a figure to the row it came from",
+      "motion_signature": {
+        "easings": [
+          "cubic-bezier(0.55, 0.06, 0.18, 1)",
+          "cubic-bezier(0.3, 0.74, 0.08, 1)"
+        ],
+        "durations": {
+          "fast": "0.16s",
+          "base": "0.44s",
+          "slow": "1.25s"
+        }
+      },
+      "loader_transition": "ruled sheet draw-on: ruling lines draw across blank paper in step with real load stages, the wordmark impresses onto the top rule, the rules dissolve into the hero grid",
+      "nav_style": "printed masthead between a top hairline and a bottom double rule, mono small-cap horizontal links with rising footnote marks on hover, dateline and folio cart at right, compresses to a single rule on scroll",
+      "button_style": "stamped rectangle: solid Prussian blue with an inset paper hairline, serif label with mono price, hairline steps outward on hover, platen press on click, slow hairline breathe at idle",
+      "technique_ids": [
+        "3DW-007",
+        "3DW-023",
+        "LAY-004",
+        "TYP-019",
+        "TYP-003",
+        "COL-018",
+        "MOT-001",
+        "TRN-003",
+        "CUR-008",
+        "CUR-007",
+        "TEX-006",
+        "TEX-004"
+      ],
+      "typographic_set_piece": "Footnotes That Walk: the superscript footnote marks in the hero paragraph lift out of the prose on scroll and travel down hairline leaders into the evidence table beneath, landing on the row each figure came from",
+      "interactive_feature": "calculator",
+      "voice_stance": "sceptical analyst who shows the working and names what would break it",
+      "tier": "3",
+      "tier_forced": false,
+      "engine_profile": "modern-three-0.185",
+      "signature_shader_id": "SHD-012",
+      "media_manifest": true,
+      "mode": "net-new",
+      "invented_techniques": [
+        "The Collation: five translucent paper sheets in depth with a BokehPass focus pull that walks from the memo to the disclosure sheet and back, then collates flat, scroll scrubbed over 1.5 vh"
+      ],
+      "live_url": "https://smartaugment-site.webflow.io",
+      "repo_name": "smartaugment-site",
+      "app_name": "smartaugment-site",
+      "signature_shader_knobs": {
+        "recipe": "SHD-012 Dither and Halftone Pass",
+        "mode": "halftone (uMode 1)",
+        "uScale": 3.2,
+        "uAngle": 0.26,
+        "uInkColor": "1A1A18",
+        "uPaperColor": "F6F3ED",
+        "application": "shading and shadow tones only via a luminance threshold at 0.82 (type on textures stays crisp), fine engraving scale rather than newspaper",
+        "coverage": "hero canvas only, never DOM text"
+      },
+      "media": {
+        "subject_world": "the room the work happens in: a research desk with paper, a steel rule, a pencil, a mono printout and morning window light, no people",
+        "video_concept": "four macro desk clips: memo lift, printout push in, rule and pencil slider, squaring the stack; product in motion shipped as a built pan over the three HTML screens",
+        "shot_grammar": "macro, static tripod or 2 cm slider, shallow depth of field, window light from the left, hard cuts",
+        "product_shot_style": "built in HTML with the brand tokens, one shell three bodies, screenshotted at 1440x900 2x, ungraded",
+        "photography_subject": "desk at dawn, memo heading with Prussian rule, decimal column at macro, index card drawer, folded letter, empty desk under flat light, six fanned printouts, two stacks with a rule, a long balance printout",
+        "asset_count": "36 rendered plus 22 build posters",
+        "grade_recipe": "Ink on paper, Prussian shadow: grayscale(1) sepia(0.14) hue-rotate(178deg) saturate(0.55) contrast(1.22) brightness(1.06) with a 1B3A5C 12 percent lighten shadow overlay and an F6F3ED 18 percent multiply highlight overlay, never applied to the built product screens"
+      },
+      "invented_archetypes": [
+        "Research Note Folio"
+      ],
+      "hero_screenshot": "screenshots/smart-augment-hero.jpg",
+      "notes": "hero carries no prices per the user's Step 7.5 ruling; placeholders pending: entity, EIN address, physical address, phone, short code, state"
     }
   ]
 }
