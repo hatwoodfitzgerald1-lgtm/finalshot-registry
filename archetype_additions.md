@@ -1,23 +1,21 @@
 # Archetype additions
 
-Layout archetypes invented or cast on past finalshot builds, named and described, so they join the catalog and count toward the archetype quota like the built in fifteen.
-
 ## Research Note Folio
 
-**Build:** Smart Augment (smartaugment.com), 2026-09-23. Live at https://smartaugment-site.webflow.io.
+**Build:** Smart Augment (smartaugment.com), 2026-09-23. Parent archetype: Magazine or Cover Story, cast as a printed research note. For the registry quota it counts as Magazine or Cover Story; the casting is what is new.
 
-**Parent archetype:** Magazine or Cover Story, cast as a printed research note. For the registry quota it counts as Magazine or Cover Story; the casting is what is new.
+**What it is:** The whole site reads as a periodical research note rather than a landing page. Every page is a folio with the same printed chrome: a masthead between rules (wordmark and horizontal navigation between a top hairline and a bottom double rule, mono small caps links, a dateline and a folio style cart count at right, compressing to a single rule on scroll); a cover spread as the first viewport (headline and standfirst in the left third, the signature world in the right two thirds); two column body spreads with serif prose and a mono for figures, drop caps, pull quotes between hairlines, paper margins; real tables as design (plan columns, comparables, evidence tables as true HTML tables with ruled rows, not cards); footnotes (superscript marks resolving to a footnote block, on that build walking down hairline leaders into the evidence table); a provenance or colophon strip in the footer above the mandatory address, phone, support email, Privacy and Terms.
 
-**What it is:** The whole site reads as a periodical research note rather than a landing page. Every page is a folio with the same printed chrome:
-- A masthead between rules: the wordmark and horizontal navigation set between a top hairline and a bottom double rule, mono small caps for the links, a dateline (issue date and edition) and a folio style cart count at the right. On scroll the masthead compresses to a single rule.
-- A cover spread as the first viewport: headline and standfirst in the left third, the signature world (the object of the site) occupying the right two thirds, the value proposition, audience signal and primary action all above the fold.
-- Two column body spreads with serif prose and a mono for figures, drop caps by section, pull quotes set between hairlines, and generous margins that read as paper.
-- Real tables as design: plan columns, comparables, evidence tables and calculators are true HTML tables with ruled rows, not cards.
-- Footnotes: superscript marks in the prose that resolve to a footnote block at the foot of the spread (on this build they also walk down hairline leaders into the evidence table, the typographic set piece).
-- A provenance or colophon strip in the footer carrying the source and print details in mono, above the mandatory physical address, phone, support email, Privacy and Terms.
+**Where it fits:** research, analytics, periodical, finance and professional tool brands whose promise is a document a person reads. Light paper field, serif heading.
 
-**Where it fits:** research, analytics, periodical, finance and professional tool brands whose promise is a document a person reads. It sits on a light paper field by nature and pairs with a serif heading font, so it also helps the field and font quotas after runs of dark grotesk builds.
+**Distinguishing it from plain Magazine or Cover Story:** the masthead rules and dateline, tables and footnotes as first class layout elements, and a colophon footer.
 
-**Conventions floor held:** logo top left linking home, primary navigation horizontal at the top on desktop, cart top right, footer with address, phone, support email, Privacy and Terms, links visibly distinct, buttons that look like buttons (here the stamped rectangle), product then cart then checkout then confirmation with no invented step, forms submit on Enter, back button and normal scrolling intact, value proposition and primary action in the first viewport.
+## Operations Ledger Grid
 
-**Distinguishing it from plain Magazine or Cover Story:** the masthead rules and dateline, tables and footnotes as first class layout elements rather than decoration, and a colophon footer. A build that uses the Magazine archetype without these is not a Research Note Folio.
+**Build:** Financing Bot (financingbot.com), 2026-09-24. Parent archetype: Swiss or Modular Grid, cast as a lender's operations ledger. For the registry quota it counts as Swiss or Modular Grid; the casting is what is new.
+
+**What it is:** The whole site is one ruled ledger. A visible twelve column hairline grid spans the full viewport on every page (no outer margin wider than 48px at any desktop width), with a mono row index in the left margin numbering each section like a ledger line. Tables are first class furniture: the pricing page is a ledger with pack rows, the product page a worksheet and a condition list, all real HTML tables with ruled rows, and the figures sit in a mono while the words sit in a grotesk. The nav is a ruled header row of cells that fill paper on hover; buttons are paper blocks with a mono price cell divided by a hairline. The signature world (a queue wall of sixty loan rows) stands inside the grid at right on Home and docks into the product's queue table. Accent colour is reserved for a single recalculated figure; nothing else on the page is coloured.
+
+**Where it fits:** operations, underwriting, back office, compliance and audit tools, any product whose promise is that the work is already counted and filed. Dark graphite field, grotesk heading, mono figures.
+
+**Distinguishing it from plain Swiss or Modular Grid:** the grid is drawn, not implied; row indices in the margin; tables as the primary layout element rather than cards; one accent colour used only on a figure that changed.
