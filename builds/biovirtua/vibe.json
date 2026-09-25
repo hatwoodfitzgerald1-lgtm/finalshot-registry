@@ -1,0 +1,103 @@
+{
+ "slug": "biovirtua",
+ "brand": "BioVirtua",
+ "domain": "biovirtua.com",
+ "date": "2026-07-03",
+ "tier": "3",
+ "live_url": "https://biovirtua-site-v2.webflow.io",
+ "archetype": "Single-Object Hero (3D)",
+ "heading_font": "Space Grotesk",
+ "body_font": "Inter Tight",
+ "palette": {
+  "field": "dark",
+  "hexes": [
+   "070B1A",
+   "0E1B3A",
+   "F7FAFC",
+   "22C7D6",
+   "FF6A4D"
+  ],
+  "accent_hue_family": "coral",
+  "color_story": "dark field with one warm accent"
+ },
+ "voice_stance": "clinical precise humanizing",
+ "signature_move_category": "3D & WebGL",
+ "signature_move_id": "3DW-008",
+ "governing_idea": "Movement made measurable: a human body dissolves into tracked points that resolve into readable numbers",
+ "shots": {
+  "home-1440": "shots/home-1440.jpg",
+  "home-375": "shots/home-375.jpg",
+  "plans-1440": "shots/plans-1440.jpg",
+  "about-1440": "shots/about-1440.jpg",
+  "post-1440": "shots/post-1440.jpg",
+  "nav": "shots/nav.jpg",
+  "button": "shots/button.jpg"
+ },
+ "speech": {
+  "h1": "See how you move, in about two minutes",
+  "headlines": [
+   "We learned to read movement. Now we brought it home.",
+   "From the lab to your living room",
+   "Your Plan Cart"
+  ],
+  "ctas": [
+   "PURCHASE A PLAN",
+   "TRY MOVEMENT CHECK",
+   "BUY NOW"
+  ],
+  "section_names": [
+   "We learned to read movement. Now we brought it home.",
+   "From the lab to your living room",
+   "Your Plan Cart",
+   "Three steps, about two minutes",
+   "Follow your program",
+   "Range, symmetry, and movement quality. Read separately.",
+   "Pick how you want to measure",
+   "BioVirtua Mobility",
+   "BioVirtua Performance",
+   "BioVirtua Household",
+   "BioVirtua 4D Movement Report",
+   "Scan. Score. Replay."
+  ],
+  "blog_titles": [
+   "What a Mobility Score measures",
+   "Why markerless camera capture matters",
+   "Range of motion, symmetry, movement quality",
+   "An at-home mobility routine you can keep",
+   "What 4D movement means",
+   "One number for how you move, and where it stops being useful"
+  ],
+  "opening_about": "BioVirtua started with a stubborn problem.",
+  "opening_post": "One number for how you move, and where it stops being useful"
+ },
+ "patterns": [
+  "color.dark-field-one-warm-accent",
+  "hero.single-object-3d"
+ ],
+ "copy_tags": [
+  "copy.blog.comparison",
+  "copy.blog.noun-phrase",
+  "copy.blog.number-led",
+  "copy.blog.what-explainer",
+  "copy.blog.why-explainer",
+  "copy.cta.buy-noun",
+  "copy.cta.purchase-noun",
+  "copy.cta.start-or-try",
+  "copy.h1.imperative",
+  "copy.h1.second-person",
+  "copy.headline.second-person",
+  "copy.headline.two-short-sentences",
+  "copy.open.short-claim"
+ ],
+ "brief": {
+  "vibe": "A dark health tech landing: navy field, a coral and teal particle body cloud floating behind big rounded sans type, pill buttons with arrows, mono small caps eyebrows; clean, product marketing, 2019 startup.",
+  "hero": "Single object hero: the particle body (a 3D point cloud figure) sits centre right behind a left aligned three line H1, an eyebrow rule label, a paragraph and two pill buttons; nav is a centred pill bar with the purchase pill at right.",
+  "type": "Space Grotesk headings at very large size with Inter Tight body and a mono for eyebrows and micro labels; set piece is the oversized three line H1 over the particle body.",
+  "palette": "Dark navy field (070B1A, 0E1B3A) with one coral accent FF6A4D on the button and the particle body, teal 22C7D6 highlights, near white F7FAFC type.",
+  "motion": "The particle body orbits and reveals on scroll (3D and WebGL signature), percentage counter loader into a curtain lift, pill buttons with arrow nudge; conventional SaaS motion.",
+  "speech": "Benefit H1 with a time promise (\"See how you move, in about two minutes\"); CTAs \"PURCHASE A PLAN\" (arrow) and \"BUY NOW\"; sections as short imperatives (\"Scan. Score. Replay.\") and noun phrases (\"Nothing to strap on\"); blog titles as explainers (\"What a Mobility Score measures\", \"Why ...\"); a press line in the hero band.",
+  "rhythm": "Centered content column with a three step strip, plan cards in a row, alternating feature blocks; the particle object recurs on every page hero.",
+  "tags": "color.dark-field-one-warm-accent, hero.single-object-3d"
+ },
+ "backfilled": "2026-09-24 by the ninth amendment's backfill from the live site; 1440 shots captured through a scaled iframe (0.85) and resized, 375 shots native"
+}

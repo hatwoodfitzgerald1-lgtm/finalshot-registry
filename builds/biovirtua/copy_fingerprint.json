@@ -1,0 +1,286 @@
+{
+  "brand": "biovirtua",
+  "source": "pages",
+  "h1": "See how you move, in about two minutes",
+  "h1_shapes": [
+    "imperative",
+    "second-person"
+  ],
+  "headlines": [
+    {
+      "text": "We learned to read movement. Now we brought it home.",
+      "shapes": [
+        "two-short-sentences"
+      ]
+    },
+    {
+      "text": "From the lab to your living room",
+      "shapes": [
+        "second-person"
+      ]
+    },
+    {
+      "text": "Your Plan Cart",
+      "shapes": [
+        "second-person",
+        "three-words-or-fewer"
+      ]
+    },
+    {
+      "text": "Three steps, about two minutes",
+      "shapes": [
+        "number-led"
+      ]
+    },
+    {
+      "text": "Follow your program",
+      "shapes": [
+        "second-person",
+        "three-words-or-fewer"
+      ]
+    },
+    {
+      "text": "Range, symmetry, and movement quality. Read separately.",
+      "shapes": [
+        "two-short-sentences"
+      ]
+    },
+    {
+      "text": "Pick how you want to measure",
+      "shapes": [
+        "imperative",
+        "second-person"
+      ]
+    },
+    {
+      "text": "BioVirtua Mobility",
+      "shapes": [
+        "three-words-or-fewer"
+      ]
+    },
+    {
+      "text": "BioVirtua Performance",
+      "shapes": [
+        "three-words-or-fewer"
+      ]
+    },
+    {
+      "text": "BioVirtua Household",
+      "shapes": [
+        "three-words-or-fewer"
+      ]
+    },
+    {
+      "text": "BioVirtua 4D Movement Report",
+      "shapes": [
+        "declarative"
+      ]
+    },
+    {
+      "text": "Scan. Score. Replay.",
+      "shapes": [
+        "two-short-sentences",
+        "three-words-or-fewer"
+      ]
+    },
+    {
+      "text": "Made to be used again",
+      "shapes": [
+        "declarative"
+      ]
+    },
+    {
+      "text": "Nothing to strap on",
+      "shapes": [
+        "declarative"
+      ]
+    },
+    {
+      "text": "A number you can actually track",
+      "shapes": [
+        "second-person",
+        "noun-phrase"
+      ]
+    },
+    {
+      "text": "It reads all three, separately",
+      "shapes": [
+        "declarative"
+      ]
+    },
+    {
+      "text": "Sessions built from your scan",
+      "shapes": [
+        "second-person"
+      ]
+    },
+    {
+      "text": "Watch your own movement back",
+      "shapes": [
+        "imperative",
+        "second-person"
+      ]
+    },
+    {
+      "text": "Numbers that moved",
+      "shapes": [
+        "three-words-or-fewer"
+      ]
+    },
+    {
+      "text": "Measure how you move, then work on it",
+      "shapes": [
+        "second-person"
+      ]
+    },
+    {
+      "text": "Good to know before you buy",
+      "shapes": [
+        "second-person"
+      ]
+    },
+    {
+      "text": "Why compress it at all",
+      "shapes": [
+        "wh-lead"
+      ]
+    },
+    {
+      "text": "Where the number goes quiet",
+      "shapes": [
+        "wh-lead"
+      ]
+    },
+    {
+      "text": "How to actually read yours",
+      "shapes": [
+        "wh-lead"
+      ]
+    }
+  ],
+  "headline_shape_profile": {
+    "second-person": 9,
+    "three-words-or-fewer": 7,
+    "declarative": 4,
+    "two-short-sentences": 3,
+    "wh-lead": 3,
+    "imperative": 2,
+    "number-led": 1,
+    "noun-phrase": 1
+  },
+  "ctas": [
+    "PURCHASE A PLAN",
+    "TRY MOVEMENT CHECK",
+    "BUY NOW"
+  ],
+  "cta_classes": [
+    "buy-noun",
+    "purchase-noun",
+    "start-or-try"
+  ],
+  "section_names": [
+    "We learned to read movement. Now we brought it home.",
+    "From the lab to your living room",
+    "Your Plan Cart",
+    "Three steps, about two minutes",
+    "Follow your program",
+    "Range, symmetry, and movement quality. Read separately.",
+    "Pick how you want to measure",
+    "BioVirtua Mobility",
+    "BioVirtua Performance",
+    "BioVirtua Household",
+    "BioVirtua 4D Movement Report",
+    "Scan. Score. Replay.",
+    "Made to be used again",
+    "Nothing to strap on",
+    "A number you can actually track",
+    "It reads all three, separately",
+    "Sessions built from your scan",
+    "Watch your own movement back",
+    "Numbers that moved",
+    "Measure how you move, then work on it",
+    "Good to know before you buy"
+  ],
+  "section_naming_devices": {
+    "noun-phrase": 11,
+    "short-noun": 7,
+    "number-led": 1,
+    "imperative": 2
+  },
+  "blog_titles": [
+    {
+      "text": "What a Mobility Score measures",
+      "format": "what-explainer"
+    },
+    {
+      "text": "Why markerless camera capture matters",
+      "format": "why-explainer"
+    },
+    {
+      "text": "Range of motion, symmetry, movement quality",
+      "format": "comparison"
+    },
+    {
+      "text": "An at-home mobility routine you can keep",
+      "format": "noun-phrase"
+    },
+    {
+      "text": "What 4D movement means",
+      "format": "what-explainer"
+    },
+    {
+      "text": "One number for how you move, and where it stops being useful",
+      "format": "number-led"
+    }
+  ],
+  "blog_title_formats": [
+    "comparison",
+    "noun-phrase",
+    "number-led",
+    "what-explainer",
+    "why-explainer"
+  ],
+  "opening_lines": [
+    {
+      "text": "BioVirtua started with a stubborn problem.",
+      "shape": "short-claim"
+    },
+    {
+      "text": "One number for how you move, and where it stops being useful",
+      "shape": "claim"
+    }
+  ],
+  "opening_shapes": [
+    "claim",
+    "short-claim"
+  ],
+  "devices": {
+    "second-person-conditional": 1,
+    "one-word-sentences": 2
+  },
+  "stats": {
+    "sentences": 27,
+    "words": 534,
+    "mean_sentence_words": 19.8,
+    "sentence_length_stdev": 14.6,
+    "share_short_sentences_le5": 0.22,
+    "share_long_sentences_ge25": 0.26,
+    "contractions_per_100_words": 0.0,
+    "questions_per_100_sentences": 0.0
+  },
+  "tags": [
+    "copy.blog.comparison",
+    "copy.blog.noun-phrase",
+    "copy.blog.number-led",
+    "copy.blog.what-explainer",
+    "copy.blog.why-explainer",
+    "copy.cta.buy-noun",
+    "copy.cta.purchase-noun",
+    "copy.cta.start-or-try",
+    "copy.h1.imperative",
+    "copy.h1.second-person",
+    "copy.headline.second-person",
+    "copy.headline.two-short-sentences",
+    "copy.open.short-claim"
+  ]
+}
