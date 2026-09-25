@@ -1,0 +1,356 @@
+{
+  "brand": "Addabill",
+  "source": "SITE_COPY.md",
+  "h1": "Every bill on one calendar. A text before each is due.",
+  "h1_shapes": [
+    "two-short-sentences",
+    "every-x-on-one-y"
+  ],
+  "headlines": [
+    {
+      "text": "Start with the inbox, because it's the widest door",
+      "shapes": [
+        "imperative"
+      ]
+    },
+    {
+      "text": "Then walk the house for paper",
+      "shapes": [
+        "declarative"
+      ]
+    },
+    {
+      "text": "Open the apps that bill you without asking",
+      "shapes": [
+        "imperative",
+        "second-person"
+      ]
+    },
+    {
+      "text": "Put the list on one month",
+      "shapes": [
+        "imperative"
+      ]
+    },
+    {
+      "text": "The one rule that keeps the month true",
+      "shapes": [
+        "noun-phrase"
+      ]
+    },
+    {
+      "text": "The draft that runs before the paycheck posts",
+      "shapes": [
+        "noun-phrase"
+      ]
+    },
+    {
+      "text": "The amount that changed and nobody said so",
+      "shapes": [
+        "noun-phrase"
+      ]
+    },
+    {
+      "text": "The promotional rate that quietly ended",
+      "shapes": [
+        "noun-phrase"
+      ]
+    },
+    {
+      "text": "A heads-up and a day you chose",
+      "shapes": [
+        "second-person",
+        "noun-phrase"
+      ]
+    },
+    {
+      "text": "Where autopay still belongs",
+      "shapes": [
+        "wh-lead"
+      ]
+    },
+    {
+      "text": "The sticky note: visible right up until it isn't",
+      "shapes": [
+        "colon-setup",
+        "negation",
+        "noun-phrase"
+      ]
+    },
+    {
+      "text": "The spreadsheet: brilliant with totals, useless on a Tuesday",
+      "shapes": [
+        "colon-setup",
+        "noun-phrase"
+      ]
+    },
+    {
+      "text": "The reminder app: knows the time, not the bill",
+      "shapes": [
+        "colon-setup",
+        "negation",
+        "noun-phrase"
+      ]
+    },
+    {
+      "text": "What Addabill catches, and what it doesn't",
+      "shapes": [
+        "negation",
+        "wh-lead"
+      ]
+    },
+    {
+      "text": "Pick by what slips through in your house",
+      "shapes": [
+        "imperative",
+        "second-person"
+      ]
+    },
+    {
+      "text": "The fee is the small part",
+      "shapes": [
+        "noun-phrase"
+      ]
+    },
+    {
+      "text": "Why the due date is the wrong day to remember",
+      "shapes": [
+        "wh-lead"
+      ]
+    },
+    {
+      "text": "Seven days before: look",
+      "shapes": [
+        "colon-setup",
+        "number-led"
+      ]
+    },
+    {
+      "text": "Three days before: pay",
+      "shapes": [
+        "colon-setup",
+        "number-led"
+      ]
+    },
+    {
+      "text": "One day before: check",
+      "shapes": [
+        "colon-setup",
+        "number-led"
+      ]
+    },
+    {
+      "text": "The paper bills stop hiding",
+      "shapes": [
+        "noun-phrase"
+      ]
+    },
+    {
+      "text": "The heads-up reaches whoever pays it",
+      "shapes": [
+        "noun-phrase"
+      ]
+    },
+    {
+      "text": "Pay it where you always have",
+      "shapes": [
+        "imperative",
+        "second-person"
+      ]
+    },
+    {
+      "text": "Add a bill in the time it takes to open the envelope",
+      "shapes": [
+        "imperative"
+      ]
+    },
+    {
+      "text": "How Addabill works: Add, See, Heads-up, Tap",
+      "shapes": [
+        "colon-setup",
+        "wh-lead"
+      ]
+    },
+    {
+      "text": "Two plans, no fees on your bills",
+      "shapes": [
+        "number-led",
+        "negation",
+        "second-person"
+      ]
+    },
+    {
+      "text": "The texts you'd get this month",
+      "shapes": [
+        "second-person",
+        "noun-phrase"
+      ]
+    },
+    {
+      "text": "Keeping the house on time",
+      "shapes": [
+        "declarative"
+      ]
+    },
+    {
+      "text": "The company behind the plan",
+      "shapes": [
+        "noun-phrase"
+      ]
+    },
+    {
+      "text": "Reminders, exactly when",
+      "shapes": [
+        "three-words-or-fewer"
+      ]
+    },
+    {
+      "text": "Put the first bill on its day tonight. The first text comes before you'd have thought of it.",
+      "shapes": [
+        "imperative",
+        "multi-sentence",
+        "second-person"
+      ]
+    }
+  ],
+  "headline_shape_profile": {
+    "noun-phrase": 13,
+    "imperative": 7,
+    "second-person": 7,
+    "colon-setup": 7,
+    "wh-lead": 4,
+    "negation": 4,
+    "number-led": 4,
+    "declarative": 2,
+    "three-words-or-fewer": 1,
+    "multi-sentence": 1
+  },
+  "ctas": [
+    "Purchase the Household plan",
+    "Use the Free plan",
+    "Buy the annual plan",
+    "Add this bill",
+    "Send",
+    "Open Addabill"
+  ],
+  "cta_classes": [
+    "buy-the-plan",
+    "other:add-this-bill",
+    "other:open-addabill",
+    "other:send",
+    "purchase-the-plan",
+    "use-the-free-plan"
+  ],
+  "section_names": [
+    "The paper bills stop hiding",
+    "The heads-up reaches whoever pays it",
+    "Pay it where you always have",
+    "Add a bill in the time it takes to open the envelope",
+    "How Addabill works: Add, See, Heads-up, Tap",
+    "Two plans, no fees on your bills",
+    "The texts you'd get this month",
+    "Keeping the house on time",
+    "The company behind the plan",
+    "Reminders, exactly when"
+  ],
+  "section_naming_devices": {
+    "noun-phrase": 4,
+    "imperative": 2,
+    "how-x-works": 1,
+    "number-led": 1,
+    "the-x-you-y": 1,
+    "short-noun": 1
+  },
+  "blog_titles": [
+    {
+      "text": "Your bills live in three places. One evening moves them to one.",
+      "format": "two-sentence"
+    },
+    {
+      "text": "Autopay is not a plan",
+      "format": "myth-negation"
+    },
+    {
+      "text": "The sticky note, the spreadsheet and the reminder app: what each one catches, and what slips past",
+      "format": "comparison"
+    },
+    {
+      "text": "What a late fee actually costs, and the three days that stop it",
+      "format": "what-explainer"
+    }
+  ],
+  "blog_title_formats": [
+    "comparison",
+    "myth-negation",
+    "two-sentence",
+    "what-explainer"
+  ],
+  "opening_lines": [
+    {
+      "text": "Somewhere in your house there's a dentist statement.",
+      "shape": "scene"
+    },
+    {
+      "text": "Nobody forgets the rent.",
+      "shape": "short-claim"
+    },
+    {
+      "text": "Autopay was invented to solve forgetting, and it does.",
+      "shape": "past-tense-story"
+    },
+    {
+      "text": "Every bill keeper has a system, and every system is a good answer to part of the question.",
+      "shape": "claim"
+    },
+    {
+      "text": "Ask what a late fee costs and the honest answer starts with the fee.",
+      "shape": "imperative"
+    }
+  ],
+  "opening_shapes": [
+    "claim",
+    "imperative",
+    "past-tense-story",
+    "scene",
+    "short-claim"
+  ],
+  "devices": {
+    "numbered-01-02-03": 8,
+    "counting-as-story": 5,
+    "every-x-on-one-y": 1,
+    "not-x-but-y": 1,
+    "second-person-conditional": 21,
+    "one-word-sentences": 5,
+    "never-list": 5,
+    "the-x-you-d-get": 2
+  },
+  "stats": {
+    "sentences": 566,
+    "words": 9476,
+    "mean_sentence_words": 16.7,
+    "sentence_length_stdev": 15.2,
+    "share_short_sentences_le5": 0.15,
+    "share_long_sentences_ge25": 0.19,
+    "contractions_per_100_words": 2.3,
+    "questions_per_100_sentences": 2.3
+  },
+  "tags": [
+    "copy.blog.comparison",
+    "copy.blog.myth-negation",
+    "copy.blog.two-sentence",
+    "copy.blog.what-explainer",
+    "copy.cta.buy-the-plan",
+    "copy.cta.purchase-the-plan",
+    "copy.cta.use-the-free-plan",
+    "copy.device.counting-as-story",
+    "copy.device.every-x-on-one-y",
+    "copy.device.never-list",
+    "copy.device.numbered-01-02-03",
+    "copy.device.the-x-you-d-get",
+    "copy.h1.every-x-on-one-y",
+    "copy.h1.two-short-sentences",
+    "copy.headline.imperative",
+    "copy.headline.second-person",
+    "copy.open.scene"
+  ]
+}

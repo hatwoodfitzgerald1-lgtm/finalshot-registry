@@ -1,0 +1,128 @@
+{
+ "slug": "addabill",
+ "brand": "Addabill",
+ "domain": "addabill.com",
+ "date": "2026-09-24",
+ "tier": "2",
+ "live_url": "https://addabill-site.webflow.io",
+ "archetype": "Full-Bleed Cinematic Hero (cast as the standing month: a rendered world filling the viewport under centered type)",
+ "heading_font": "Fraunces",
+ "body_font": "Figtree",
+ "palette": {
+  "field": "light",
+  "hexes": [
+   "FAF3E6",
+   "FFFFFF",
+   "EDE2CF",
+   "2B2622",
+   "6B6058",
+   "E9A825",
+   "3F6B4B"
+  ],
+  "accent_hue_family": "marigold (orange yellow)",
+  "color_story": "cream and graphite with one marigold highlighter"
+ },
+ "voice_stance": "warm host",
+ "signature_move_category": "Storytelling & Structure",
+ "signature_move_id": "STO-009",
+ "governing_idea": "One month on the kitchen wall: every bill stands on its day, the light moves across the counter, and the heads-up arrives before the day does.",
+ "shots": {
+  "home-1440": "shots/home-1440.jpg",
+  "home-375": "shots/home-375.jpg",
+  "plans-1440": "shots/plans-1440.jpg",
+  "about-1440": "shots/about-1440.jpg",
+  "post-1440": "shots/post-1440.jpg",
+  "nav": "shots/nav.jpg",
+  "button": "shots/button.jpg",
+  "signature-end-1440": "shots/signature-end-1440.jpg"
+ },
+ "speech": {
+  "h1": "Every bill on one calendar. A text before each is due.",
+  "headlines": [
+   "Start with the inbox, because it's the widest door",
+   "Then walk the house for paper",
+   "Open the apps that bill you without asking"
+  ],
+  "ctas": [
+   "Purchase the Household plan",
+   "Use the Free plan",
+   "Buy the annual plan",
+   "Add this bill",
+   "Send",
+   "Open Addabill"
+  ],
+  "section_names": [
+   "The paper bills stop hiding",
+   "The heads-up reaches whoever pays it",
+   "Pay it where you always have",
+   "Add a bill in the time it takes to open the envelope",
+   "How Addabill works: Add, See, Heads-up, Tap",
+   "Two plans, no fees on your bills",
+   "The texts you'd get this month",
+   "Keeping the house on time",
+   "The company behind the plan",
+   "Reminders, exactly when"
+  ],
+  "blog_titles": [
+   "Your bills live in three places. One evening moves them to one.",
+   "Autopay is not a plan",
+   "The sticky note, the spreadsheet and the reminder app: what each one catches, and what slips past",
+   "What a late fee actually costs, and the three days that stop it"
+  ],
+  "opening_about": "Somewhere in your house there's a dentist statement.",
+  "opening_post": "Nobody forgets the rent."
+ },
+ "patterns": [
+  "button.idle-breathing",
+  "button.lift-on-hover-flatten-on-press",
+  "button.sliding-duplicate-label",
+  "button.tag-shape-notch-and-hole",
+  "color.neutral-field-one-accent",
+  "feature.inputs-to-live-preview",
+  "hero.rendered-world-under-centered-type",
+  "loader.date-or-count-in-step-with-load",
+  "loader.flip-into-hero-element",
+  "motif.cell-with-tag",
+  "motion.camera-pull-back-micro-to-macro",
+  "motion.idle-object-lifts-and-resettles",
+  "motion.light-sweep-as-time-of-day",
+  "nav.condense-on-scroll",
+  "nav.glyph-beneath-active-link",
+  "object.paper-on-a-counter",
+  "object.phone-as-destination-of-the-story",
+  "object.standing-tags-on-a-line",
+  "seal.ring-with-circular-text",
+  "section.full-bleed-bands-alternating-with-spreads",
+  "type.variable-axis-settle-on-scroll",
+  "voice.host"
+ ],
+ "copy_tags": [
+  "copy.blog.comparison",
+  "copy.blog.myth-negation",
+  "copy.blog.two-sentence",
+  "copy.blog.what-explainer",
+  "copy.cta.buy-the-plan",
+  "copy.cta.purchase-the-plan",
+  "copy.cta.use-the-free-plan",
+  "copy.device.counting-as-story",
+  "copy.device.every-x-on-one-y",
+  "copy.device.never-list",
+  "copy.device.numbered-01-02-03",
+  "copy.device.the-x-you-d-get",
+  "copy.h1.every-x-on-one-y",
+  "copy.h1.two-short-sentences",
+  "copy.headline.imperative",
+  "copy.headline.second-person",
+  "copy.open.scene"
+ ],
+ "brief": {
+  "vibe": "A calm kitchen counter in morning light: cream paper, one marigold highlighter, a warm host who is plain about money and never in a hurry.",
+  "hero": "A rendered month lying on a counter fills the viewport; centered Fraunces H1 in two short sentences sits over it with the purchase button beneath the subhead; the scroll pulls back from one day cell to the whole month.",
+  "type": "Fraunces (soft, wonky, variable) for headings and oversized numerals with Figtree for body and UI; set piece is the due date 2 settling from a hand circled wonk to sharp as the pull back completes.",
+  "palette": "Light cream field FAF3E6 with paper white and oat, graphite text, one marigold accent reserved for the purchase button, chips and the today tick, moss for paid checks.",
+  "motion": "Two easings, Heads-up and Page turn; a loader that flips a date card in step with load then Flips into the hero; a time of day light sweep scrubbed by scroll; tags that lift and resettle at idle; buttons that lift, flatten and breathe.",
+  "speech": "H1 in two short declaratives (every X on one Y); CTAs 'Purchase the Household plan' and 'Use the Free plan'; sections named as noun phrases and imperatives; a never list; a numbered 01 to 04 how it works; blog titles as comparison, myth negation and what explainer.",
+  "rhythm": "Full bleed bands (hero, loop video, photo bands, year band) alternating with editorial spreads; Plans as two cards and a real table; blog as a masonry grid; About as alternating spreads.",
+  "tags": "button.idle-breathing, button.lift-on-hover-flatten-on-press, button.sliding-duplicate-label, button.tag-shape-notch-and-hole, color.neutral-field-one-accent, feature.inputs-to-live-preview, hero.rendered-world-under-centered-type, loader.date-or-count-in-step-with-load, loader.flip-into-hero-element, motif.cell-with-tag, motion.camera-pull-back-micro-to-macro, motion.idle-object-lifts-and-resettles, motion.light-sweep-as-time-of-day, nav.condense-on-scroll, nav.glyph-beneath-active-link, object.paper-on-a-counter, object.phone-as-destination-of-the-story, object.standing-tags-on-a-line, seal.ring-with-circular-text, section.full-bleed-bands-alternating-with-spreads, type.variable-axis-settle-on-scroll, voice.host"
+ }
+}
