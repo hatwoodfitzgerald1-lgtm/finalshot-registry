@@ -1,0 +1,248 @@
+{
+  "brand": "smart-augment",
+  "source": "pages",
+  "h1": "Bond research, automated.",
+  "h1_shapes": [
+    "three-words-or-fewer"
+  ],
+  "headlines": [
+    {
+      "text": "The method, and what we do not claim",
+      "shapes": [
+        "negation",
+        "noun-phrase"
+      ]
+    },
+    {
+      "text": "The method",
+      "shapes": [
+        "noun-phrase",
+        "three-words-or-fewer"
+      ]
+    },
+    {
+      "text": "THE PROVENANCE PRINCIPLE",
+      "shapes": [
+        "noun-phrase",
+        "three-words-or-fewer"
+      ]
+    },
+    {
+      "text": "There is a problem",
+      "shapes": [
+        "declarative"
+      ]
+    },
+    {
+      "text": "What lands on the desk by the second business day",
+      "shapes": [
+        "wh-lead"
+      ]
+    },
+    {
+      "text": "The desk, the name, the memo: three screens",
+      "shapes": [
+        "colon-setup",
+        "noun-phrase"
+      ]
+    },
+    {
+      "text": "Five things a monthly spreadsheet cycle cannot do",
+      "shapes": [
+        "number-led"
+      ]
+    },
+    {
+      "text": "01. Disclosures pulled, not downloaded.",
+      "shapes": [
+        "two-short-sentences",
+        "number-led",
+        "negation"
+      ]
+    },
+    {
+      "text": "02. Your filters, kept.",
+      "shapes": [
+        "two-short-sentences",
+        "number-led",
+        "second-person"
+      ]
+    },
+    {
+      "text": "03. Your rate paths, not a default.",
+      "shapes": [
+        "two-short-sentences",
+        "number-led",
+        "negation",
+        "second-person"
+      ]
+    },
+    {
+      "text": "04. The memo is the output.",
+      "shapes": [
+        "two-short-sentences",
+        "number-led"
+      ]
+    },
+    {
+      "text": "05. Half a terminal seat.",
+      "shapes": [
+        "two-short-sentences",
+        "number-led"
+      ]
+    },
+    {
+      "text": "WHAT WOULD BREAK IT",
+      "shapes": [
+        "wh-lead"
+      ]
+    },
+    {
+      "text": "Three plans, prices on the page",
+      "shapes": [
+        "number-led"
+      ]
+    },
+    {
+      "text": "Seats, billing and cancellation",
+      "shapes": [
+        "rule-of-three"
+      ]
+    },
+    {
+      "text": "Prices on the page. Nothing behind a form.",
+      "shapes": [
+        "two-short-sentences"
+      ]
+    },
+    {
+      "text": "REACH THE DESK",
+      "shapes": [
+        "three-words-or-fewer"
+      ]
+    },
+    {
+      "text": "Three plans, prices on the page.",
+      "shapes": [
+        "number-led"
+      ]
+    },
+    {
+      "text": "The plans",
+      "shapes": [
+        "noun-phrase",
+        "three-words-or-fewer"
+      ]
+    },
+    {
+      "text": "The terminal seat comparison",
+      "shapes": [
+        "noun-phrase"
+      ]
+    }
+  ],
+  "headline_shape_profile": {
+    "number-led": 8,
+    "noun-phrase": 6,
+    "two-short-sentences": 6,
+    "three-words-or-fewer": 4,
+    "negation": 3,
+    "wh-lead": 2,
+    "second-person": 2,
+    "declarative": 1,
+    "colon-setup": 1,
+    "rule-of-three": 1
+  },
+  "ctas": [
+    "Purchase a Plan",
+    "Subscribe to Research"
+  ],
+  "cta_classes": [
+    "purchase-noun",
+    "subscribe-noun"
+  ],
+  "section_names": [
+    "The method, and what we do not claim",
+    "The method",
+    "THE PROVENANCE PRINCIPLE",
+    "There is a problem",
+    "What lands on the desk by the second business day",
+    "The desk, the name, the memo: three screens",
+    "Five things a monthly spreadsheet cycle cannot do",
+    "01. Disclosures pulled, not downloaded.",
+    "02. Your filters, kept.",
+    "03. Your rate paths, not a default.",
+    "04. The memo is the output.",
+    "05. Half a terminal seat.",
+    "WHAT WOULD BREAK IT",
+    "Three plans, prices on the page",
+    "Seats, billing and cancellation",
+    "Prices on the page. Nothing behind a form.",
+    "REACH THE DESK",
+    "Three plans, prices on the page.",
+    "The plans",
+    "The terminal seat comparison"
+  ],
+  "section_naming_devices": {
+    "noun-phrase": 7,
+    "short-noun": 4,
+    "colon-title": 1,
+    "number-led": 8
+  },
+  "blog_titles": [
+    {
+      "text": "The six prints",
+      "format": "noun-phrase"
+    },
+    {
+      "text": "The two slabs",
+      "format": "noun-phrase"
+    },
+    {
+      "text": "The balance field",
+      "format": "noun-phrase"
+    }
+  ],
+  "blog_title_formats": [
+    "noun-phrase"
+  ],
+  "opening_lines": [
+    {
+      "text": "An agency mortgage desk runs one cycle a month, and most of it is clerical.",
+      "shape": "scene"
+    },
+    {
+      "text": "One monthly prepayment print is close to a coin flip.",
+      "shape": "claim"
+    }
+  ],
+  "opening_shapes": [
+    "claim",
+    "scene"
+  ],
+  "devices": {
+    "numbered-01-02-03": 5,
+    "rule-of-three-headlines": 1
+  },
+  "stats": {
+    "sentences": 33,
+    "words": 531,
+    "mean_sentence_words": 16.1,
+    "sentence_length_stdev": 11.8,
+    "share_short_sentences_le5": 0.21,
+    "share_long_sentences_ge25": 0.24,
+    "contractions_per_100_words": 0.0,
+    "questions_per_100_sentences": 0.0
+  },
+  "tags": [
+    "copy.blog.noun-phrase",
+    "copy.cta.purchase-noun",
+    "copy.cta.subscribe-noun",
+    "copy.device.numbered-01-02-03",
+    "copy.h1.plain-declarative",
+    "copy.headline.number-led",
+    "copy.headline.two-short-sentences",
+    "copy.open.scene",
+    "copy.section.number-led"
+  ]
+}

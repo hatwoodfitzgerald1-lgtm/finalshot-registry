@@ -1,0 +1,113 @@
+{
+ "slug": "smart-augment",
+ "brand": "Smart Augment",
+ "domain": "smartaugment.com",
+ "date": "2026-09-23",
+ "tier": "3",
+ "live_url": "https://smartaugment-site.webflow.io",
+ "archetype": "Magazine or Cover Story (cast as a printed research note)",
+ "heading_font": "Newsreader",
+ "body_font": "Newsreader (prose) with Spline Sans Mono (figures)",
+ "palette": {
+  "field": "light",
+  "hexes": [
+   "F6F3ED",
+   "FFFFFF",
+   "EAE5DB",
+   "DCD6CB",
+   "6B665E",
+   "1A1A18",
+   "1B3A5C",
+   "E7ECF2",
+   "7A1F1F"
+  ],
+  "accent_hue_family": "prussian blue",
+  "color_story": "paper and ink with one institutional accent"
+ },
+ "voice_stance": "sceptical analyst who shows the working and names what would break it",
+ "signature_move_category": "3D & WebGL",
+ "signature_move_id": "3DW-007",
+ "governing_idea": "Provenance made visible: the committee memo is a stack of paper you can see through, and every figure on the page has a hairline back to the disclosure row that produced it.",
+ "shots": {
+  "home-1440": "shots/home-1440.jpg",
+  "home-375": "shots/home-375.jpg",
+  "plans-1440": "shots/plans-1440.jpg",
+  "about-1440": "shots/about-1440.jpg",
+  "post-1440": "shots/post-1440.jpg",
+  "nav": "shots/nav.jpg",
+  "button": "shots/button.jpg"
+ },
+ "speech": {
+  "h1": "Bond research, automated.",
+  "headlines": [
+   "The method, and what we do not claim",
+   "The method",
+   "THE PROVENANCE PRINCIPLE"
+  ],
+  "ctas": [
+   "Purchase a Plan",
+   "Subscribe to Research"
+  ],
+  "section_names": [
+   "The method, and what we do not claim",
+   "The method",
+   "THE PROVENANCE PRINCIPLE",
+   "There is a problem",
+   "What lands on the desk by the second business day",
+   "The desk, the name, the memo: three screens",
+   "Five things a monthly spreadsheet cycle cannot do",
+   "01. Disclosures pulled, not downloaded.",
+   "02. Your filters, kept.",
+   "03. Your rate paths, not a default.",
+   "04. The memo is the output.",
+   "05. Half a terminal seat."
+  ],
+  "blog_titles": [
+   "The six prints",
+   "The two slabs",
+   "The balance field"
+  ],
+  "opening_about": "An agency mortgage desk runs one cycle a month, and most of it is clerical.",
+  "opening_post": "One monthly prepayment print is close to a coin flip."
+ },
+ "patterns": [
+  "button.hairline-steps-outward",
+  "button.idle-breathing",
+  "button.mono-price-cell-divided-by-hairline",
+  "color.neutral-field-one-accent",
+  "feature.calculator-with-ruler",
+  "hero.stack-of-sheets-in-depth",
+  "loader.rules-draw-then-dissolve",
+  "motif.hairline-leader-with-terminal-tick",
+  "motion.focus-pull-through-depth",
+  "motion.n-objects-complete-one-by-one",
+  "nav.condense-on-scroll",
+  "nav.footnote-marks-rise-on-hover",
+  "object.stack-of-translucent-sheets",
+  "section.folio-pages",
+  "type.superscripts-travel-on-leaders",
+  "voice.sceptical-analyst"
+ ],
+ "copy_tags": [
+  "copy.blog.noun-phrase",
+  "copy.cta.purchase-noun",
+  "copy.cta.subscribe-noun",
+  "copy.device.numbered-01-02-03",
+  "copy.h1.plain-declarative",
+  "copy.headline.number-led",
+  "copy.headline.two-short-sentences",
+  "copy.open.scene",
+  "copy.section.number-led"
+ ],
+ "brief": {
+  "vibe": "A printed research note on cream paper: Newsreader serif, hairline rules, footnote superscripts, mono datelines, Prussian blue stamps; it reads like a bound committee memo.",
+  "hero": "Magazine cover story cast as a research note: a left column of serif H1, standfirst and paragraph with the stamp button beneath, and on the right the five translucent sheets stack in depth over a black and white desk photograph.",
+  "type": "Newsreader for headings and prose, Spline Sans Mono for figures, datelines and small caps nav; set piece is footnotes that walk down hairline leaders into the table.",
+  "palette": "Light paper field (F6F3ED), ink, greys, one Prussian blue accent for stamps, links and the button.",
+  "motion": "The Collation: a focus pull through five translucent sheets on scroll; ruled lines draw the loader; hairline steps on hover; platen press on click; everything restrained and editorial.",
+  "speech": "Three word H1 with a comma and a period; CTAs \"Purchase a Plan\" and \"Subscribe to Research\"; sections named as noun phrases and a numbered 01 to 05 list; blog titles as short \"The X\" noun phrases; sceptical analyst voice that names what would break it.",
+  "rhythm": "Folio pages with masthead rules: a cover, a numbered list, a comparison table, a type wall, three plan cards, every section a ruled sheet.",
+  "tags": "button.hairline-steps-outward, button.idle-breathing, button.mono-price-cell-divided-by-hairline, color.neutral-field-one-accent, feature.calculator-with-ruler, hero.stack-of-sheets-in-depth, loader.rules-draw-then-dissolve, motif.hairline-leader-with-terminal-tick, motion.focus-pull-through-depth, motion.n-objects-complete-one-by-one, nav.condense-on-scroll, nav.footnote-marks-rise-on-hover, object.stack-of-translucent-sheets, section.folio-pages, type.superscripts-travel-on-leaders, voice.sceptical-analyst"
+ },
+ "backfilled": "2026-09-24 by the ninth amendment's backfill from the live site; shots captured at 1440x780 and 375x780"
+}
