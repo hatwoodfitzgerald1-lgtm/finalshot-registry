@@ -36,9 +36,9 @@ def data_uri(path):
 
 def esc(s): return html.escape(str(s or ""))
 
-def shot(base, rel, title, w, h):
+def shot(base, rel, title, w, h, fit="cover"):
     uri = data_uri(os.path.join(base, rel)) if rel else None
-    inner = f'<img src="{uri}" alt="{esc(title)}">' if uri else f'<div class="missing">{esc(title)}<br><small>no capture</small></div>'
+    inner = f'<img src="{uri}" alt="{esc(title)}" style="object-fit:{fit}">' if uri else f'<div class="missing">{esc(title)}<br><small>no capture</small></div>'
     return f'<figure style="width:{w}px"><div class="frame" style="height:{h}px">{inner}</div><figcaption>{esc(title)}</figcaption></figure>'
 
 def build_html(v, base):
@@ -50,7 +50,7 @@ def build_html(v, base):
     tags = "".join(f'<code class="tag">{esc(t)}</code>' for t in (v.get("patterns") or []) + (v.get("copy_tags") or [])) or "<span class='dim'>none recorded</span>"
     known = {"home-1440", "home-375", "plans-1440", "about-1440", "post-1440", "nav", "button"}
     extras = [(k, r) for k, r in (v.get("shots") or {}).items() if k not in known and r]
-    extra_row = ('<div class="row">' + "".join(shot(base, r, k, 420, 263) for k, r in extras[:3]) + "</div>") if extras else ""
+    extra_row = ('<div class="row">' + "".join(shot(base, r, k, 420, 228) for k, r in extras[:3]) + "</div>") if extras else ""
     brief_rows = "".join(f"<tr><th>{esc(k)}</th><td>{esc(br.get(k))}</td></tr>" for k in ("vibe", "hero", "type", "palette", "motion", "speech", "rhythm", "tags"))
     return f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><title>{esc(v.get('brand'))} vibe card</title>
 <style>
@@ -79,15 +79,15 @@ footer{{padding:10px 32px;color:var(--dim);font-size:12px}}
   </div>
 </header>
 <div class="row">
-  {shot(base, (v.get('shots') or {}).get('home-1440'), 'Home, first viewport at 1440', 880, 550)}
-  {shot(base, (v.get('shots') or {}).get('home-375'), 'Home at 375', 200, 433)}
-  {shot(base, (v.get('shots') or {}).get('plans-1440'), 'Plans at 1440', 420, 263)}
+  {shot(base, (v.get('shots') or {}).get('home-1440'), 'Home, first viewport at 1440', 880, 477)}
+  {shot(base, (v.get('shots') or {}).get('home-375'), 'Home at 375', 200, 416)}
+  {shot(base, (v.get('shots') or {}).get('plans-1440'), 'Plans at 1440', 420, 228)}
 </div>
 <div class="row">
-  {shot(base, (v.get('shots') or {}).get('about-1440'), 'About at 1440', 420, 263)}
-  {shot(base, (v.get('shots') or {}).get('post-1440'), 'A blog post at 1440', 420, 263)}
-  {shot(base, (v.get('shots') or {}).get('nav'), 'Nav strip', 420, 120)}
-  {shot(base, (v.get('shots') or {}).get('button'), 'Primary button', 220, 120)}
+  {shot(base, (v.get('shots') or {}).get('about-1440'), 'About at 1440', 420, 228)}
+  {shot(base, (v.get('shots') or {}).get('post-1440'), 'A blog post at 1440', 420, 228)}
+  {shot(base, (v.get('shots') or {}).get('nav'), 'Nav strip', 420, 32, 'contain')}
+  {shot(base, (v.get('shots') or {}).get('button'), 'Primary button', 220, 80, 'contain')}
 </div>
 {extra_row}
 <div class="cols">
