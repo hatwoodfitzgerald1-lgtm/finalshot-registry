@@ -1,0 +1,100 @@
+{
+ "slug": "astroquanta",
+ "brand": "Astroquanta",
+ "domain": "astroquanta.com",
+ "date": "2026-09-21",
+ "tier": "1",
+ "live_url": "https://astroquanta-site.webflow.io",
+ "archetype": "Sidebar-Anchored",
+ "heading_font": "Schibsted Grotesk",
+ "body_font": "IBM Plex Mono",
+ "palette": {
+  "field": "dark",
+  "hexes": [
+   "0A0C0B",
+   "1F2422",
+   "3B423F",
+   "7E8682",
+   "D8DBD8",
+   "9BE15D"
+  ],
+  "accent_hue_family": "yellow green (phosphor)",
+  "color_story": "grey ladder with one surviving phosphor"
+ },
+ "voice_stance": "sober quantitative recorder",
+ "signature_move_category": "Storytelling & Structure",
+ "signature_move_id": "STO-007",
+ "governing_idea": "The denominator is the design: every trial the agent ran stays on the screen in grey, so the six that survived can be priced.",
+ "shots": {
+  "home-1440": "shots/home-1440.jpg",
+  "home-375": "shots/home-375.jpg",
+  "plans-1440": "shots/plans-1440.jpg",
+  "about-1440": "shots/about-1440.jpg",
+  "post-1440": "shots/post-1440.jpg",
+  "nav": "shots/nav.jpg",
+  "button": "shots/button.jpg"
+ },
+ "speech": {
+  "h1": "Forty eight specifications ran overnight. Six are still standing.",
+  "headlines": [
+   "The number nobody prints",
+   "Where it came from",
+   "Why the denominator matters, with numbers"
+  ],
+  "ctas": [
+   "Purchase a Plan",
+   "Purchase Research",
+   "Purchase Desk"
+  ],
+  "section_names": [
+   "The number nobody prints",
+   "Where it came from",
+   "Why the denominator matters, with numbers",
+   "How the agent works",
+   "What it refuses to do",
+   "Who builds it",
+   "Read the research",
+   "Gate 01 · point in time",
+   "Gate 02 · walk forward",
+   "Gate 03 · costs and slippage",
+   "Gate 04 · capacity",
+   "Five things a backtesting library does not hand you"
+  ],
+  "blog_titles": [
+   "Two curves 270 million apart",
+   "Charge the fills first",
+   "Point in time is not a lag",
+   "The best of N",
+   "The number you were handed was the best of N"
+  ],
+  "opening_about": "Most of what we make is dead trials.",
+  "opening_post": "A Sharpe with no trial count is a numerator with no denominator."
+ },
+ "patterns": [
+  "color.grey-ladder-one-survivor",
+  "feature.simulator",
+  "hero.sidebar-anchored-console",
+  "voice.quantitative-recorder"
+ ],
+ "copy_tags": [
+  "copy.blog.myth-negation",
+  "copy.blog.noun-phrase",
+  "copy.blog.number-led",
+  "copy.cta.purchase-noun",
+  "copy.h1.two-short-sentences",
+  "copy.headline.number-led",
+  "copy.headline.wh-lead",
+  "copy.open.claim"
+ ],
+ "brief": {
+  "vibe": "A dark trading desk console at 4 a.m.: phosphor green on graphite, monospace everywhere, numbers as the decoration, the tone of a machine that only reports what survived.",
+  "hero": "A left sidebar console (run clock, gates, routes) anchors every page; the hero is an oversized 48/48 counter in Schibsted Grotesk over a wall of wireframe survivor slabs on the right, the H1 and a prompt style text CTA sitting under the counter.",
+  "type": "Schibsted Grotesk headings with IBM Plex Mono body and UI; the set piece is the survivor counter that counts down as specifications die.",
+  "palette": "Dark graphite field, grey ladder of tones, one phosphor yellow green for the live and kept states and the purchase button.",
+  "motion": "Storytelling scroll where the 48 slabs die gate by gate, counters ticking in step with real load, terminal cursor prompts, calm and mechanical; no flourish anywhere.",
+  "speech": "H1 in two short sentences with a number led first clause; CTAs \"Purchase a Plan / Purchase Research / Purchase Desk\"; sections as wh-lead questions and noun phrases; blog titles as number led and myth negation; sober quantitative recorder voice, prompts marked with > .",
+  "rhythm": "Console sidebar plus a single content column of ledger like panels, each a framed terminal card; gates numbered 01 to 04 across the page.",
+  "tags": "color.grey-ladder-one-survivor, feature.simulator, hero.sidebar-anchored-console, voice.quantitative-recorder"
+ },
+ "backfilled": "2026-09-24 by the ninth amendment's backfill from the live site; shots captured at 1440x780 and 375x780"
+}

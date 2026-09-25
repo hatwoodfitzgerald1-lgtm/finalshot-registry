@@ -1,0 +1,331 @@
+{
+  "brand": "astroquanta",
+  "source": "pages",
+  "h1": "Forty eight specifications ran overnight. Six are still standing.",
+  "h1_shapes": [
+    "two-short-sentences"
+  ],
+  "headlines": [
+    {
+      "text": "The number nobody prints",
+      "shapes": [
+        "noun-phrase"
+      ]
+    },
+    {
+      "text": "Where it came from",
+      "shapes": [
+        "wh-lead"
+      ]
+    },
+    {
+      "text": "Why the denominator matters, with numbers",
+      "shapes": [
+        "wh-lead"
+      ]
+    },
+    {
+      "text": "How the agent works",
+      "shapes": [
+        "wh-lead"
+      ]
+    },
+    {
+      "text": "What it refuses to do",
+      "shapes": [
+        "wh-lead"
+      ]
+    },
+    {
+      "text": "Who builds it",
+      "shapes": [
+        "wh-lead",
+        "three-words-or-fewer"
+      ]
+    },
+    {
+      "text": "Read the research",
+      "shapes": [
+        "imperative",
+        "three-words-or-fewer"
+      ]
+    },
+    {
+      "text": "Gate 01 · point in time",
+      "shapes": [
+        "declarative"
+      ]
+    },
+    {
+      "text": "Gate 02 · walk forward",
+      "shapes": [
+        "declarative"
+      ]
+    },
+    {
+      "text": "Gate 03 · costs and slippage",
+      "shapes": [
+        "declarative"
+      ]
+    },
+    {
+      "text": "Gate 04 · capacity",
+      "shapes": [
+        "three-words-or-fewer"
+      ]
+    },
+    {
+      "text": "Five things a backtesting library does not hand you",
+      "shapes": [
+        "number-led",
+        "negation",
+        "second-person"
+      ]
+    },
+    {
+      "text": "Three frames. What ran, what died, what is left.",
+      "shapes": [
+        "two-short-sentences",
+        "number-led"
+      ]
+    },
+    {
+      "text": "The numbers",
+      "shapes": [
+        "noun-phrase",
+        "three-words-or-fewer"
+      ]
+    },
+    {
+      "text": "Pull quote",
+      "shapes": [
+        "three-words-or-fewer"
+      ]
+    },
+    {
+      "text": "Priced per seat, against what a researcher's quarter costs.",
+      "shapes": [
+        "declarative"
+      ]
+    },
+    {
+      "text": "Run a sweep of your own. Choose N. Watch what dies.",
+      "shapes": [
+        "imperative",
+        "two-short-sentences",
+        "second-person"
+      ]
+    },
+    {
+      "text": "Three plans. Two you can purchase now.",
+      "shapes": [
+        "two-short-sentences",
+        "number-led",
+        "second-person"
+      ]
+    },
+    {
+      "text": "Questions the first invoice raises",
+      "shapes": [
+        "declarative"
+      ]
+    },
+    {
+      "text": "> What is a seat",
+      "shapes": [
+        "declarative"
+      ]
+    },
+    {
+      "text": "> When am I billed",
+      "shapes": [
+        "declarative"
+      ]
+    },
+    {
+      "text": "> How do I cancel",
+      "shapes": [
+        "declarative"
+      ]
+    },
+    {
+      "text": "> Whose data is it",
+      "shapes": [
+        "declarative"
+      ]
+    },
+    {
+      "text": "> Where does it run",
+      "shapes": [
+        "declarative"
+      ]
+    },
+    {
+      "text": "> What does the haircut Sharpe mean",
+      "shapes": [
+        "declarative"
+      ]
+    },
+    {
+      "text": "Request a quote for Fund",
+      "shapes": [
+        "declarative"
+      ]
+    },
+    {
+      "text": "Ten random tries give you 1.57",
+      "shapes": [
+        "number-led",
+        "second-person"
+      ]
+    },
+    {
+      "text": "What the published record shows",
+      "shapes": [
+        "wh-lead"
+      ]
+    },
+    {
+      "text": "This is not an argument that nothing works",
+      "shapes": [
+        "negation"
+      ]
+    },
+    {
+      "text": "Haircut, not probability",
+      "shapes": [
+        "negation",
+        "three-words-or-fewer"
+      ]
+    },
+    {
+      "text": "What travelling means in practice",
+      "shapes": [
+        "wh-lead"
+      ]
+    },
+    {
+      "text": "Read next",
+      "shapes": [
+        "imperative",
+        "three-words-or-fewer"
+      ]
+    }
+  ],
+  "headline_shape_profile": {
+    "declarative": 12,
+    "wh-lead": 7,
+    "three-words-or-fewer": 7,
+    "number-led": 4,
+    "second-person": 4,
+    "imperative": 3,
+    "negation": 3,
+    "two-short-sentences": 3,
+    "noun-phrase": 2
+  },
+  "ctas": [
+    "Purchase a Plan",
+    "Purchase Research",
+    "Purchase Desk"
+  ],
+  "cta_classes": [
+    "purchase-noun"
+  ],
+  "section_names": [
+    "The number nobody prints",
+    "Where it came from",
+    "Why the denominator matters, with numbers",
+    "How the agent works",
+    "What it refuses to do",
+    "Who builds it",
+    "Read the research",
+    "Gate 01 · point in time",
+    "Gate 02 · walk forward",
+    "Gate 03 · costs and slippage",
+    "Gate 04 · capacity",
+    "Five things a backtesting library does not hand you",
+    "Three frames. What ran, what died, what is left.",
+    "The numbers",
+    "Pull quote",
+    "Priced per seat, against what a researcher's quarter costs.",
+    "Run a sweep of your own. Choose N. Watch what dies.",
+    "Three plans. Two you can purchase now.",
+    "Questions the first invoice raises",
+    "> What is a seat",
+    "> When am I billed",
+    "> How do I cancel",
+    "> Whose data is it",
+    "> Where does it run",
+    "> What does the haircut Sharpe mean",
+    "Request a quote for Fund"
+  ],
+  "section_naming_devices": {
+    "noun-phrase": 17,
+    "short-noun": 4,
+    "imperative": 2,
+    "number-led": 3
+  },
+  "blog_titles": [
+    {
+      "text": "Two curves 270 million apart",
+      "format": "number-led"
+    },
+    {
+      "text": "Charge the fills first",
+      "format": "noun-phrase"
+    },
+    {
+      "text": "Point in time is not a lag",
+      "format": "myth-negation"
+    },
+    {
+      "text": "The best of N",
+      "format": "noun-phrase"
+    },
+    {
+      "text": "The number you were handed was the best of N",
+      "format": "noun-phrase"
+    }
+  ],
+  "blog_title_formats": [
+    "myth-negation",
+    "noun-phrase",
+    "number-led"
+  ],
+  "opening_lines": [
+    {
+      "text": "Most of what we make is dead trials.",
+      "shape": "claim"
+    },
+    {
+      "text": "A Sharpe with no trial count is a numerator with no denominator.",
+      "shape": "claim"
+    }
+  ],
+  "opening_shapes": [
+    "claim"
+  ],
+  "devices": {
+    "one-word-sentences": 1
+  },
+  "stats": {
+    "sentences": 36,
+    "words": 552,
+    "mean_sentence_words": 15.3,
+    "sentence_length_stdev": 15.5,
+    "share_short_sentences_le5": 0.31,
+    "share_long_sentences_ge25": 0.17,
+    "contractions_per_100_words": 0.5,
+    "questions_per_100_sentences": 0.0
+  },
+  "tags": [
+    "copy.blog.myth-negation",
+    "copy.blog.noun-phrase",
+    "copy.blog.number-led",
+    "copy.cta.purchase-noun",
+    "copy.h1.two-short-sentences",
+    "copy.headline.number-led",
+    "copy.headline.wh-lead",
+    "copy.open.claim"
+  ]
+}
