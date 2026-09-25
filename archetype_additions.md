@@ -19,3 +19,13 @@
 **Where it fits:** operations, underwriting, back office, compliance and audit tools, any product whose promise is that the work is already counted and filed. Dark graphite field, grotesk heading, mono figures.
 
 **Distinguishing it from plain Swiss or Modular Grid:** the grid is drawn, not implied; row indices in the margin; tables as the primary layout element rather than cards; one accent colour used only on a figure that changed.
+
+## Meander (the brook spine) (Brainbrook, 2026-09-24)
+
+**Description.** One continuous generative line (a 2D canvas, fixed behind the page, drawn from a seeded noise walk) swings across the full viewport width down the whole page. Every section docks on the bank opposite the line's swing, so both halves of every width are occupied at every desktop width; section labels ride the line as standing tags (`data-tag`); media bands (hero video, scene bands, the Year Rule) run edge to edge where the line straightens. Content sits in two bank grids (`.banks` with 60/40, 40/60 or 35/65 splits) whose inner `.cols` are auto fit content columns: two at 1440, three at 1920, four at 2560. There is never a centered narrow column; prose measure is applied only inside a bank.
+
+**Why it exists.** It was invented to satisfy the FULL PAGE RULE (media and layout must fill the page at every desktop width, no negative space at the edges) while giving the page a single organising object that belongs to the brand (a brook for Brainbrook). The line also carries wayfinding: the tag on the spine names the section, the spine goes quiet (straightens and fades) in the loader, the checkout and the legal pages, and it docks onto the free bank so it never runs under text.
+
+**Fits.** Any brand whose story is one long continuous thing (a river, a road, a tape, a thread, a timeline). Pairs with a light hued field; on a dark field the line becomes a glow path.
+
+**Does not fit.** Dense catalogue pages with many equal items (the alternation reads as arbitrary) or brands that need a hard grid.

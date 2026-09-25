@@ -28,3 +28,13 @@ Techniques invented or combined on past finalshot builds that are not in the ui-
 ## Dead database example links
 
 None found on the 2026-09-23 run.
+
+## TYP-024 The Long Receipt (Brainbrook, 2026-09-24)
+
+**What it is.** The household's whole reimbursement ledger typeset onto one continuous thermal receipt tape that meanders like a brook across the page, with the camera riding the tape as scroll progress, faded print resolving crisp beneath it, HSA and FSA tags standing on the owed back lines, a lift to a held birdseye where the tape reads as a brook, and a tear off at the near end that hands the last line into the DOM product shot.
+
+**How it was built.** Three.js r128 (self hosted, lazy after first paint, no post processing, no shadow maps). The tape is a `CatmullRomCurve3` swept into a `BufferGeometry` ribbon (width 1.2, 900 segments) with a `CanvasTexture` ledger drawn once at 1024 by 8192: the blocks are printed as a printer prints, the oldest receipt far away and today's line near the camera, with the canvas flipped vertically (`translate(0, TEX_H); scale(1, -1)`) so the type reads the right way up along the ride. A second, faded copy of the same canvas is a single `drawImage` through `filter: blur(1.2px) opacity(34%)`. A `ShaderMaterial` blends the faded and crisp textures by a `uReveal` scalar in tape length, adds a warm print colour, a tear mask (`uTear`) and fog to the celadon field. Camera: `rideAt(u, lateral)` puts the camera behind the reading point looking along the tangent (`p - tan * 1.8`, y 0.95, look `p + tan * 0.8`) with a lateral offset that eases out as the ride progresses; the lift goes to a birdseye with `camera.up = (1, 0, 0)` so the tape reads as a brook; the descent returns to the near end, the tear mask runs and the strip Flips (GSAP Flip) into the product shot. Scroll is a GSAP ScrollTrigger scrub through a CSS sticky 250vh track (no pinning API, so no layout shift). Reduced motion and phones get The Tear, a 2D canvas band that prints the same ledger and tears once.
+
+**Library.** Three.js r128 plus GSAP 3 ScrollTrigger and Flip.
+
+**Reuse notes.** The ledger content is the brand's real canonical dataset (household of four, 12 receipts owed back, the three plan dates), so the scene is also the product demo. The same rig takes any long, linear, typeset object (a ticker tape, a paper trail, a timeline strip).

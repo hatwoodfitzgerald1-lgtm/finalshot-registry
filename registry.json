@@ -1,349 +1,434 @@
 {
- "builds": [
-  {
-   "date": "2026-07-03",
-   "brand": "BioVirtua",
-   "domain": "biovirtua.com",
-   "live_url": "https://biovirtua-site-v2.webflow.io",
-   "archetype": "Single-Object Hero (3D)",
-   "governing_idea": "Movement made measurable: a human body dissolves into tracked points that resolve into readable numbers",
-   "signature_world": {
-    "object": "GPGPU point-cloud human body",
-    "verb": "assemble and sequence",
-    "camera_path": "swarm-assembly then orbit-and-rise then explode-to-data then reassemble front-on"
-   },
-   "signature_move_id": "3DW-008",
-   "signature_move_category": "3D & WebGL",
-   "palette": {
-    "field": "dark",
-    "hexes": [
-     "070B1A",
-     "0E1B3A",
-     "F7FAFC",
-     "22C7D6",
-     "FF6A4D"
-    ],
-    "accent_hue_family": "coral",
-    "color_story": "dark field with one warm accent"
-   },
-   "heading_font": "Space Grotesk",
-   "body_font": "Inter Tight",
-   "motif": "tracked-point scan-line",
-   "motion_signature": {
-    "easings": [
-     "cubic-bezier(0.16, 0.84, 0.24, 1)",
-     "cubic-bezier(0.65, 0.02, 0.32, 1)"
-    ],
-    "durations": {
-     "fast": "0.18s",
-     "base": "0.52s",
-     "slow": "1.1s"
+  "builds": [
+    {
+      "date": "2026-07-03",
+      "brand": "BioVirtua",
+      "domain": "biovirtua.com",
+      "live_url": "https://biovirtua-site-v2.webflow.io",
+      "archetype": "Single-Object Hero (3D)",
+      "governing_idea": "Movement made measurable: a human body dissolves into tracked points that resolve into readable numbers",
+      "signature_world": {
+        "object": "GPGPU point-cloud human body",
+        "verb": "assemble and sequence",
+        "camera_path": "swarm-assembly then orbit-and-rise then explode-to-data then reassemble front-on"
+      },
+      "signature_move_id": "3DW-008",
+      "signature_move_category": "3D & WebGL",
+      "palette": {
+        "field": "dark",
+        "hexes": [
+          "070B1A",
+          "0E1B3A",
+          "F7FAFC",
+          "22C7D6",
+          "FF6A4D"
+        ],
+        "accent_hue_family": "coral",
+        "color_story": "dark field with one warm accent"
+      },
+      "heading_font": "Space Grotesk",
+      "body_font": "Inter Tight",
+      "motif": "tracked-point scan-line",
+      "motion_signature": {
+        "easings": [
+          "cubic-bezier(0.16, 0.84, 0.24, 1)",
+          "cubic-bezier(0.65, 0.02, 0.32, 1)"
+        ],
+        "durations": {
+          "fast": "0.18s",
+          "base": "0.52s",
+          "slow": "1.1s"
+        }
+      },
+      "loader_transition": "boot-sequence-to-swarm-assembly",
+      "nav_style": "sticky minimal header, plain DOM over canvas, decode-on-hover links",
+      "button_style": "magnetic with layered hover choreography, coral primary",
+      "technique_ids": [
+        "3DW-008",
+        "3DW-010",
+        "MOT-001",
+        "MOT-005",
+        "MOT-004",
+        "LAY-018",
+        "COL-018",
+        "COL-011",
+        "TYP-007",
+        "TEX-011",
+        "TEX-001",
+        "CUR-004",
+        "CUR-007",
+        "STO-008",
+        "TRN-001"
+      ],
+      "typographic_set_piece": "The Score Resolves",
+      "interactive_feature": "before/after mobility comparison, range-input driven",
+      "voice_stance": "clinical precise humanizing",
+      "tier": "3",
+      "tier_forced": false,
+      "engine_profile": "baseline-r128",
+      "signature_shader_id": "SHD-004",
+      "media_manifest": false,
+      "repo_name": "biovirtua-site-v2",
+      "app_name": "biovirtua-site-v2",
+      "invented_techniques": []
+    },
+    {
+      "date": "2026-09-21",
+      "brand": "Astroquanta",
+      "domain": "astroquanta.com",
+      "archetype": "Sidebar-Anchored",
+      "governing_idea": "The denominator is the design: every trial the agent ran stays on the screen in grey, so the six that survived can be priced.",
+      "signature_world": {
+        "object": "a lattice of 48 trial cells in depth (instanced cubes, 8 wide by 6 high, stacked through four gate planes)",
+        "verb": "cull and hold",
+        "camera_path": "single axis dolly forward through four gate planes, then a quarter turn to elevation over the six survivors"
+      },
+      "signature_move_id": "STO-007",
+      "signature_move_category": "Storytelling & Structure",
+      "palette": {
+        "field": "dark",
+        "hexes": [
+          "0A0C0B",
+          "1F2422",
+          "3B423F",
+          "7E8682",
+          "D8DBD8",
+          "9BE15D"
+        ],
+        "accent_hue_family": "yellow green (phosphor)",
+        "color_story": "grey ladder with one surviving phosphor"
+      },
+      "heading_font": "Schibsted Grotesk",
+      "body_font": "IBM Plex Mono",
+      "motif": "the trial cell (a 12px square that is outlined, then filled grey or kept green) and the prompt glyph",
+      "motion_signature": {
+        "easings": [
+          "cubic-bezier(0.7, 0, 0.1, 1)",
+          "cubic-bezier(0.12, 0.7, 0.16, 1)"
+        ],
+        "durations": {
+          "fast": "0.12s",
+          "base": "0.36s",
+          "slow": "0.9s"
+        }
+      },
+      "loader_transition": "trial grid fill gauge: 48 cells outline in step with real load, then Flip into the hero lattice",
+      "nav_style": "persistent left status rail with ticking run clock and gate index, prompt glyph active marker, drawer on mobile",
+      "button_style": "square hairline console button, prompt glyph slides in and label shifts one character on hover, inverted fill on press, kept green primary",
+      "technique_ids": [
+        "STO-007",
+        "3DW-011",
+        "MOT-005",
+        "MOT-004",
+        "MOT-015",
+        "TYP-020",
+        "COL-018",
+        "TEX-014",
+        "TRN-002",
+        "EXP-002",
+        "CUR-007",
+        "CUR-010"
+      ],
+      "typographic_set_piece": "The Fraction: 48 over 48 becomes 6 over 48 in display mono, the numerator stepping down at each gate while the denominator never leaves the screen",
+      "interactive_feature": "simulator",
+      "voice_stance": "sober quantitative recorder",
+      "tier": "1",
+      "tier_forced": false,
+      "engine_profile": "baseline-r128",
+      "signature_shader_id": "",
+      "media_manifest": true,
+      "invented_techniques": [],
+      "live_url": "https://astroquanta-site.webflow.io",
+      "repo_name": "astroquanta-site",
+      "app_name": "astroquanta-site",
+      "mode": "net-new",
+      "history_record_path": null,
+      "oldest_backlink_date": null,
+      "reference_board": [
+        "darkroom.engineering",
+        "Maxime Heckel",
+        "Linear",
+        "Vercel",
+        "Rauno Freiberg",
+        "Terminal Industries",
+        "Axiom by Peppermint",
+        "Sanctuary Computer",
+        "Teenage Engineering"
+      ],
+      "foundry_manifest_hash": "2ebdaa2a3268d6211944a923e3b3cab64979d4ef1b2709e37d1274502f20d8c7",
+      "pass_log_path": "runs/astroquant/site/BUILD_LOG.md"
+    },
+    {
+      "date": "2026-09-23",
+      "brand": "Smart Augment",
+      "domain": "smartaugment.com",
+      "archetype": "Magazine or Cover Story (cast as a printed research note)",
+      "governing_idea": "Provenance made visible: the committee memo is a stack of paper you can see through, and every figure on the page has a hairline back to the disclosure row that produced it.",
+      "signature_world": {
+        "object": "a committee memo as a stack of five translucent paper sheets in depth (memo, comparables, model run, screen definition, disclosure file) joined by hairline provenance leaders",
+        "verb": "collate",
+        "camera_path": "orthographic reading view snaps into a raking perspective as the sheets fan apart in depth, a focus pull walks from the memo to the disclosure sheet at the back and returns, then the sheets collate flat and the camera settles to the reading view"
+      },
+      "signature_move_id": "3DW-007",
+      "signature_move_category": "3D & WebGL",
+      "palette": {
+        "field": "light",
+        "hexes": [
+          "F6F3ED",
+          "FFFFFF",
+          "EAE5DB",
+          "DCD6CB",
+          "6B665E",
+          "1A1A18",
+          "1B3A5C",
+          "E7ECF2",
+          "7A1F1F"
+        ],
+        "accent_hue_family": "prussian blue",
+        "color_story": "paper and ink with one institutional accent"
+      },
+      "heading_font": "Newsreader",
+      "body_font": "Newsreader (prose) with Spline Sans Mono (figures)",
+      "motif": "the provenance leader: a hairline with a hollow source circle and a terminal tick, joining a figure to the row it came from",
+      "motion_signature": {
+        "easings": [
+          "cubic-bezier(0.55, 0.06, 0.18, 1)",
+          "cubic-bezier(0.3, 0.74, 0.08, 1)"
+        ],
+        "durations": {
+          "fast": "0.16s",
+          "base": "0.44s",
+          "slow": "1.25s"
+        }
+      },
+      "loader_transition": "ruled sheet draw-on: ruling lines draw across blank paper in step with real load stages, the wordmark impresses onto the top rule, the rules dissolve into the hero grid",
+      "nav_style": "printed masthead between a top hairline and a bottom double rule, mono small-cap horizontal links with rising footnote marks on hover, dateline and folio cart at right, compresses to a single rule on scroll",
+      "button_style": "stamped rectangle: solid Prussian blue with an inset paper hairline, serif label with mono price, hairline steps outward on hover, platen press on click, slow hairline breathe at idle",
+      "technique_ids": [
+        "3DW-007",
+        "3DW-023",
+        "LAY-004",
+        "TYP-019",
+        "TYP-003",
+        "COL-018",
+        "MOT-001",
+        "TRN-003",
+        "CUR-008",
+        "CUR-007",
+        "TEX-006",
+        "TEX-004"
+      ],
+      "typographic_set_piece": "Footnotes That Walk: the superscript footnote marks in the hero paragraph lift out of the prose on scroll and travel down hairline leaders into the evidence table beneath, landing on the row each figure came from",
+      "interactive_feature": "calculator",
+      "voice_stance": "sceptical analyst who shows the working and names what would break it",
+      "tier": "3",
+      "tier_forced": false,
+      "engine_profile": "modern-three-0.185",
+      "signature_shader_id": "SHD-012",
+      "media_manifest": true,
+      "mode": "net-new",
+      "invented_techniques": [
+        "The Collation: five translucent paper sheets in depth with a BokehPass focus pull that walks from the memo to the disclosure sheet and back, then collates flat, scroll scrubbed over 1.5 vh"
+      ],
+      "live_url": "https://smartaugment-site.webflow.io",
+      "repo_name": "smartaugment-site",
+      "app_name": "smartaugment-site",
+      "signature_shader_knobs": {
+        "recipe": "SHD-012 Dither and Halftone Pass",
+        "mode": "halftone (uMode 1)",
+        "uScale": 3.2,
+        "uAngle": 0.26,
+        "uInkColor": "1A1A18",
+        "uPaperColor": "F6F3ED",
+        "application": "shading and shadow tones only via a luminance threshold at 0.82 (type on textures stays crisp), fine engraving scale rather than newspaper",
+        "coverage": "hero canvas only, never DOM text"
+      },
+      "media": {
+        "subject_world": "the room the work happens in: a research desk with paper, a steel rule, a pencil, a mono printout and morning window light, no people",
+        "video_concept": "four macro desk clips: memo lift, printout push in, rule and pencil slider, squaring the stack; product in motion shipped as a built pan over the three HTML screens",
+        "shot_grammar": "macro, static tripod or 2 cm slider, shallow depth of field, window light from the left, hard cuts",
+        "product_shot_style": "built in HTML with the brand tokens, one shell three bodies, screenshotted at 1440x900 2x, ungraded",
+        "photography_subject": "desk at dawn, memo heading with Prussian rule, decimal column at macro, index card drawer, folded letter, empty desk under flat light, six fanned printouts, two stacks with a rule, a long balance printout",
+        "asset_count": "36 rendered plus 22 build posters",
+        "grade_recipe": "Ink on paper, Prussian shadow: grayscale(1) sepia(0.14) hue-rotate(178deg) saturate(0.55) contrast(1.22) brightness(1.06) with a 1B3A5C 12 percent lighten shadow overlay and an F6F3ED 18 percent multiply highlight overlay, never applied to the built product screens"
+      },
+      "invented_archetypes": [
+        "Research Note Folio"
+      ],
+      "hero_screenshot": "screenshots/smart-augment-hero.jpg",
+      "notes": "hero carries no prices per the user's Step 7.5 ruling; placeholders pending: entity, EIN address, physical address, phone, short code, state"
+    },
+    {
+      "date": "2026-09-24",
+      "brand": "Financing Bot",
+      "domain": "financingbot.com",
+      "archetype": "Swiss or Modular Grid (cast as the Operations Ledger Grid)",
+      "governing_idea": "The overnight queue: a lender's operations floor after hours where the loan files clear themselves row by row, and every figure that lands does so beside the page that proves it, so the morning underwriter only has to read and sign.",
+      "signature_world": {
+        "object": "the overnight queue wall: a tall graphite ledger wall of sixty loan rows standing on the operations floor, each row a thin slab of mono cells with a queue counter plate at the top right",
+        "verb": "clear",
+        "camera_path": "first person crane straight up the wall face as rows clear beneath the camera, a held stop two thirds up for The Clear (the last twelve rows clearing in a cascade), then a straight dolly back off the wall until the cleared queue sits square in the frame as the product's queue table"
+      },
+      "signature_move_id": "MOT-021",
+      "signature_move_category": "Motion & Scroll",
+      "palette": {
+        "field": "dark",
+        "hexes": [
+          "1A1B1D",
+          "232527",
+          "3A3D41",
+          "9A9C98",
+          "E9E5DA",
+          "4FB89A"
+        ],
+        "accent_hue_family": "teal (blue green verdigris)",
+        "color_story": "graphite ledger with paper type and one verdigris figure"
+      },
+      "heading_font": "Archivo",
+      "body_font": "Archivo (words) with Fragment Mono (figures)",
+      "motif": "the tally (four hairline strokes crossed by a fifth diagonal) plus a square package seal ruled like a form box",
+      "motion_signature": {
+        "easings": [
+          "cubic-bezier(0.8, 0.02, 0.18, 1)",
+          "cubic-bezier(0.34, 0.9, 0.2, 1)"
+        ],
+        "durations": {
+          "fast": "0.14s",
+          "base": "0.4s",
+          "slow": "1.0s"
+        }
+      },
+      "loader_transition": "drum counter of real load in Fragment Mono with load stages gaining tally strokes, then the graphite plate splits along its ledger rules (alternate rows slide out left and right) revealing the hero",
+      "nav_style": "ruled cell nav: one ledger header row divided by vertical hairlines, cells fill paper from the bottom rule on hover with the label inverting to ink, mono row index on the active cell, drum count cart cell top right, compresses to 48px on scroll",
+      "button_style": "paper block button: solid paper rectangle, radius 0, ink label with a mono price cell divided by a vertical hairline, label carriage returns 4px and a second rule draws on hover, 1px depress on press; accent never on any button; the Pilot is a text link",
+      "technique_ids": [
+        "MOT-021",
+        "MOT-005",
+        "LAY-003",
+        "TYP-005",
+        "COL-010",
+        "TEX-014",
+        "TEX-008",
+        "TRN-001",
+        "TRN-007",
+        "CUR-007",
+        "CUR-009",
+        "EXP-007"
+      ],
+      "typographic_set_piece": "The Recalculation: the qualifying income figure in Fragment Mono at 160px rolls through the Form 1084 add backs on scroll, cites typing in, and takes verdigris only when it lands",
+      "interactive_feature": "drafter (condition drafter: product, income types, assets, AUS finding, designation and monthly volume in, a PTD/PTC condition list with page cites out, ending on the pack that fits)",
+      "voice_stance": "night shift handover (plainspoken engineer)",
+      "tier": "1",
+      "tier_forced": false,
+      "engine_profile": "baseline-r128",
+      "signature_shader_id": "",
+      "media_manifest": true,
+      "mode": "net-new",
+      "invented_techniques": [],
+      "live_url": "https://financing-bot-site.webflow.io",
+      "repo_name": "financing-bot-site",
+      "app_name": "financing-bot-site",
+      "media": {
+        "subject_world": "the underwriting operations floor at night: desks and monitors after hours, a laser printer mid job, a records shelf of binders, a stapled package under a task lamp, cold screen light and one warm task lamp, no window light, no people",
+        "video_concept": "the overnight shift: four 3 second locked off clips (monitors coming on, printer tray filling, queue clearing on a monitor, stapler on the finished package) cut into a 12 s loop, plus a product in motion follow of one file through the built HTML screens",
+        "shot_grammar": "locked off tripod, wide and mid, deep focus, cold screen light against one warm task lamp, hard cuts",
+        "product_shot_style": "screenshots of real HTML built for this site: one ink shell with a paper body, three bodies (queue, Form 1084 worksheet, condition list) following LN 2026090412, 1600x1000 at 2x in plain grey window chrome, ungraded",
+        "photography_subject": "doorway view down the aisle; three stapled packages; one monitor in a black room; records shelf of binders; task lamp over a closed file; tax schedule page; two bank statement pages; findings report on screen and paper; open policy binder with fan fold log; condition list taped to a bezel; desk phone and support card at reception",
+        "asset_count": "59 slots, 106 files: brand kit, 19 kit SVGs, 4 product screens, V-01 (4 Seedance clips) and V-02, 11 photographs, 15 scene posters",
+        "grade_recipe": "graphite night, screen verdigris: grayscale(1) sepia(0.2) hue-rotate(120deg) saturate(0.7) contrast(1.18) brightness(0.86) with a 1A1B1D 22 percent lighten and an E9E5DA 10 percent multiply overlay, never applied to the built product screens"
+      },
+      "invented_archetypes": [
+        "Operations Ledger Grid"
+      ],
+      "hero_screenshot": "screenshots/financing-bot-hero.jpg",
+      "full_page_rule": "media and grid edge to edge at every desktop width, widest empty margin 0 px measured at 1440, 1920 and 2560",
+      "concurrent_runs": "built alongside Addabill and Save The Will; Addabill's committed direction (Full-Bleed Cinematic Hero, standing month, Fraunces/Figtree, cream, marigold, STO-009, builder, warm host, tier 2) was excluded from every choice here",
+      "notes": "hero CTA leads to the pricing ledger; $0 Pilot Order as the secondary path; placeholders pending: entity, phone, EIN address, physical address, state, short code, contact hours"
+    },
+    {
+      "date": "2026-09-24",
+      "brand": "Brainbrook",
+      "domain": "brainbrook.com",
+      "live_url": "https://brainbrook-site.webflow.io",
+      "archetype": "Meander (invented, the brook spine): one continuous generative line swings across the full viewport width down the whole page, every section docks on the bank opposite the swing so both halves of every width are occupied, section labels ride the line as standing tags, and media bands run edge to edge where the line straightens",
+      "governing_idea": "Every receipt you ever paid is one long tape, and Brainbrook keeps the whole tape crisp so the money printed on it can still come back.",
+      "signature_world": {
+        "object": "one continuous thermal receipt tape carrying the household's whole ledger, meandering like a brook across a pale celadon field, with HSA and FSA tags standing on its owed back lines",
+        "verb": "keep",
+        "camera_path": "low rail ride along the winding tape from today's line back to the oldest receipt while faded print resolves crisp beneath the camera, then a straight lift up the axis to a held birdseye where the tape reads as a brook and the tags light back toward today, then a descent to the tape's end as it tears off into the phone's ledger"
+      },
+      "signature_move_id": "TYP-024 (invented: The Long Receipt, built on 3DW-007 mechanics)",
+      "signature_move_category": "Typography (kinetic ledger type on a procedural 3D ribbon)",
+      "palette": {
+        "field": "light celadon (a hued pale field, not cream or paper)",
+        "hexes": [
+          "DCE8DF",
+          "CFDFD3",
+          "E6EEE7",
+          "FFFFFF",
+          "F3F6F3",
+          "1B2622",
+          "4E5E56",
+          "B9CBBF",
+          "A04219",
+          "C25A2C",
+          "F1DDD3"
+        ],
+        "accent_hue_family": "copper (rust, red brown)",
+        "color_story": "brook celadon with white receipts and one copper tag"
+      },
+      "heading_font": "Recursive",
+      "body_font": "Source Serif 4 (prose) with Recursive Mono Linear (figures and receipt lines)",
+      "motif": "the standing tag on the tape line: a ruled tape line with a notched, hole punched copper tag standing up from it; the Kept seal (perforated ring, BRAINBROOK / KEPT, a tag at the centre)",
+      "motion_signature": {
+        "easings": [
+          "cubic-bezier(0.1, 0.82, 0.26, 1) Feed",
+          "cubic-bezier(0.76, 0, 0.12, 1) Tear"
+        ],
+        "durations": {
+          "fast": "0.16s",
+          "base": "0.5s",
+          "slow": "1.3s",
+          "idle": "6s breath"
+        }
+      },
+      "loader_transition": "the print head: a white receipt strip prints the real load stages as line items with dotted leaders and the word kept, the total line carries the real percentage, the strip tears along a perforated edge at 100 and Flips into the header dock at the near end of the hero tape",
+      "nav_style": "the tape header: a full width white receipt strip with a perforated bottom edge, Recursive wordmark top left, horizontal links with a small copper tag that stands up under the active link, a folded receipt cart with its count top right, thins to 56px and the perforation becomes one hairline on scroll",
+      "button_style": "the kept tag: a tag shaped button with a notched left end and a punched hole, copper fill with a white Recursive label and tabular price, lifts 2px onto a soft shadow while the hole's string draws out on hover, settles flat on press, slow shadow breath at idle; secondary is a white paper tag with a copper hairline",
+      "technique_ids": [
+        "TYP-024",
+        "3DW-007",
+        "MOT-005",
+        "MOT-013",
+        "TYP-003",
+        "COL-015",
+        "TEX-006",
+        "TEX-008",
+        "TRN-001",
+        "STO-004",
+        "INT-011",
+        "CUR-007",
+        "CUR-010",
+        "IMG-018"
+      ],
+      "typographic_set_piece": "The Kept Line: the H1 prints as a receipt line in Recursive Mono (MONO 1, CASL 0, wght 500) and settles into the household voice (MONO 0, CASL 0.65, wght 720) as the line is kept, the owed back figure landing in tabular figures with the copper tag docking at its end",
+      "interactive_feature": "sorter (Empty the shoebox at /shoebox: household size, receipts a year, unclaimed earlier years, then drag eight sample receipts onto the HSA or FSA tag and mark Owed back or Reimbursed; the tape prints the owed back total by year and the next date and names Free or Plus with a Purchase Plus or Start Free button)",
+      "voice_stance": "the friend who already filed it (calm, a little satisfied, shows the drawer)",
+      "tier": "1",
+      "tier_forced": false,
+      "engine_profile": "baseline-r128 (Three.js r128 self hosted, lazy after first paint, no post processing, no shadow maps)",
+      "signature_shader_id": "",
+      "media_manifest": true,
+      "repo_name": "brainbrook-site",
+      "app_name": "brainbrook-site",
+      "invented_techniques": [
+        "TYP-024 The Long Receipt: the household ledger typeset onto a procedural ribbon (CanvasTexture on a curve swept BufferGeometry) with a scroll scrubbed camera ride, a per line fade to crisp reveal, standing tag planes, and a tear off handoff into the DOM product shot; Three.js r128 plus GSAP ScrollTrigger"
+      ],
+      "invented_archetypes": [
+        "Meander (the brook spine)"
+      ],
+      "full_page_rule": "media and layout fill the full page at every desktop width: two bank grids with auto fit content columns (two at 1440, three at 1920, four at 2560), media bands edge to edge, gutters clamp(16px, 2.5vw, 48px), no centered narrow column",
+      "notes": "Private repo (the classifier refused a public one). Media handoff of the eleven photographs and the hero loop set follows as a second commit once the files come in from Harlem's Mac; they are referenced at their final /assets/media/ paths and show blur up placeholders meanwhile."
     }
-   },
-   "loader_transition": "boot-sequence-to-swarm-assembly",
-   "nav_style": "sticky minimal header, plain DOM over canvas, decode-on-hover links",
-   "button_style": "magnetic with layered hover choreography, coral primary",
-   "technique_ids": [
-    "3DW-008",
-    "3DW-010",
-    "MOT-001",
-    "MOT-005",
-    "MOT-004",
-    "LAY-018",
-    "COL-018",
-    "COL-011",
-    "TYP-007",
-    "TEX-011",
-    "TEX-001",
-    "CUR-004",
-    "CUR-007",
-    "STO-008",
-    "TRN-001"
-   ],
-   "typographic_set_piece": "The Score Resolves",
-   "interactive_feature": "before/after mobility comparison, range-input driven",
-   "voice_stance": "clinical precise humanizing",
-   "tier": "3",
-   "tier_forced": false,
-   "engine_profile": "baseline-r128",
-   "signature_shader_id": "SHD-004",
-   "media_manifest": false,
-   "repo_name": "biovirtua-site-v2",
-   "app_name": "biovirtua-site-v2",
-   "invented_techniques": []
-  },
-  {
-   "date": "2026-09-21",
-   "brand": "Astroquanta",
-   "domain": "astroquanta.com",
-   "archetype": "Sidebar-Anchored",
-   "governing_idea": "The denominator is the design: every trial the agent ran stays on the screen in grey, so the six that survived can be priced.",
-   "signature_world": {
-    "object": "a lattice of 48 trial cells in depth (instanced cubes, 8 wide by 6 high, stacked through four gate planes)",
-    "verb": "cull and hold",
-    "camera_path": "single axis dolly forward through four gate planes, then a quarter turn to elevation over the six survivors"
-   },
-   "signature_move_id": "STO-007",
-   "signature_move_category": "Storytelling & Structure",
-   "palette": {
-    "field": "dark",
-    "hexes": [
-     "0A0C0B",
-     "1F2422",
-     "3B423F",
-     "7E8682",
-     "D8DBD8",
-     "9BE15D"
-    ],
-    "accent_hue_family": "yellow green (phosphor)",
-    "color_story": "grey ladder with one surviving phosphor"
-   },
-   "heading_font": "Schibsted Grotesk",
-   "body_font": "IBM Plex Mono",
-   "motif": "the trial cell (a 12px square that is outlined, then filled grey or kept green) and the prompt glyph",
-   "motion_signature": {
-    "easings": [
-     "cubic-bezier(0.7, 0, 0.1, 1)",
-     "cubic-bezier(0.12, 0.7, 0.16, 1)"
-    ],
-    "durations": {
-     "fast": "0.12s",
-     "base": "0.36s",
-     "slow": "0.9s"
-    }
-   },
-   "loader_transition": "trial grid fill gauge: 48 cells outline in step with real load, then Flip into the hero lattice",
-   "nav_style": "persistent left status rail with ticking run clock and gate index, prompt glyph active marker, drawer on mobile",
-   "button_style": "square hairline console button, prompt glyph slides in and label shifts one character on hover, inverted fill on press, kept green primary",
-   "technique_ids": [
-    "STO-007",
-    "3DW-011",
-    "MOT-005",
-    "MOT-004",
-    "MOT-015",
-    "TYP-020",
-    "COL-018",
-    "TEX-014",
-    "TRN-002",
-    "EXP-002",
-    "CUR-007",
-    "CUR-010"
-   ],
-   "typographic_set_piece": "The Fraction: 48 over 48 becomes 6 over 48 in display mono, the numerator stepping down at each gate while the denominator never leaves the screen",
-   "interactive_feature": "simulator",
-   "voice_stance": "sober quantitative recorder",
-   "tier": "1",
-   "tier_forced": false,
-   "engine_profile": "baseline-r128",
-   "signature_shader_id": "",
-   "media_manifest": true,
-   "invented_techniques": [],
-   "live_url": "https://astroquanta-site.webflow.io",
-   "repo_name": "astroquanta-site",
-   "app_name": "astroquanta-site",
-   "mode": "net-new",
-   "history_record_path": null,
-   "oldest_backlink_date": null,
-   "reference_board": [
-    "darkroom.engineering",
-    "Maxime Heckel",
-    "Linear",
-    "Vercel",
-    "Rauno Freiberg",
-    "Terminal Industries",
-    "Axiom by Peppermint",
-    "Sanctuary Computer",
-    "Teenage Engineering"
-   ],
-   "foundry_manifest_hash": "2ebdaa2a3268d6211944a923e3b3cab64979d4ef1b2709e37d1274502f20d8c7",
-   "pass_log_path": "runs/astroquant/site/BUILD_LOG.md"
-  },
-  {
-   "date": "2026-09-23",
-   "brand": "Smart Augment",
-   "domain": "smartaugment.com",
-   "archetype": "Magazine or Cover Story (cast as a printed research note)",
-   "governing_idea": "Provenance made visible: the committee memo is a stack of paper you can see through, and every figure on the page has a hairline back to the disclosure row that produced it.",
-   "signature_world": {
-    "object": "a committee memo as a stack of five translucent paper sheets in depth (memo, comparables, model run, screen definition, disclosure file) joined by hairline provenance leaders",
-    "verb": "collate",
-    "camera_path": "orthographic reading view snaps into a raking perspective as the sheets fan apart in depth, a focus pull walks from the memo to the disclosure sheet at the back and returns, then the sheets collate flat and the camera settles to the reading view"
-   },
-   "signature_move_id": "3DW-007",
-   "signature_move_category": "3D & WebGL",
-   "palette": {
-    "field": "light",
-    "hexes": [
-     "F6F3ED",
-     "FFFFFF",
-     "EAE5DB",
-     "DCD6CB",
-     "6B665E",
-     "1A1A18",
-     "1B3A5C",
-     "E7ECF2",
-     "7A1F1F"
-    ],
-    "accent_hue_family": "prussian blue",
-    "color_story": "paper and ink with one institutional accent"
-   },
-   "heading_font": "Newsreader",
-   "body_font": "Newsreader (prose) with Spline Sans Mono (figures)",
-   "motif": "the provenance leader: a hairline with a hollow source circle and a terminal tick, joining a figure to the row it came from",
-   "motion_signature": {
-    "easings": [
-     "cubic-bezier(0.55, 0.06, 0.18, 1)",
-     "cubic-bezier(0.3, 0.74, 0.08, 1)"
-    ],
-    "durations": {
-     "fast": "0.16s",
-     "base": "0.44s",
-     "slow": "1.25s"
-    }
-   },
-   "loader_transition": "ruled sheet draw-on: ruling lines draw across blank paper in step with real load stages, the wordmark impresses onto the top rule, the rules dissolve into the hero grid",
-   "nav_style": "printed masthead between a top hairline and a bottom double rule, mono small-cap horizontal links with rising footnote marks on hover, dateline and folio cart at right, compresses to a single rule on scroll",
-   "button_style": "stamped rectangle: solid Prussian blue with an inset paper hairline, serif label with mono price, hairline steps outward on hover, platen press on click, slow hairline breathe at idle",
-   "technique_ids": [
-    "3DW-007",
-    "3DW-023",
-    "LAY-004",
-    "TYP-019",
-    "TYP-003",
-    "COL-018",
-    "MOT-001",
-    "TRN-003",
-    "CUR-008",
-    "CUR-007",
-    "TEX-006",
-    "TEX-004"
-   ],
-   "typographic_set_piece": "Footnotes That Walk: the superscript footnote marks in the hero paragraph lift out of the prose on scroll and travel down hairline leaders into the evidence table beneath, landing on the row each figure came from",
-   "interactive_feature": "calculator",
-   "voice_stance": "sceptical analyst who shows the working and names what would break it",
-   "tier": "3",
-   "tier_forced": false,
-   "engine_profile": "modern-three-0.185",
-   "signature_shader_id": "SHD-012",
-   "media_manifest": true,
-   "mode": "net-new",
-   "invented_techniques": [
-    "The Collation: five translucent paper sheets in depth with a BokehPass focus pull that walks from the memo to the disclosure sheet and back, then collates flat, scroll scrubbed over 1.5 vh"
-   ],
-   "live_url": "https://smartaugment-site.webflow.io",
-   "repo_name": "smartaugment-site",
-   "app_name": "smartaugment-site",
-   "signature_shader_knobs": {
-    "recipe": "SHD-012 Dither and Halftone Pass",
-    "mode": "halftone (uMode 1)",
-    "uScale": 3.2,
-    "uAngle": 0.26,
-    "uInkColor": "1A1A18",
-    "uPaperColor": "F6F3ED",
-    "application": "shading and shadow tones only via a luminance threshold at 0.82 (type on textures stays crisp), fine engraving scale rather than newspaper",
-    "coverage": "hero canvas only, never DOM text"
-   },
-   "media": {
-    "subject_world": "the room the work happens in: a research desk with paper, a steel rule, a pencil, a mono printout and morning window light, no people",
-    "video_concept": "four macro desk clips: memo lift, printout push in, rule and pencil slider, squaring the stack; product in motion shipped as a built pan over the three HTML screens",
-    "shot_grammar": "macro, static tripod or 2 cm slider, shallow depth of field, window light from the left, hard cuts",
-    "product_shot_style": "built in HTML with the brand tokens, one shell three bodies, screenshotted at 1440x900 2x, ungraded",
-    "photography_subject": "desk at dawn, memo heading with Prussian rule, decimal column at macro, index card drawer, folded letter, empty desk under flat light, six fanned printouts, two stacks with a rule, a long balance printout",
-    "asset_count": "36 rendered plus 22 build posters",
-    "grade_recipe": "Ink on paper, Prussian shadow: grayscale(1) sepia(0.14) hue-rotate(178deg) saturate(0.55) contrast(1.22) brightness(1.06) with a 1B3A5C 12 percent lighten shadow overlay and an F6F3ED 18 percent multiply highlight overlay, never applied to the built product screens"
-   },
-   "invented_archetypes": [
-    "Research Note Folio"
-   ],
-   "hero_screenshot": "screenshots/smart-augment-hero.jpg",
-   "notes": "hero carries no prices per the user's Step 7.5 ruling; placeholders pending: entity, EIN address, physical address, phone, short code, state"
-  },
-  {
-   "date": "2026-09-24",
-   "brand": "Financing Bot",
-   "domain": "financingbot.com",
-   "archetype": "Swiss or Modular Grid (cast as the Operations Ledger Grid)",
-   "governing_idea": "The overnight queue: a lender's operations floor after hours where the loan files clear themselves row by row, and every figure that lands does so beside the page that proves it, so the morning underwriter only has to read and sign.",
-   "signature_world": {
-    "object": "the overnight queue wall: a tall graphite ledger wall of sixty loan rows standing on the operations floor, each row a thin slab of mono cells with a queue counter plate at the top right",
-    "verb": "clear",
-    "camera_path": "first person crane straight up the wall face as rows clear beneath the camera, a held stop two thirds up for The Clear (the last twelve rows clearing in a cascade), then a straight dolly back off the wall until the cleared queue sits square in the frame as the product's queue table"
-   },
-   "signature_move_id": "MOT-021",
-   "signature_move_category": "Motion & Scroll",
-   "palette": {
-    "field": "dark",
-    "hexes": [
-     "1A1B1D",
-     "232527",
-     "3A3D41",
-     "9A9C98",
-     "E9E5DA",
-     "4FB89A"
-    ],
-    "accent_hue_family": "teal (blue green verdigris)",
-    "color_story": "graphite ledger with paper type and one verdigris figure"
-   },
-   "heading_font": "Archivo",
-   "body_font": "Archivo (words) with Fragment Mono (figures)",
-   "motif": "the tally (four hairline strokes crossed by a fifth diagonal) plus a square package seal ruled like a form box",
-   "motion_signature": {
-    "easings": [
-     "cubic-bezier(0.8, 0.02, 0.18, 1)",
-     "cubic-bezier(0.34, 0.9, 0.2, 1)"
-    ],
-    "durations": {
-     "fast": "0.14s",
-     "base": "0.4s",
-     "slow": "1.0s"
-    }
-   },
-   "loader_transition": "drum counter of real load in Fragment Mono with load stages gaining tally strokes, then the graphite plate splits along its ledger rules (alternate rows slide out left and right) revealing the hero",
-   "nav_style": "ruled cell nav: one ledger header row divided by vertical hairlines, cells fill paper from the bottom rule on hover with the label inverting to ink, mono row index on the active cell, drum count cart cell top right, compresses to 48px on scroll",
-   "button_style": "paper block button: solid paper rectangle, radius 0, ink label with a mono price cell divided by a vertical hairline, label carriage returns 4px and a second rule draws on hover, 1px depress on press; accent never on any button; the Pilot is a text link",
-   "technique_ids": [
-    "MOT-021",
-    "MOT-005",
-    "LAY-003",
-    "TYP-005",
-    "COL-010",
-    "TEX-014",
-    "TEX-008",
-    "TRN-001",
-    "TRN-007",
-    "CUR-007",
-    "CUR-009",
-    "EXP-007"
-   ],
-   "typographic_set_piece": "The Recalculation: the qualifying income figure in Fragment Mono at 160px rolls through the Form 1084 add backs on scroll, cites typing in, and takes verdigris only when it lands",
-   "interactive_feature": "drafter (condition drafter: product, income types, assets, AUS finding, designation and monthly volume in, a PTD/PTC condition list with page cites out, ending on the pack that fits)",
-   "voice_stance": "night shift handover (plainspoken engineer)",
-   "tier": "1",
-   "tier_forced": false,
-   "engine_profile": "baseline-r128",
-   "signature_shader_id": "",
-   "media_manifest": true,
-   "mode": "net-new",
-   "invented_techniques": [],
-   "live_url": "https://financing-bot-site.webflow.io",
-   "repo_name": "financing-bot-site",
-   "app_name": "financing-bot-site",
-   "media": {
-    "subject_world": "the underwriting operations floor at night: desks and monitors after hours, a laser printer mid job, a records shelf of binders, a stapled package under a task lamp, cold screen light and one warm task lamp, no window light, no people",
-    "video_concept": "the overnight shift: four 3 second locked off clips (monitors coming on, printer tray filling, queue clearing on a monitor, stapler on the finished package) cut into a 12 s loop, plus a product in motion follow of one file through the built HTML screens",
-    "shot_grammar": "locked off tripod, wide and mid, deep focus, cold screen light against one warm task lamp, hard cuts",
-    "product_shot_style": "screenshots of real HTML built for this site: one ink shell with a paper body, three bodies (queue, Form 1084 worksheet, condition list) following LN 2026090412, 1600x1000 at 2x in plain grey window chrome, ungraded",
-    "photography_subject": "doorway view down the aisle; three stapled packages; one monitor in a black room; records shelf of binders; task lamp over a closed file; tax schedule page; two bank statement pages; findings report on screen and paper; open policy binder with fan fold log; condition list taped to a bezel; desk phone and support card at reception",
-    "asset_count": "59 slots, 106 files: brand kit, 19 kit SVGs, 4 product screens, V-01 (4 Seedance clips) and V-02, 11 photographs, 15 scene posters",
-    "grade_recipe": "graphite night, screen verdigris: grayscale(1) sepia(0.2) hue-rotate(120deg) saturate(0.7) contrast(1.18) brightness(0.86) with a 1A1B1D 22 percent lighten and an E9E5DA 10 percent multiply overlay, never applied to the built product screens"
-   },
-   "invented_archetypes": [
-    "Operations Ledger Grid"
-   ],
-   "hero_screenshot": "screenshots/financing-bot-hero.jpg",
-   "full_page_rule": "media and grid edge to edge at every desktop width, widest empty margin 0 px measured at 1440, 1920 and 2560",
-   "concurrent_runs": "built alongside Addabill and Save The Will; Addabill's committed direction (Full-Bleed Cinematic Hero, standing month, Fraunces/Figtree, cream, marigold, STO-009, builder, warm host, tier 2) was excluded from every choice here",
-   "notes": "hero CTA leads to the pricing ledger; $0 Pilot Order as the secondary path; placeholders pending: entity, phone, EIN address, physical address, state, short code, contact hours"
-  }
- ]
+  ]
 }
