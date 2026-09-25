@@ -125,6 +125,16 @@ def main():
     fp = json.load(open(opt("--copy"))) if opt("--copy") and opt("--copy") != "none" else None
     allow = FLOOR_TAGS | set((opt("--allow") or "").split(",")) - {""}
     history = [dict(b, _kind="build") for b in builds] + [dict(c, _kind="claim") for c in claims]
+    # The archive is history too: a build whose builds/<slug>/vibe.json exists counts even before its
+    # registry.json entry is written (the entry is gated on the human gate; the archive is not).
+    if builds_dir and os.path.isdir(builds_dir):
+        seen = {norm(h.get("slug") or h.get("brand")).replace(" ", "-") for h in history}
+        for slug in sorted(os.listdir(builds_dir)):
+            vj = os.path.join(builds_dir, slug, "vibe.json")
+            if os.path.exists(vj) and norm(slug) not in seen:
+                try:
+                    v = json.load(open(vj)); v.setdefault("slug", slug); history.append(dict(v, _kind="archive"))
+                except Exception: pass
     myslug = norm(p.get("slug"))
     history = [h for h in history if norm(h.get("slug")) != myslug or not myslug]
 
@@ -218,7 +228,8 @@ def main():
         check("34/35 copy fingerprint", False, "no --copy copy_fingerprint.json given; run copy_fingerprint.py first (required at Step 3 and Gate 5; at Step 2.5 pass --copy none)")
 
     fails = [r for r in results if not r[1]]
-    print(f"\n=== Sameness check vs {len(builds)} logged build(s) + {len(claims)} claim(s), {len((ledger.get('tags') or {}))} ledger tags ===")
+    archived = sum(1 for h in history if h.get("_kind") == "archive")
+    print(f"\n=== Sameness check vs {len(builds)} logged build(s) + {len(claims)} claim(s) + {archived} archived build(s) not yet in registry.json, {len((ledger.get('tags') or {}))} ledger tags ===")
     for name, ok, detail in results:
         print(f"  {'PASS' if ok else 'FAIL'}  {name}   ({detail})")
     print(f"\nVERDICT: {'ALL SAMENESS CHECKS CLEAR' if not fails else str(len(fails)) + ' CHECK(S) FAILING: fix before committing the direction'}")
