@@ -1,0 +1,376 @@
+{
+ "taxonomy_version": "2026-09-24",
+ "note": "The Pattern Ledger (finalshot ninth amendment). Every tag here is banned for the next build except the conventions floor. Slugs name the builds that used the mechanism. See tools/sameness_review.md.",
+ "tags": {
+  "hero.rendered-world-under-centered-type": [
+   "addabill"
+  ],
+  "hero.stack-of-sheets-in-depth": [
+   "smart-augment"
+  ],
+  "hero.ledger-wall-in-a-visible-grid": [
+   "financing-bot"
+  ],
+  "hero.split-diptych-print-on-void": [
+   "logifx"
+  ],
+  "hero.pinned-frame-sequence-with-dealt-cards": [
+   "cash-pass"
+  ],
+  "hero.continuous-line-across-the-page": [
+   "brainbrook"
+  ],
+  "hero.house-on-lot-scene": [
+   "save-the-will"
+  ],
+  "hero.columns-edge-to-edge": [
+   "savebrew"
+  ],
+  "hero.sidebar-anchored-console": [
+   "astroquanta"
+  ],
+  "hero.single-object-3d": [
+   "biovirtua"
+  ],
+  "nav.glyph-beneath-active-link": [
+   "addabill",
+   "brainbrook",
+   "save-the-will"
+  ],
+  "nav.footnote-marks-rise-on-hover": [
+   "smart-augment"
+  ],
+  "nav.ruled-cells-fill-on-hover": [
+   "financing-bot"
+  ],
+  "nav.two-sided-plates-turning-on-y": [
+   "logifx"
+  ],
+  "nav.active-at-full-white-rest-dimmed": [
+   "cash-pass"
+  ],
+  "nav.active-weight-jump-no-mark": [
+   "savebrew"
+  ],
+  "nav.condense-on-scroll": [
+   "addabill",
+   "financing-bot",
+   "smart-augment"
+  ],
+  "nav.hide-on-down-return-on-up": [
+   "savebrew"
+  ],
+  "nav.transparent-then-plated-on-scroll": [
+   "logifx"
+  ],
+  "button.lift-on-hover-flatten-on-press": [
+   "addabill",
+   "brainbrook",
+   "save-the-will",
+   "logifx"
+  ],
+  "button.idle-breathing": [
+   "addabill",
+   "save-the-will",
+   "smart-augment",
+   "savebrew"
+  ],
+  "button.sliding-duplicate-label": [
+   "addabill"
+  ],
+  "button.tag-shape-notch-and-hole": [
+   "addabill",
+   "brainbrook"
+  ],
+  "button.hairline-steps-outward": [
+   "smart-augment"
+  ],
+  "button.carriage-return-label-second-rule": [
+   "financing-bot"
+  ],
+  "button.light-band-passes-on-hover": [
+   "cash-pass"
+  ],
+  "button.tilt-toward-pointer": [
+   "logifx"
+  ],
+  "button.stitched-border-running": [
+   "savebrew"
+  ],
+  "button.mono-price-cell-divided-by-hairline": [
+   "financing-bot",
+   "smart-augment"
+  ],
+  "loader.flip-into-hero-element": [
+   "addabill",
+   "brainbrook",
+   "save-the-will"
+  ],
+  "loader.plate-splits-to-reveal": [
+   "financing-bot"
+  ],
+  "loader.rules-draw-then-dissolve": [
+   "smart-augment"
+  ],
+  "loader.develop-from-ghost-then-turn": [
+   "logifx"
+  ],
+  "loader.chapter-index-becomes-sticky-nav": [
+   "cash-pass"
+  ],
+  "loader.stitch-draws-down-gutter": [
+   "savebrew"
+  ],
+  "loader.date-or-count-in-step-with-load": [
+   "addabill",
+   "financing-bot",
+   "brainbrook"
+  ],
+  "loader.lights-come-on-per-stage": [
+   "save-the-will"
+  ],
+  "type.variable-axis-settle-on-scroll": [
+   "addabill",
+   "brainbrook",
+   "savebrew"
+  ],
+  "type.figure-rolls-through-values": [
+   "financing-bot"
+  ],
+  "type.superscripts-travel-on-leaders": [
+   "smart-augment"
+  ],
+  "type.word-turns-on-y-to-reverse": [
+   "logifx"
+  ],
+  "type.lines-rise-behind-masks-one-per-step": [
+   "save-the-will"
+  ],
+  "type.letter-by-letter-fade-from-black": [
+   "cash-pass"
+  ],
+  "motion.light-sweep-as-time-of-day": [
+   "addabill"
+  ],
+  "motion.n-objects-complete-one-by-one": [
+   "save-the-will",
+   "cash-pass",
+   "savebrew",
+   "smart-augment"
+  ],
+  "motion.camera-pull-back-micro-to-macro": [
+   "addabill"
+  ],
+  "motion.rail-ride-then-lift-to-birdseye": [
+   "brainbrook",
+   "save-the-will"
+  ],
+  "motion.crane-up-a-wall": [
+   "financing-bot"
+  ],
+  "motion.focus-pull-through-depth": [
+   "smart-augment"
+  ],
+  "motion.half-orbit-at-tabletop": [
+   "cash-pass"
+  ],
+  "motion.turn-to-reverse-side-then-fly-through": [
+   "logifx"
+  ],
+  "motion.sweep-then-gravity-flip": [
+   "savebrew"
+  ],
+  "motion.idle-object-lifts-and-resettles": [
+   "addabill"
+  ],
+  "object.standing-tags-on-a-line": [
+   "addabill",
+   "brainbrook"
+  ],
+  "object.paper-on-a-counter": [
+   "addabill"
+  ],
+  "object.stack-of-translucent-sheets": [
+   "smart-augment"
+  ],
+  "object.wall-of-rows": [
+   "financing-bot"
+  ],
+  "object.hanging-print": [
+   "logifx"
+  ],
+  "object.cards-on-glass-under-one-light": [
+   "cash-pass"
+  ],
+  "object.continuous-tape-or-thread": [
+   "brainbrook",
+   "savebrew"
+  ],
+  "object.house-with-windows-lighting": [
+   "save-the-will"
+  ],
+  "object.phone-as-destination-of-the-story": [
+   "addabill",
+   "brainbrook"
+  ],
+  "motif.cell-with-tag": [
+   "addabill"
+  ],
+  "motif.hairline-leader-with-terminal-tick": [
+   "smart-augment"
+  ],
+  "motif.tally-strokes": [
+   "financing-bot"
+  ],
+  "motif.ring-bisected-by-seam": [
+   "logifx"
+  ],
+  "motif.lit-tile-with-reflection": [
+   "cash-pass"
+  ],
+  "motif.tag-on-tape-line": [
+   "brainbrook"
+  ],
+  "motif.lit-window-frame": [
+   "save-the-will"
+  ],
+  "motif.knot-over-warp": [
+   "savebrew"
+  ],
+  "seal.ring-with-circular-text": [
+   "addabill",
+   "brainbrook",
+   "save-the-will",
+   "cash-pass"
+  ],
+  "seal.square-form-box": [
+   "financing-bot"
+  ],
+  "section.full-bleed-bands-alternating-with-spreads": [
+   "addabill"
+  ],
+  "section.chapters-with-index": [
+   "cash-pass"
+  ],
+  "section.ledger-rows-with-row-index": [
+   "financing-bot"
+  ],
+  "section.docked-on-alternating-banks": [
+   "brainbrook"
+  ],
+  "section.rows-across-fixed-columns": [
+   "savebrew"
+  ],
+  "section.two-sided-panels": [
+   "logifx"
+  ],
+  "section.folio-pages": [
+   "smart-augment"
+  ],
+  "section.step-pages-with-progress-strip": [
+   "save-the-will"
+  ],
+  "color.neutral-field-one-accent": [
+   "addabill",
+   "smart-augment",
+   "financing-bot",
+   "save-the-will",
+   "cash-pass",
+   "brainbrook",
+   "savebrew"
+  ],
+  "color.analogous-two-field-one-ring": [
+   "logifx"
+  ],
+  "color.dark-field-one-warm-accent": [
+   "biovirtua"
+  ],
+  "color.grey-ladder-one-survivor": [
+   "astroquanta"
+  ],
+  "feature.inputs-to-live-preview": [
+   "addabill"
+  ],
+  "feature.drag-sort-with-magnetic-snap": [
+   "brainbrook"
+  ],
+  "feature.three-question-quiz": [
+   "cash-pass"
+  ],
+  "feature.form-to-condition-list": [
+   "financing-bot"
+  ],
+  "feature.flip-cards-fill-a-matrix": [
+   "logifx"
+  ],
+  "feature.state-lookup": [
+   "save-the-will"
+  ],
+  "feature.toggle-rerank": [
+   "savebrew"
+  ],
+  "feature.calculator-with-ruler": [
+   "smart-augment"
+  ],
+  "feature.simulator": [
+   "astroquanta"
+  ],
+  "voice.host": [
+   "addabill"
+  ],
+  "voice.usher": [
+   "cash-pass"
+  ],
+  "voice.friend-who-already-did-it": [
+   "brainbrook"
+  ],
+  "voice.teacher": [
+   "save-the-will"
+  ],
+  "voice.craftsman": [
+   "savebrew"
+  ],
+  "voice.night-shift-engineer": [
+   "financing-bot",
+   "logifx"
+  ],
+  "voice.sceptical-analyst": [
+   "smart-augment"
+  ],
+  "voice.quantitative-recorder": [
+   "astroquanta"
+  ],
+  "copy.h1.two-short-sentences": [
+   "addabill",
+   "financing-bot"
+  ],
+  "copy.cta.purchase-the-plan": [
+   "addabill",
+   "save-the-will",
+   "brainbrook",
+   "logifx"
+  ],
+  "copy.cta.buy-noun": [
+   "cash-pass",
+   "financing-bot"
+  ],
+  "copy.device.counting-as-story": [
+   "financing-bot"
+  ],
+  "copy.device.numbered-01-02-03": [
+   "financing-bot",
+   "addabill"
+  ],
+  "copy.device.every-x-on-one-y": [
+   "addabill"
+  ],
+  "copy.blog.myth-negation": [
+   "logifx",
+   "addabill"
+  ],
+  "copy.blog.narrative-time": [
+   "save-the-will",
+   "brainbrook"
+  ]
+ }
+}

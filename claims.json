@@ -1,0 +1,478 @@
+{
+ "note": "Builds in flight. A run appends its committed direction here at Step 2.5 and marks it shipped at Step 8. See tools/sameness_review.md.",
+ "claims": [
+  {
+   "slug": "brainbrook",
+   "brand": "Brainbrook",
+   "domain": "brainbrook.com",
+   "date": "20260924",
+   "status": "claimed",
+   "session": "brainbrook--20260924--n8k2d",
+   "archetype": "Meander (invented, the brook spine): one continuous generative line swings across the full viewport width down the whole page; every section docks on the bank opposite the swing so both halves of every width are occupied; section labels ride the line as standing tags; media bands and the signature scene run edge to edge",
+   "hero_composition": "",
+   "governing_idea": "Every receipt you ever paid is one long tape, and Brainbrook keeps the whole tape crisp so the money printed on it can still come back.",
+   "signature_world": {
+    "object": "one continuous thermal receipt tape carrying the household's whole ledger, meandering like a brook across a pale celadon field, with HSA and FSA tags standing on its owed back lines",
+    "verb": "keep",
+    "camera_path": "low rail ride along the winding tape from today's line back to the oldest receipt (Feb 11, 2023) while faded print resolves crisp beneath the camera, then a straight lift up the axis to a held birdseye where the tape reads as a brook and the tags light back toward today as $1,284.00 counts into view (Coming Back Into View), then a descent to the tape's end as it tears off into the phone's ledger"
+   },
+   "signature_move_id": "TYP-024 (invented: The Long Receipt, built on 3DW-007 mechanics)",
+   "signature_move_category": "Typography (kinetic ledger type on a procedural 3D ribbon)",
+   "palette": {
+    "field": "light celadon (a hued pale field, not cream or paper)",
+    "hexes": [
+     "DCE8DF",
+     "CFDFD3",
+     "E6EEE7",
+     "FFFFFF",
+     "F3F6F3",
+     "1B2622",
+     "4E5E56",
+     "B9CBBF",
+     "A04219",
+     "C25A2C",
+     "F1DDD3"
+    ],
+    "accent_hue_family": "copper (rust, red brown)",
+    "color_story": "brook celadon with white receipts and one copper tag"
+   },
+   "heading_font": "Recursive (variable; headings MONO 0 CASL 0.65 wght 720; figures and receipt lines MONO 1 CASL 0 wght 500)",
+   "body_font": "Source Serif 4 (prose) with Recursive Mono Linear (figures and receipt lines)",
+   "motif": "the standing tag on the tape line: a ruled tape line with a notched, hole punched copper tag standing up from it; the Kept seal (perforated ring, BRAINBROOK / COLUMBUS, OHIO / KEPT); three dividers (perforation, meander, tick rule); twelve 24px 1.5px stroke icons; Recursive Mono oversized numerals; thermal grain",
+   "motion_signature": {
+    "easings": [
+     "cubic-bezier(0.1, 0.82, 0.26, 1) Feed",
+     "cubic-bezier(0.76, 0, 0.12, 1) Tear"
+    ],
+    "durations": {
+     "base": "0.5s",
+     "fast": "0.16s",
+     "idle": "6s breath",
+     "slow": "1.3s"
+    }
+   },
+   "loader_transition": "the print head: a white receipt strip prints the real load stages as line items with dotted leaders and the word kept, the total line carries the real percentage, the strip tears along a perforated edge at 100 and Flips into the near end of the hero tape; 1.6s target, 4s cap, Skip from 0s, copy readable at about 0.8s",
+   "nav_style": "the tape header: a full width white receipt strip with a perforated bottom edge, Recursive wordmark top left, horizontal links with a small copper tag that stands up under the active link, a folded receipt cart with its count top right, thins to 56px and the perforation becomes one hairline on scroll",
+   "button_style": "the kept tag: a tag shaped button with a notched left end and a punched hole, copper fill with a white Recursive label and tabular price, lifts 2px onto a soft shadow while the hole's string draws out on hover, settles flat on press, slow shadow breath at idle; secondary is a white paper tag with a copper hairline",
+   "technique_ids": [
+    "TYP-024",
+    "3DW-007",
+    "MOT-005",
+    "MOT-013",
+    "TYP-003",
+    "COL-015",
+    "TEX-006",
+    "TEX-008",
+    "TRN-001",
+    "STO-004",
+    "INT-011",
+    "CUR-007",
+    "CUR-010",
+    "IMG-018"
+   ],
+   "typographic_set_piece": "The Kept Line: the H1 prints as a receipt line in Recursive Mono (MONO 1, CASL 0, wght 500) and settles into the household voice (MONO 0, CASL 0.65, wght 720) as the line is kept, the copper tag standing up at its end; reprised on Pricing's price line and the order confirmation",
+   "interactive_feature": "sorter: Empty the shoebox at /shoebox (household size, receipts a year, unclaimed earlier years, then drag eight sample receipts onto the HSA or FSA tag with magnetic snap and mark Owed back or Reimbursed; the Print Head prints the total by year and the next date; result names Free or Plus with the reason and a Purchase Plus or Start Free button)",
+   "feature_shape": "sorter",
+   "voice_stance": "the friend who already filed it (calm, a little satisfied, shows the drawer)",
+   "tier": "1",
+   "seal_form": "",
+   "patterns": [
+    "button.lift-on-hover-flatten-on-press",
+    "button.tag-shape-notch-and-hole",
+    "color.neutral-field-one-accent",
+    "copy.blog.narrative-time",
+    "copy.cta.purchase-the-plan",
+    "feature.drag-sort-with-magnetic-snap",
+    "hero.continuous-line-across-the-page",
+    "loader.date-or-count-in-step-with-load",
+    "loader.flip-into-hero-element",
+    "motif.tag-on-tape-line",
+    "motion.rail-ride-then-lift-to-birdseye",
+    "nav.glyph-beneath-active-link",
+    "object.continuous-tape-or-thread",
+    "object.phone-as-destination-of-the-story",
+    "object.standing-tags-on-a-line",
+    "seal.ring-with-circular-text",
+    "section.docked-on-alternating-banks",
+    "type.variable-axis-settle-on-scroll",
+    "voice.friend-who-already-did-it"
+   ],
+   "seeded_from": "Build Log run record, 2026-09-24 (this claim was written by the ninth amendment's seed, not by the run itself)"
+  },
+  {
+   "slug": "cash-pass",
+   "brand": "Cash Pass",
+   "domain": "yourcashpass.com",
+   "date": "20260924",
+   "status": "claimed",
+   "session": "cash-pass--20260924--h3vq8",
+   "archetype": "Sticky-Stacked Cards Narrative, cast as Five Shops (one pinned stage of 1.5vh carries the frame sequence edge to edge while five full width shop cards deal over it and stack like a deck, then the stack folds into How it decided and the page releases into full width sections; stage is the viewport at every size, gutter clamp(16px, 3.5vw, 88px), auto fit grids below)",
+   "hero_composition": "",
+   "governing_idea": "One light on: the phone's own cool glow finds the card to tap, and everything else in the wallet goes dark.",
+   "signature_world": {
+    "object": "five generic card tiles standing upright on black glass on an oxblood leather counter, a phone propped on a small stand in front of them whose cool screen glow is the only light, and a small sign above the cards that changes shop",
+    "verb": "light",
+    "camera_path": "one slow half orbit (about 110 degrees at tabletop height) around the standing cards while the sign cycles five shops and the propped phone turns so its cool glow walks to the card that earns most at each; the cards never move, only the light and the sign change; ends with the glow resting on Everyday 4% at the cafe (The Last Light)"
+   },
+   "signature_move_id": "IMG-013 (The Light Walks)",
+   "signature_move_category": "Imagery & Media",
+   "palette": {
+    "field": "dark (Harlem's explicit override of quota 8, 2026-09-24)",
+    "hexes": [
+     "2E0B0C",
+     "3E1113",
+     "4E181A",
+     "5E1F22",
+     "F5EDE8",
+     "CDB3AE",
+     "E9F1F8",
+     "C6D6E3"
+    ],
+    "accent_hue_family": "ice white (cool screen light, used as a metallic)",
+    "color_story": "oxblood leather with one cool light on"
+   },
+   "heading_font": "Familjen Grotesk",
+   "body_font": "Familjen Grotesk with Instrument Serif for the answer line only",
+   "motif": "the lit card on glass: a card tile in a pool of cool light with its reflection; Pass seal with five arcs; dividers the pool, five on glass, the glass edge; twelve icons in warm grey with ice white for the recommended one; Familjen tabular numerals",
+   "motion_signature": {
+    "easings": [
+     "cubic-bezier(0.46, 0.03, 0.24, 1) Walk",
+     "cubic-bezier(0.05, 0.7, 0.3, 1) Rest"
+    ],
+    "durations": {
+     "base": "0.42s",
+     "fast": "0.18s",
+     "slow": "1.1s"
+    }
+   },
+   "loader_transition": "the five shops index: the five shop names list as chapters and each gains a small card mark as its frames land, then the list slides into place as the page's sticky chapter index while the poster crossfades to frame one; nothing lights with load, no Flip; 1.6s target, 4s cap, Skip, copy readable at 0.7s",
+   "nav_style": "the usher's strip: oxblood band, Familjen wordmark top left, horizontal links where only the active link sits at full white and the rest at 60 percent with nothing beneath any link, card outline cart top right with count, glass tile Buy Pass at far right unrimmed until the hero button scrolls past, thins to 56px on scroll",
+   "button_style": "the glass tile: card shaped button radius 12 in dark glass (surface 2 at 85 percent, 8px backdrop blur) with a 1px ice white inner rim and ice white label; a band of cool light passes once across the face on hover; the face darkens for a frame on press; the band passes every 7s at idle; no fill, no halo, no breathing; secondary buttons drop the rim and use a warm grey label",
+   "technique_ids": [
+    "IMG-013",
+    "LAY-008",
+    "MOT-005",
+    "MOT-001",
+    "TYP-006",
+    "COL-001",
+    "TEX-010",
+    "IMG-012",
+    "TRN-014",
+    "CUR-007",
+    "STO-001",
+    "INT-006"
+   ],
+   "typographic_set_piece": "The Last Light: at the cafe the glow feints toward Grocery 6% then swings to Everyday 4% and the answer fades up from black letter by letter in Instrument Serif, the only serif on the site",
+   "interactive_feature": "quiz: Three questions, one light at /quiz (nav label Find your plan): cards carried, where spending goes, rotating category habit; the light walks to Free, Pass or Pass Family with the reason and the till answer; purchase button on the result",
+   "feature_shape": "quiz",
+   "voice_stance": "the quiet usher (calm, exact, unhurried)",
+   "tier": 2,
+   "seal_form": "",
+   "patterns": [
+    "button.light-band-passes-on-hover",
+    "color.neutral-field-one-accent",
+    "copy.cta.buy-noun",
+    "feature.three-question-quiz",
+    "hero.pinned-frame-sequence-with-dealt-cards",
+    "loader.chapter-index-becomes-sticky-nav",
+    "motif.lit-tile-with-reflection",
+    "motion.half-orbit-at-tabletop",
+    "motion.n-objects-complete-one-by-one",
+    "nav.active-at-full-white-rest-dimmed",
+    "object.cards-on-glass-under-one-light",
+    "seal.ring-with-circular-text",
+    "section.chapters-with-index",
+    "type.letter-by-letter-fade-from-black",
+    "voice.usher"
+   ],
+   "seeded_from": "Build Log run record, 2026-09-24 (this claim was written by the ninth amendment's seed, not by the run itself)"
+  },
+  {
+   "slug": "hill-wallet",
+   "brand": "Hill Wallet",
+   "domain": "hillwallet.com",
+   "date": "20260924",
+   "status": "claimed",
+   "session": "hill-wallet--20260924--hw7fz",
+   "note": "run started; direction not yet committed at seed time (2026-09-24)",
+   "patterns": []
+  },
+  {
+   "slug": "logifx",
+   "brand": "Logifx",
+   "domain": "logifx.com",
+   "date": "20260924",
+   "status": "claimed",
+   "session": "logifx--20260924--xsgpt",
+   "archetype": "Split-Screen Diptych (cast as the Two-Source Diptych)",
+   "hero_composition": "",
+   "governing_idea": "Turn it over: every record in a claim file has a front, what it asserts, and a reverse, what it actually carries, and Logifx lays the two sides beside each other so the conflict is something you see, not something you are told.",
+   "signature_world": {
+    "object": "a single photographic print from the claim file (Photo 07, a creased quarter panel in a body shop bay) hanging in a baize void, with its metadata etched on the reverse",
+    "verb": "turn",
+    "camera_path": "frontal hold while the print turns 90 degrees to edge on, continue to 180 for the reverse side, then a straight fly through the conflict ring to the far side where the field inverts to ash and the other four exhibits stand already turned"
+   },
+   "signature_move_id": "TEX-018",
+   "signature_move_category": "Texture & Detail",
+   "palette": {
+    "field": "dark chromatic (green baize)",
+    "hexes": [
+     "17392C",
+     "0C241B",
+     "21503D",
+     "A8B0A5",
+     "B8BFB4",
+     "EEF1EA",
+     "C3CBBF",
+     "E2265F",
+     "F4658C",
+     "7A1436",
+     "8A9488"
+    ],
+    "accent_hue_family": "carmine (blue leaning crimson)",
+    "color_story": "green baize and silver, an analogous green two field system with one carmine ring for the conflict"
+   },
+   "heading_font": "Instrument Serif",
+   "body_font": "Instrument Sans (words) with Martian Mono (citations and metadata)",
+   "motif": "the ring at the seam: a seam bisecting a ring, two ticks that stop short; fills to a disc when the sides agree, collapses to a grey square when a source is silent",
+   "motion_signature": {
+    "easings": [
+     "cubic-bezier(0.68, 0, 0.08, 1) Turnover",
+     "cubic-bezier(0.16, 0.66, 0.04, 1) Register"
+    ],
+    "durations": {
+     "base": "0.4s",
+     "fast": "0.14s",
+     "slow": "1.35s"
+    }
+   },
+   "loader_transition": "latent image loader: the wordmark and the claims investigation descriptor develop from a faint grey ghost to full silver in the right half of the diptych in step with real load, then the developed plate turns edge on and hands off into the hero print's first frame",
+   "nav_style": "spine header: transparent over the hero, gains a baize plate with a silver hairline and a 4px edge on scroll, wordmark plus claims investigation descriptor top left, horizontal two sided link plates that turn on their vertical axis on hover to show an italic serif reverse, active link held on its reverse, a seam tick at the exact centre, cart plate top right",
+   "button_style": "extruded silver plate: solid silver rectangle with radius 2 and a 4px ash edge, deep baize sans label, tilts up to 6 degrees toward the pointer and lifts as the edge grows on hover, flattens onto its edge on press, a 1px light travels the edge at idle, ring focus",
+   "technique_ids": [
+    "TEX-018",
+    "3DW-007",
+    "LAY-005",
+    "MOT-005",
+    "MOT-020",
+    "TYP-006",
+    "COL-002",
+    "TRN-014",
+    "CUR-007",
+    "EXP-008",
+    "TEX-002",
+    "IMG-005"
+   ],
+   "typographic_set_piece": "The Turned Word: the H1 phrase 'disagrees with itself' turns word by word on its vertical axis to its italic reverse carrying the citation that proves it; the same turn is the Home text hover treatment",
+   "interactive_feature": "examination: Examine a file at /examine (choose the auto or property sample file, turn over the six source exhibit cards to include them, toggle the fourteen facts; the matrix fills with discs, rings and squares, conflicts appear only when both disagreeing sources are included, the complexity and turnaround lines compute, Purchase Platform on the result)",
+   "feature_shape": "examination",
+   "voice_stance": "plainspoken engineer",
+   "tier": "2",
+   "seal_form": "",
+   "patterns": [
+    "button.lift-on-hover-flatten-on-press",
+    "button.tilt-toward-pointer",
+    "color.analogous-two-field-one-ring",
+    "copy.blog.myth-negation",
+    "copy.cta.purchase-the-plan",
+    "feature.flip-cards-fill-a-matrix",
+    "hero.split-diptych-print-on-void",
+    "loader.develop-from-ghost-then-turn",
+    "motif.ring-bisected-by-seam",
+    "motion.turn-to-reverse-side-then-fly-through",
+    "nav.transparent-then-plated-on-scroll",
+    "nav.two-sided-plates-turning-on-y",
+    "object.hanging-print",
+    "section.two-sided-panels",
+    "type.word-turns-on-y-to-reverse",
+    "voice.night-shift-engineer"
+   ],
+   "seeded_from": "Build Log run record, 2026-09-24 (this claim was written by the ninth amendment's seed, not by the run itself)"
+  },
+  {
+   "slug": "save-the-will",
+   "brand": "Save The Will",
+   "domain": "savethewill.com",
+   "date": "20260923",
+   "status": "claimed",
+   "session": "save-the-will--20260923--w7pk3",
+   "archetype": "Illustrated Scroll World, cast as Walking Home (the rendered lot at dusk fills the viewport edge to edge at every width; type docks in a calm reading measure with the world doing the visual work at both sides; the five windows double as always visible progress)",
+   "hero_composition": "",
+   "governing_idea": "Lights on: an estate plan is a house at dusk where every window comes on as a step is finished, and the plan is done when all five are lit and the property line closes around the lot in the colour of the last light, because a trust controls only what it owns.",
+   "signature_world": {
+    "object": "a household at dusk: a linen house on its lot with five lights (four windows and a porch light) that come on one by one as the five steps complete, and a property line that closes around the lot in the rose of the last light, all drawn by one raymarched program (The Dusk Lot)",
+    "verb": "come home and light up",
+    "camera_path": "eye height dolly along the front walk while the windows light one by one, then a pendulum arc up and over the roof to a held birdseye where the property line draws and closes, then a descent to the porch as the porch light comes on"
+   },
+   "signature_move_id": "SHD-001",
+   "signature_move_category": "Shaders (shader library)",
+   "palette": {
+    "field": "dark",
+    "hexes": [
+     "2A2035",
+     "1E1727",
+     "3A2D47",
+     "4A3A59",
+     "F3ECE1",
+     "E9DFD0",
+     "C9BBC9",
+     "66596B",
+     "E39BBA",
+     "EDB2C8",
+     "B8748F",
+     "F6D9A8"
+    ],
+    "accent_hue_family": "rose (dusty pink, violet leaning)",
+    "color_story": "last light: dusk plum field, lamplit linen rooms and one rose"
+   },
+   "heading_font": "Young Serif",
+   "body_font": "Hanken Grotesk",
+   "motif": "the lit window (rounded 3:4 rectangle, thin linen frame, cross mullion, panes filling with lamp light) joined by the property line, a hairline loop with surveyor ticks that draws itself closed",
+   "motion_signature": {
+    "easings": [
+     "cubic-bezier(0.2, 0.62, 0.12, 1) Lamp warm",
+     "cubic-bezier(0.58, 0.04, 0.2, 1) Soft latch"
+    ],
+    "durations": {
+     "base": "0.56s",
+     "fast": "0.22s",
+     "slow": "1.6s"
+    }
+   },
+   "loader_transition": "porch light overture: the dusk sky deepens and the house mark's five lights come on in step with real load stages, the fifth in rose, then the mark Flips into the shader house and the loader sky becomes the scene sky without a cut",
+   "nav_style": "porch header: translucent dusk plum bar, single stroke house mark and Young Serif wordmark top left, horizontal Hanken Grotesk links with a small lit window glyph beneath the active link, five lights progress strip on step pages, bag cart top right, thins to 56px on scroll",
+   "button_style": "the lit window: soft rounded rectangle (10px), rose fill with dusk plum label, linen sill line slides in on hover, glow snaps and flattens on press, slow glow breathing at idle; secondary is a linen outline",
+   "technique_ids": [
+    "SHD-001",
+    "SHD-009",
+    "SHD-008",
+    "EXP-005",
+    "MOT-005",
+    "MOT-014",
+    "STO-002",
+    "TYP-004",
+    "COL-010",
+    "TEX-009",
+    "TRN-005",
+    "CUR-007",
+    "CUR-011"
+   ],
+   "typographic_set_piece": "Lights On, the five line stack: five Young Serif lines, one per step, each rising from behind its own sill mask and warming from dim mauve to linen as its chapter arrives, the fifth settling in rose with the DONE check docking at its end",
+   "interactive_feature": "finder: Check your state at /state-check (state, plan, one or two people, home ownership, optional county) returning remote signing availability, what the session covers and who may witness, the recording and notary fee picture, what is charged today, and a Purchase the plan button",
+   "feature_shape": "finder",
+   "voice_stance": "patient teacher",
+   "tier": "3",
+   "seal_form": "",
+   "patterns": [
+    "button.idle-breathing",
+    "button.lift-on-hover-flatten-on-press",
+    "color.neutral-field-one-accent",
+    "copy.blog.narrative-time",
+    "copy.cta.purchase-the-plan",
+    "feature.state-lookup",
+    "hero.house-on-lot-scene",
+    "loader.flip-into-hero-element",
+    "loader.lights-come-on-per-stage",
+    "motif.lit-window-frame",
+    "motion.n-objects-complete-one-by-one",
+    "motion.rail-ride-then-lift-to-birdseye",
+    "nav.glyph-beneath-active-link",
+    "object.house-with-windows-lighting",
+    "seal.ring-with-circular-text",
+    "section.step-pages-with-progress-strip",
+    "type.lines-rise-behind-masks-one-per-step",
+    "voice.teacher"
+   ],
+   "seeded_from": "Build Log run record, 2026-09-24 (this claim was written by the ninth amendment's seed, not by the run itself)"
+  },
+  {
+   "slug": "savebrew",
+   "brand": "SaveBrew",
+   "domain": "savebrew.com",
+   "date": "20260924",
+   "status": "claimed",
+   "session": "savebrew--20260924--k7q2m",
+   "archetype": "Warp Columns (invented: five content columns edge to edge, one per money thread, every section a row across them, heading passes between rows)",
+   "hero_composition": "",
+   "governing_idea": "Five threads run through every working month (savings rates, cashback, coupons, the seasons, the paycheck), and each weekday morning SaveBrew weaves the day's pass and hands you the five knots worth pulling.",
+   "signature_world": {
+    "object": "The Loom: five taut warp threads (one per money thread) spanning the full width and receding from the weaver's seat, the day's weft passing and knotting once on each, the woven weeks behind",
+    "verb": "weave and knot",
+    "camera_path": "cross-section sweep then gravity flip: the reed sweeps toward the camera through the woven weeks revealing one day's row of knots per pass, today's knots pull tight on a held beat, then the camera pitches to top down and the cloth lays flat into the five-column board"
+   },
+   "signature_move_id": "TEX-008",
+   "signature_move_category": "Texture & Detail",
+   "palette": {
+    "field": "light",
+    "hexes": [
+     "F6E7A1",
+     "EBD77A",
+     "FBF3CF",
+     "FFFFFF",
+     "2B2F8F",
+     "1B1E5C",
+     "14163A",
+     "4F5280"
+    ],
+    "accent_hue_family": "indigo (blue violet)",
+    "color_story": "butter warp through a white weft, with indigo thread"
+   },
+   "heading_font": "Big Shoulders Display",
+   "body_font": "Manrope",
+   "motif": "The Knot: a vertical warp line crossed by a weft loop that passes over, under and pulls tight",
+   "motion_signature": {
+    "easings": [
+     "Shuttle cubic-bezier(0.36, 0.01, 0.10, 1)",
+     "Knot cubic-bezier(0.22, 1.12, 0.36, 1)"
+    ],
+    "durations": {
+     "base": "0.38s",
+     "fast": "0.11s",
+     "idle": "11s",
+     "slow": "1.2s"
+    }
+   },
+   "loader_transition": "selvedge stitch: a dashed indigo running stitch draws down the left gutter in step with real load over the already painted page, ties off at ready, no count, no Flip, skip at the bottom centre",
+   "nav_style": "the heading band: opaque white weft band 84px that hides on scroll down and returns on scroll up, Big Shoulders wordmark with the knot mark top left, four destination links in Manrope with the active link at weight 800 and no marker glyph, About, Contact and Sign in at right, a spool cart glyph with stitched count and the compact stitched Bobbin",
+   "button_style": "the Bobbin: squat rectangle radius 4 with an inset dashed stitch border, indigo fill and butter label; stitches run on hover, fill deepens and stitch tightens on press, one stitch travels the border every eleven seconds at idle; price never inside",
+   "technique_ids": [
+    "TEX-008",
+    "TEX-007",
+    "MOT-018",
+    "EXP-005",
+    "TYP-003",
+    "TYP-014",
+    "TRN-002",
+    "CUR-007",
+    "CUR-009",
+    "CUR-010",
+    "EXP-007",
+    "IMG-019"
+   ],
+   "typographic_set_piece": "The Tightening: every glyph of the home H1 sits at wght 500 at first paint and pulls to wght 800 left to right at 18ms per glyph as the weft knots the five warps",
+   "interactive_feature": "ranker (Your moves: six yes or no toggles re-rank this week's public moves with editorial weights)",
+   "feature_shape": "ranker",
+   "voice_stance": "the obsessive craftsman",
+   "tier": "1",
+   "seal_form": "",
+   "patterns": [
+    "button.idle-breathing",
+    "button.stitched-border-running",
+    "color.neutral-field-one-accent",
+    "feature.toggle-rerank",
+    "hero.columns-edge-to-edge",
+    "loader.stitch-draws-down-gutter",
+    "motif.knot-over-warp",
+    "motion.n-objects-complete-one-by-one",
+    "motion.sweep-then-gravity-flip",
+    "nav.active-weight-jump-no-mark",
+    "nav.hide-on-down-return-on-up",
+    "object.continuous-tape-or-thread",
+    "section.rows-across-fixed-columns",
+    "type.variable-axis-settle-on-scroll",
+    "voice.craftsman"
+   ],
+   "seeded_from": "Build Log run record, 2026-09-24 (this claim was written by the ninth amendment's seed, not by the run itself)"
+  }
+ ]
+}
