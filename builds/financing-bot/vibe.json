@@ -1,0 +1,115 @@
+{
+ "slug": "financing-bot",
+ "brand": "Financing Bot",
+ "domain": "financingbot.com",
+ "date": "2026-09-24",
+ "tier": "1",
+ "live_url": "https://financing-bot-site.webflow.io",
+ "archetype": "Swiss or Modular Grid (cast as the Operations Ledger Grid)",
+ "heading_font": "Archivo",
+ "body_font": "Archivo (words) with Fragment Mono (figures)",
+ "palette": {
+  "field": "dark",
+  "hexes": [
+   "1A1B1D",
+   "232527",
+   "3A3D41",
+   "9A9C98",
+   "E9E5DA",
+   "4FB89A"
+  ],
+  "accent_hue_family": "teal (blue green verdigris)",
+  "color_story": "graphite ledger with paper type and one verdigris figure"
+ },
+ "voice_stance": "night shift handover (plainspoken engineer)",
+ "signature_move_category": "Motion & Scroll",
+ "signature_move_id": "MOT-021",
+ "governing_idea": "The overnight queue: a lender's operations floor after hours where the loan files clear themselves row by row, and every figure that lands does so beside the page that proves it, so the morning underwriter only has to read and sign.",
+ "shots": {
+  "home-1440": "shots/home-1440.jpg",
+  "home-375": "shots/home-375.jpg",
+  "plans-1440": "shots/plans-1440.jpg",
+  "about-1440": "shots/about-1440.jpg",
+  "post-1440": "shots/post-1440.jpg",
+  "nav": "shots/nav.jpg",
+  "button": "shots/button.jpg"
+ },
+ "speech": {
+  "h1": "AI underwriting software for lenders.",
+  "headlines": [
+   "The morning note: why this was built, and who signs",
+   "What was on the desk in 2026",
+   "The line it will not cross"
+  ],
+  "ctas": [
+   "BUY A FILE PACK from $2,400",
+   "Order the Pilot at $0",
+   "BUY THE 100 FILE PACK",
+   "BUY THE 500 FILE PACK",
+   "BUY THE ENTERPRISE BLOCK"
+  ],
+  "section_names": [
+   "The morning note: why this was built, and who signs",
+   "What was on the desk in 2026",
+   "The line it will not cross",
+   "Bought on a card, not on a call",
+   "The name, the company, the address",
+   "There is a problem",
+   "What came in",
+   "What was found",
+   "What went back",
+   "Income recalculated by its rule, the page beside each figure",
+   "What the software prepares, and what it never decides",
+   "Where the work happens"
+  ],
+  "blog_titles": [
+   "Form 1084 add backs",
+   "Large deposit letter",
+   "Prior to doc, prior to close",
+   "AI governance file",
+   "What the large deposit rule asks for, and what a drafted letter should say"
+  ],
+  "opening_about": "You're reading the note we'd leave on your desk.",
+  "opening_post": "What the large deposit rule asks for, and what a drafted letter should say"
+ },
+ "patterns": [
+  "button.carriage-return-label-second-rule",
+  "button.mono-price-cell-divided-by-hairline",
+  "color.neutral-field-one-accent",
+  "feature.form-to-condition-list",
+  "hero.ledger-wall-in-a-visible-grid",
+  "loader.date-or-count-in-step-with-load",
+  "loader.plate-splits-to-reveal",
+  "motif.tally-strokes",
+  "motion.crane-up-a-wall",
+  "nav.condense-on-scroll",
+  "nav.ruled-cells-fill-on-hover",
+  "object.wall-of-rows",
+  "seal.square-form-box",
+  "section.ledger-rows-with-row-index",
+  "type.figure-rolls-through-values",
+  "voice.night-shift-engineer"
+ ],
+ "copy_tags": [
+  "copy.blog.noun-phrase",
+  "copy.blog.what-explainer",
+  "copy.cta.buy-a-noun",
+  "copy.cta.buy-the-noun",
+  "copy.cta.order-noun",
+  "copy.h1.plain-declarative",
+  "copy.headline.negation",
+  "copy.headline.wh-lead",
+  "copy.open.second-person"
+ ],
+ "brief": {
+  "vibe": "A lender's operations floor after hours: graphite ledger, paper coloured type, one verdigris figure, mono row indexes, hairline grid everywhere; sober, procedural, a night shift handover note.",
+  "hero": "A visible twelve column hairline grid spanning the viewport; the H1 sits top left over a category line (\"READ, RECALCULATED AND CITED\"), a paragraph and a two cell paper block button with the price in a mono cell; the queue wall of loan rows stands in the grid to the right and rises under scroll.",
+  "type": "Archivo for words with Fragment Mono for figures, indexes and datelines; set piece is the qualifying income figure rolling through add backs and taking verdigris when it lands.",
+  "palette": "Dark graphite field (1A1B1D, 232527), paper E9E5DA type, greys, one verdigris teal 4FB89A for live figures; accent never on a button.",
+  "motion": "Carriage Return and Ratchet easings; a drum counter loader that splits the plate along ledger rules; a first person crane up the queue wall with a held cascade beat; label carriage returns on button hover.",
+  "speech": "Category line H1 (\"AI underwriting software for lenders.\"); CTAs \"BUY A FILE PACK from $2,400\" and \"Order the Pilot at $0\"; sections named \"What came in / What was found / What went back\", \"The ledger:\", \"The morning note:\"; blog titles as bare noun phrases naming a form or letter; plainspoken engineer voice with counting as story.",
+  "rhythm": "Ledger rows with a four digit row index (0001, 0002) opening every section, tables as furniture, everything on the hairline grid.",
+  "tags": "button.carriage-return-label-second-rule, button.mono-price-cell-divided-by-hairline, color.neutral-field-one-accent, feature.form-to-condition-list, hero.ledger-wall-in-a-visible-grid, loader.date-or-count-in-step-with-load, loader.plate-splits-to-reveal, motif.tally-strokes, motion.crane-up-a-wall, nav.condense-on-scroll, nav.ruled-cells-fill-on-hover, object.wall-of-rows, seal.square-form-box, section.ledger-rows-with-row-index, type.figure-rolls-through-values, voice.night-shift-engineer"
+ },
+ "backfilled": "2026-09-24 by the ninth amendment's backfill from the live site; 1440 shots captured through a scaled iframe (0.85) and resized, 375 shots native"
+}

@@ -1,0 +1,234 @@
+{
+  "brand": "financing-bot",
+  "source": "pages",
+  "h1": "AI underwriting software for lenders.",
+  "h1_shapes": [
+    "declarative"
+  ],
+  "headlines": [
+    {
+      "text": "The morning note: why this was built, and who signs",
+      "shapes": [
+        "colon-setup",
+        "noun-phrase"
+      ]
+    },
+    {
+      "text": "What was on the desk in 2026",
+      "shapes": [
+        "wh-lead"
+      ]
+    },
+    {
+      "text": "The line it will not cross",
+      "shapes": [
+        "negation",
+        "noun-phrase"
+      ]
+    },
+    {
+      "text": "Bought on a card, not on a call",
+      "shapes": [
+        "negation"
+      ]
+    },
+    {
+      "text": "The name, the company, the address",
+      "shapes": [
+        "noun-phrase"
+      ]
+    },
+    {
+      "text": "There is a problem",
+      "shapes": [
+        "declarative"
+      ]
+    },
+    {
+      "text": "What came in",
+      "shapes": [
+        "wh-lead",
+        "three-words-or-fewer"
+      ]
+    },
+    {
+      "text": "What was found",
+      "shapes": [
+        "wh-lead",
+        "three-words-or-fewer"
+      ]
+    },
+    {
+      "text": "What went back",
+      "shapes": [
+        "wh-lead",
+        "three-words-or-fewer"
+      ]
+    },
+    {
+      "text": "Income recalculated by its rule, the page beside each figure",
+      "shapes": [
+        "declarative"
+      ]
+    },
+    {
+      "text": "What the software prepares, and what it never decides",
+      "shapes": [
+        "negation",
+        "wh-lead"
+      ]
+    },
+    {
+      "text": "Where the work happens",
+      "shapes": [
+        "wh-lead"
+      ]
+    },
+    {
+      "text": "In every pack",
+      "shapes": [
+        "three-words-or-fewer"
+      ]
+    },
+    {
+      "text": "Pack terms",
+      "shapes": [
+        "three-words-or-fewer"
+      ]
+    },
+    {
+      "text": "Two thresholds, two products",
+      "shapes": [
+        "number-led"
+      ]
+    },
+    {
+      "text": "What \"sourced\" means on the page",
+      "shapes": [
+        "wh-lead"
+      ]
+    },
+    {
+      "text": "Seasoning across two statements",
+      "shapes": [
+        "declarative"
+      ]
+    },
+    {
+      "text": "The six things the letter carries",
+      "shapes": [
+        "noun-phrase"
+      ]
+    },
+    {
+      "text": "What the underwriter does with it",
+      "shapes": [
+        "wh-lead"
+      ]
+    }
+  ],
+  "headline_shape_profile": {
+    "wh-lead": 8,
+    "three-words-or-fewer": 5,
+    "noun-phrase": 4,
+    "negation": 3,
+    "declarative": 3,
+    "colon-setup": 1,
+    "number-led": 1
+  },
+  "ctas": [
+    "BUY A FILE PACK from $2,400",
+    "Order the Pilot at $0",
+    "BUY THE 100 FILE PACK",
+    "BUY THE 500 FILE PACK",
+    "BUY THE ENTERPRISE BLOCK"
+  ],
+  "cta_classes": [
+    "buy-a-noun",
+    "buy-the-noun",
+    "order-noun"
+  ],
+  "section_names": [
+    "The morning note: why this was built, and who signs",
+    "What was on the desk in 2026",
+    "The line it will not cross",
+    "Bought on a card, not on a call",
+    "The name, the company, the address",
+    "There is a problem",
+    "What came in",
+    "What was found",
+    "What went back",
+    "Income recalculated by its rule, the page beside each figure",
+    "What the software prepares, and what it never decides",
+    "Where the work happens",
+    "In every pack",
+    "Pack terms"
+  ],
+  "section_naming_devices": {
+    "colon-title": 1,
+    "noun-phrase": 8,
+    "short-noun": 5
+  },
+  "blog_titles": [
+    {
+      "text": "Form 1084 add backs",
+      "format": "noun-phrase"
+    },
+    {
+      "text": "Large deposit letter",
+      "format": "noun-phrase"
+    },
+    {
+      "text": "Prior to doc, prior to close",
+      "format": "noun-phrase"
+    },
+    {
+      "text": "AI governance file",
+      "format": "noun-phrase"
+    },
+    {
+      "text": "What the large deposit rule asks for, and what a drafted letter should say",
+      "format": "what-explainer"
+    }
+  ],
+  "blog_title_formats": [
+    "noun-phrase",
+    "what-explainer"
+  ],
+  "opening_lines": [
+    {
+      "text": "You're reading the note we'd leave on your desk.",
+      "shape": "second-person"
+    },
+    {
+      "text": "What the large deposit rule asks for, and what a drafted letter should say",
+      "shape": "past-tense-story"
+    }
+  ],
+  "opening_shapes": [
+    "past-tense-story",
+    "second-person"
+  ],
+  "devices": {},
+  "stats": {
+    "sentences": 15,
+    "words": 520,
+    "mean_sentence_words": 34.7,
+    "sentence_length_stdev": 27.2,
+    "share_short_sentences_le5": 0.0,
+    "share_long_sentences_ge25": 0.53,
+    "contractions_per_100_words": 0.6,
+    "questions_per_100_sentences": 0.0
+  },
+  "tags": [
+    "copy.blog.noun-phrase",
+    "copy.blog.what-explainer",
+    "copy.cta.buy-a-noun",
+    "copy.cta.buy-the-noun",
+    "copy.cta.order-noun",
+    "copy.h1.plain-declarative",
+    "copy.headline.negation",
+    "copy.headline.wh-lead",
+    "copy.open.second-person"
+  ]
+}
