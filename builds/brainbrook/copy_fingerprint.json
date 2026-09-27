@@ -1,0 +1,358 @@
+{
+  "brand": "Brainbrook",
+  "source": "pages",
+  "h1": "Keep every HSA and FSA receipt. See what you are still owed back.",
+  "h1_shapes": [
+    "imperative",
+    "two-short-sentences",
+    "second-person"
+  ],
+  "headlines": [
+    {
+      "text": "About Brainbrook",
+      "shapes": [
+        "three-words-or-fewer"
+      ]
+    },
+    {
+      "text": "Why Brainbrook exists",
+      "shapes": [
+        "wh-lead",
+        "three-words-or-fewer"
+      ]
+    },
+    {
+      "text": "The one habit",
+      "shapes": [
+        "noun-phrase",
+        "three-words-or-fewer"
+      ]
+    },
+    {
+      "text": "What Brainbrook never does",
+      "shapes": [
+        "negation",
+        "wh-lead"
+      ]
+    },
+    {
+      "text": "Built for a household",
+      "shapes": [
+        "category-line"
+      ]
+    },
+    {
+      "text": "Who it is for",
+      "shapes": [
+        "wh-lead"
+      ]
+    },
+    {
+      "text": "Start with the next receipt",
+      "shapes": [
+        "imperative"
+      ]
+    },
+    {
+      "text": "The lines printed on the tape, newest first.",
+      "shapes": [
+        "declarative"
+      ]
+    },
+    {
+      "text": "The habit takes ten seconds",
+      "shapes": [
+        "noun-phrase"
+      ]
+    },
+    {
+      "text": "A receipt from 2023 is still worth its date",
+      "shapes": [
+        "noun-phrase"
+      ]
+    },
+    {
+      "text": "The dates you entered, and nothing you did not",
+      "shapes": [
+        "negation",
+        "second-person",
+        "noun-phrase"
+      ]
+    },
+    {
+      "text": "One ledger for the whole household",
+      "shapes": [
+        "number-led"
+      ]
+    },
+    {
+      "text": "Free for this year. Plus for the household.",
+      "shapes": [
+        "two-short-sentences"
+      ]
+    },
+    {
+      "text": "Brainbrook Free",
+      "shapes": [
+        "three-words-or-fewer"
+      ]
+    },
+    {
+      "text": "Brainbrook Plus",
+      "shapes": [
+        "three-words-or-fewer"
+      ]
+    },
+    {
+      "text": "Holds no funds",
+      "shapes": [
+        "negation",
+        "three-words-or-fewer"
+      ]
+    },
+    {
+      "text": "Submits no claims",
+      "shapes": [
+        "negation",
+        "three-words-or-fewer"
+      ]
+    },
+    {
+      "text": "Decides no eligibility",
+      "shapes": [
+        "negation",
+        "three-words-or-fewer"
+      ]
+    },
+    {
+      "text": "Gives no tax, legal or medical advice",
+      "shapes": [
+        "negation"
+      ]
+    },
+    {
+      "text": "Empty the shoebox",
+      "shapes": [
+        "imperative",
+        "three-words-or-fewer"
+      ]
+    },
+    {
+      "text": "Two plans, one habit",
+      "shapes": [
+        "number-led"
+      ]
+    },
+    {
+      "text": "Brainbrook Free and Brainbrook Plus",
+      "shapes": [
+        "declarative"
+      ]
+    },
+    {
+      "text": "The rule that surprises people",
+      "shapes": [
+        "noun-phrase"
+      ]
+    },
+    {
+      "text": "Why anyone would wait",
+      "shapes": [
+        "wh-lead"
+      ]
+    },
+    {
+      "text": "The record is the whole deal",
+      "shapes": [
+        "noun-phrase"
+      ]
+    },
+    {
+      "text": "Three dates, not one",
+      "shapes": [
+        "number-led",
+        "negation"
+      ]
+    },
+    {
+      "text": "Grace period, carryover, or neither",
+      "shapes": [
+        "declarative"
+      ]
+    },
+    {
+      "text": "The run out period is the one people miss",
+      "shapes": [
+        "noun-phrase"
+      ]
+    },
+    {
+      "text": "The six things",
+      "shapes": [
+        "noun-phrase",
+        "three-words-or-fewer"
+      ]
+    },
+    {
+      "text": "Why a card statement usually fails",
+      "shapes": [
+        "wh-lead"
+      ]
+    },
+    {
+      "text": "The explanation of benefits, and when you need it",
+      "shapes": [
+        "second-person",
+        "noun-phrase"
+      ]
+    },
+    {
+      "text": "Why later never comes",
+      "shapes": [
+        "negation",
+        "wh-lead"
+      ]
+    },
+    {
+      "text": "Ten seconds, exactly",
+      "shapes": [
+        "number-led",
+        "three-words-or-fewer"
+      ]
+    },
+    {
+      "text": "The receipts that never touch paper",
+      "shapes": [
+        "negation",
+        "noun-phrase"
+      ]
+    }
+  ],
+  "headline_shape_profile": {
+    "three-words-or-fewer": 11,
+    "noun-phrase": 10,
+    "negation": 9,
+    "wh-lead": 6,
+    "number-led": 4,
+    "declarative": 3,
+    "imperative": 2,
+    "second-person": 2,
+    "category-line": 1,
+    "two-short-sentences": 1
+  },
+  "ctas": [
+    "Try the habit on a shoebox of receipts",
+    "Purchase Plus · $4 a month",
+    "Start Free"
+  ],
+  "cta_classes": [
+    "purchase-noun",
+    "start-or-try"
+  ],
+  "section_names": [
+    "About Brainbrook",
+    "Why Brainbrook exists",
+    "The one habit",
+    "What Brainbrook never does",
+    "Built for a household",
+    "Who it is for",
+    "Start with the next receipt",
+    "The lines printed on the tape, newest first.",
+    "The habit takes ten seconds",
+    "A receipt from 2023 is still worth its date",
+    "The dates you entered, and nothing you did not",
+    "One ledger for the whole household",
+    "Free for this year. Plus for the household.",
+    "Brainbrook Free",
+    "Brainbrook Plus",
+    "Holds no funds",
+    "Submits no claims",
+    "Decides no eligibility",
+    "Gives no tax, legal or medical advice",
+    "Empty the shoebox",
+    "Two plans, one habit",
+    "Brainbrook Free and Brainbrook Plus"
+  ],
+  "section_naming_devices": {
+    "short-noun": 8,
+    "what-x-does": 1,
+    "noun-phrase": 8,
+    "imperative": 2,
+    "the-x-you-y": 1,
+    "number-led": 2
+  },
+  "blog_titles": [
+    {
+      "text": "Pay now, reimburse yourself later: why a receipt from 2023 is still worth keeping",
+      "format": "imperative"
+    },
+    {
+      "text": "The FSA plan year ends on a date you have to look up",
+      "format": "noun-phrase"
+    },
+    {
+      "text": "What a reimbursement request actually needs",
+      "format": "what-explainer"
+    },
+    {
+      "text": "Ten seconds in the parking lot: the receipt habit that survives a job change",
+      "format": "number-led"
+    }
+  ],
+  "blog_title_formats": [
+    "imperative",
+    "noun-phrase",
+    "number-led",
+    "what-explainer"
+  ],
+  "opening_lines": [
+    {
+      "text": "Three from the shoebox.",
+      "shape": "short-claim"
+    },
+    {
+      "text": "Pay now, reimburse yourself later: why a receipt from 2023 is still worth keeping",
+      "shape": "imperative"
+    },
+    {
+      "text": "The FSA plan year ends on a date you have to look up",
+      "shape": "claim"
+    },
+    {
+      "text": "Ten seconds in the parking lot: the receipt habit that survives a job change",
+      "shape": "scene"
+    }
+  ],
+  "opening_shapes": [
+    "claim",
+    "imperative",
+    "scene",
+    "short-claim"
+  ],
+  "devices": {},
+  "stats": {
+    "sentences": 23,
+    "words": 539,
+    "mean_sentence_words": 23.4,
+    "sentence_length_stdev": 25.9,
+    "share_short_sentences_le5": 0.13,
+    "share_long_sentences_ge25": 0.3,
+    "contractions_per_100_words": 0.0,
+    "questions_per_100_sentences": 0.0
+  },
+  "tags": [
+    "copy.blog.imperative",
+    "copy.blog.noun-phrase",
+    "copy.blog.number-led",
+    "copy.blog.what-explainer",
+    "copy.cta.purchase-noun",
+    "copy.cta.start-or-try",
+    "copy.h1.imperative",
+    "copy.h1.second-person",
+    "copy.h1.two-short-sentences",
+    "copy.headline.negation",
+    "copy.headline.wh-lead",
+    "copy.open.short-claim",
+    "copy.section.short-noun"
+  ]
+}

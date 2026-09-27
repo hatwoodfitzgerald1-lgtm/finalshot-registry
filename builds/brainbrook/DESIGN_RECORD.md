@@ -1,0 +1,94 @@
+# Brainbrook: design record
+
+Reconstructed 2026-09-26 from the build's finalshot-registry entry and its Build Log run record (brainbrook--20260924--n8k2d), because the original design document lived in the building session's sandbox and was not archived at the time. Every value below is as the run recorded it. The live site is the other half of the record: `vibe-card.jpg`, `shots/`, `copy_fingerprint.json` and `code/` in this folder hold its screens, speech patterns and source.
+
+- Live site: https://brainbrook-site.webflow.io
+- Built: 2026-09-24  ·  Repo: brainbrook-site
+
+## Identity
+
+- **domain**: brainbrook.com
+- **brand type**: net new
+- **category**: Consumer app: HSA and FSA receipt organizer with a reimbursement ledger (Free / Brainbrook Plus $4 a month or $36 a year)
+- **offering type**: Consumer app subscription (SaaS), digital, no shipping, guest checkout; Free plan travels through the same $0 checkout with contact only and no card fields; Plus sold as two purchasable items of one plan (monthly, annual)
+- **offering items**: ["Brainbrook Free | $0 | Start Free | BRB001", "Brainbrook Plus, monthly | $4 a month | Purchase Plus | BRB002", "Brainbrook Plus, annual | $36 a year | Purchase Plus | BRB003"]
+- **price range**: $0 Free (one person, 30 receipts per plan year, reminders for entered plan dates) / $4 a month or $36 a year Brainbrook Plus (unlimited receipts, six household members, multi-year reimburse later ledger, forward receipts by email, year end summary export)
+- **hero primary cta**: Purchase Plus
+
+## Governing idea and direction
+
+- **governing idea**: Every receipt you ever paid is one long tape, and Brainbrook keeps the whole tape crisp so the money printed on it can still come back.
+- **direction name**: The Long Receipt
+- **archetype**: Meander (invented, the brook spine): one continuous generative line swings across the full viewport width down the whole page; every section docks on the bank opposite the swing so both halves of every width are occupied; section labels ride the line as standing tags; media bands and the signature scene run edge to edge
+- **signature move category**: Typography (kinetic ledger type on a procedural 3D ribbon)
+- **signature move id**: TYP-024 (invented: The Long Receipt, built on 3DW-007 mechanics)
+- **signature world**: {"object": "one continuous thermal receipt tape carrying the household's whole ledger, meandering like a brook across a pale celadon field, with HSA and FSA tags standing on its owed back lines", "verb": "keep", "camera_path": "low rail ride along the winding tape from today's line back to the oldest receipt while faded print resolves crisp beneath the camera, then a straight lift up the axis to a held birdseye where the tape reads as a brook and the tags light back toward today, then a descent to the tape's end as it tears off into the phone's ledger"}
+- **sig object**: one continuous thermal receipt tape carrying the household's whole ledger, meandering like a brook across a pale celadon field, with HSA and FSA tags standing on its owed back lines
+- **sig verb**: keep
+- **sig camera path**: low rail ride along the winding tape from today's line back to the oldest receipt (Feb 11, 2023) while faded print resolves crisp beneath the camera, then a straight lift up the axis to a held birdseye where the tape reads as a brook and the tags light back toward today as $1,284.00 counts into view (Coming Back Into View), then a descent to the tape's end as it tears off into the phone's ledger
+- **signature scroll length**: 1.5 viewport heights (250vh sticky track, 1196px of scrub at 797px tall)
+- **tier**: 1
+- **layout constraints**: FULL PAGE RULE: gutters clamp(16px, 2.5vw, 48px); two bank grids with auto fit content columns (two at 1440, three at 1920, four at 2560); the spine, the signature scene, the Year Rule, the card band, the SMS band, the photo bands and the footer run edge to edge; the 3D camera height is computed from the viewport aspect so the tape spans 100vw at the birdseye; hero composes one phone at 1440, two at 1920, three at 2560; type and media carry vw terms; section padding clamp(56px, 6vw, 112px) with a kit divider in every gap; QA at 1440, 1920, 2560 fails any section leaving more than 10 percent of viewport width empty on either side
+
+## Type and color
+
+- **heading font**: Recursive (variable; headings MONO 0 CASL 0.65 wght 720; figures and receipt lines MONO 1 CASL 0 wght 500)
+- **body font**: Source Serif 4 (prose) with Recursive Mono Linear (figures and receipt lines)
+- **typographic set piece**: The Kept Line: the H1 prints as a receipt line in Recursive Mono (MONO 1, CASL 0, wght 500) and settles into the household voice (MONO 0, CASL 0.65, wght 720) as the line is kept, the copper tag standing up at its end; reprised on Pricing's price line and the order confirmation
+- **palette**: {"field": "light celadon (a hued pale field, not cream or paper)", "hexes": ["DCE8DF", "CFDFD3", "E6EEE7", "FFFFFF", "F3F6F3", "1B2622", "4E5E56", "B9CBBF", "A04219", "C25A2C", "F1DDD3"], "accent_hue_family": "copper (rust, red brown)", "color_story": "brook celadon with white receipts and one copper tag"}
+- **palette hexes**: ["DCE8DF", "CFDFD3", "E6EEE7", "FFFFFF", "F3F6F3", "1B2622", "4E5E56", "B9CBBF", "A04219", "C25A2C", "F1DDD3"]
+- **palette field**: light celadon (a hued pale field, not cream or paper)
+- **accent hue family**: copper (rust, red brown)
+- **color story**: brook celadon with white receipts and one copper tag
+
+## Motion and interaction
+
+- **motion signature**: {"easings": ["cubic-bezier(0.1, 0.82, 0.26, 1) Feed", "cubic-bezier(0.76, 0, 0.12, 1) Tear"], "durations": {"fast": "0.16s", "base": "0.5s", "slow": "1.3s", "idle": "6s breath"}}
+- **motion easings**: ["cubic-bezier(0.1, 0.82, 0.26, 1) Feed", "cubic-bezier(0.76, 0, 0.12, 1) Tear"]
+- **motion durations**: {"base": "0.5s", "fast": "0.16s", "idle": "6s breath", "slow": "1.3s"}
+- **loader transition**: the print head: a white receipt strip prints the real load stages as line items with dotted leaders and the word kept, the total line carries the real percentage, the strip tears along a perforated edge at 100 and Flips into the near end of the hero tape; 1.6s target, 4s cap, Skip from 0s, copy readable at about 0.8s
+- **nav style**: the tape header: a full width white receipt strip with a perforated bottom edge, Recursive wordmark top left, horizontal links with a small copper tag that stands up under the active link, a folded receipt cart with its count top right, thins to 56px and the perforation becomes one hairline on scroll
+- **button style**: the kept tag: a tag shaped button with a notched left end and a punched hole, copper fill with a white Recursive label and tabular price, lifts 2px onto a soft shadow while the hole's string draws out on hover, settles flat on press, slow shadow breath at idle; secondary is a white paper tag with a copper hairline
+- **interactive feature**: sorter: Empty the shoebox at /shoebox (household size, receipts a year, unclaimed earlier years, then drag eight sample receipts onto the HSA or FSA tag with magnetic snap and mark Owed back or Reimbursed; the Print Head prints the total by year and the next date; result names Free or Plus with the reason and a Purchase Plus or Start Free button)
+- **libraries**: ["Three.js r128 (cdnjs)", "GSAP 3 (ScrollTrigger, Flip, Draggable on /shoebox)", "vanilla Canvas 2D (Meander spine, Year Rule, Print Head)", "Recursive + Source Serif 4 (Google Fonts)"]
+- **technique ids**: ["TYP-024", "3DW-007", "MOT-005", "MOT-013", "TYP-003", "COL-015", "TEX-006", "TEX-008", "TRN-001", "STO-004", "INT-011", "CUR-007", "CUR-010", "IMG-018"]
+- **invented techniques**: ["TYP-024 The Long Receipt: the household ledger typeset onto a procedural ribbon (CanvasTexture on a curve swept BufferGeometry) with a scroll scrubbed camera ride, a per line fade to crisp reveal, standing tag planes, and a tear off handoff into the DOM product shot; Three.js r128 plus GSAP ScrollTrigger and Flip", "Meander (the brook spine) archetype"]
+
+## Brand graphic kit and media
+
+- **motif**: the standing tag on the tape line: a ruled tape line with a notched, hole punched copper tag standing up from it; the Kept seal (perforated ring, BRAINBROOK / COLUMBUS, OHIO / KEPT); three dividers (perforation, meander, tick rule); twelve 24px 1.5px stroke icons; Recursive Mono oversized numerals; thermal grain
+- **media subject world**: Parked, the front seat after the appointment: the ten seconds after paying in a parked car outside the pharmacy, dentist or optometrist, late morning overcast light through the windshield, the receipt on the passenger seat or console, a plain white pharmacy bag, a glasses case, the phone held over the receipt, a booster seat soft in the back; hands only, no faces, no brands, no plates
+- **video concept**: 12s hero loop as four 3s clips (Pulled in: a hand sets a white paper pharmacy bag on the seat; The receipt: fingers smooth a curled thermal receipt on the console at macro; Snap: a phone held over the receipt, screen turned away; Kept: the receipt folded into the bag and the phone set face down), loop seam a six frame dissolve; used under the Home ten seconds chapter, the How it works header and the About header (the Home hero itself is the 3D tape). 7s product in motion built from the HTML phone screens: Add a receipt confirmed, Keep this receipt pressed, the Ledger home figure rolling from $1,204.00 to $1,284.00
+- **shot grammar**: 35mm for the seat and windshield, 100mm macro for the receipt, tripod static or a 2cm slide, shallow depth of field, overcast daylight from the windshield (cool key, warm paper), hard cuts, nothing faster than a hand's pace, phone screens turned away
+- **media photography subject**: eleven photographs, one per page and post: overhead of the passenger seat with a white pharmacy bag and glasses case; three receipts fanned on the console; an open glovebox with a 2026 envelope; a shoebox of receipts on the back seat; the rearview mirror at 10:40; a faded receipt beside a crisp one; a Clearview Dental appointment card in the sun visor; itemized receipt lines under a phone edge; a hand holding a phone over a receipt on the steering wheel; the folded white bag on the seat; the torn end of a receipt
+- **media product shot style**: HTML built in the brand tokens, one shell on all seven screens: four phone screens at 1170x2532 light mode in a neutral rounded frame on transparent backgrounds, three desktop 16:10 screens at 2880x1800 in a plain light browser window; receipts as legible HTML facsimiles; never graded
+- **media grade recipe**: brook daylight: saturate(0.8) contrast(1.05) brightness(1.02) plus celadon #DCE8DF multiply at 14 percent (10 to 18) and copper #A04219 soft light at 5 percent (3 to 8), highlights protected; stills and video alike, never product shots
+- **product ui brief**: Five competitors profiled (TrackHSA, Tripl, Reimbursable, Lively, HealthEquity) plus Shoeboxed, Expensify, Keeper checked. Field pattern: hero numbers are the company's, dashboards are KPI cards over a chart over a table, receipts are claim attachments, products pronounce on eligibility. Brainbrook takes: the member's own owed back figure as the only large number, receipts as photographed paper, household initial chips, plan year as the unit, one persistent Add a receipt action, a plan note component for the eligibility line. Form factor: phone primary (1170x2532, light), desktop 16:10 secondary for the household ledger and year end summary. Canonical sample household from the Offering Spec (Priya, Sam, Maya, Leo; owed back $1,284.00 across 12 receipts).
+- **media manifest**: True
+
+## Voice and copy
+
+- **voice stance**: the friend who already filed it (calm, a little satisfied, shows the drawer)
+- **copy summary**: SITE_COPY.md, about 11,500 words in the voice 'the friend who already filed it': the About page (892 words), four posts (Pay now, reimburse yourself later; The FSA plan year ends on a date you have to look up; What a reimbursement request actually needs; Ten seconds in the parking lot; 790 to 850 words each, six H2s, a pull quote, a closing with the fixed price facts), every page's copy in the sitemap's section order, a six question pricing FAQ, GOV.UK error strings for every checkout and contact field, meta title and description for every route, alt text for 11 photographs and 7 product screens. Zero dashes; no banned words; no redundancy across pages; the sample household's names never appear in copy.
+
+## Pages and build
+
+- **routes**: ["/", "/how-it-works", "/pricing", "/shoebox", "/about", "/blog", "/blog/reimburse-later", "/blog/fsa-plan-year-end", "/blog/what-a-reimbursement-request-needs", "/blog/ten-seconds-in-the-parking-lot", "/contact", "/cart", "/checkout", "/order-confirmation", "/terms", "/privacy", "/404"]
+- **framework**: Astro (SSR catch-all) for Webflow Cloud
+- **engine profile**: baseline-r128 (Three.js r128 from cdnjs, lazy after first paint, no post processing, no shadow maps)
+- **build summary**: 17 routes as static HTML assembled by gen/build.mjs into src/site and served by the Astro SSR catch all; self hosted Three.js r128, GSAP 3 (ScrollTrigger, Flip, Draggable), Recursive and Source Serif 4 woff2 (the sandbox cannot reach cdnjs or Google Fonts); The Long Receipt signature scene (CatmullRom ribbon, CanvasTexture ledger, reveal shader, rail ride, lift, descent and tear), the Print Head loader with Flip handoff, the Meander spine canvas, the Year Rule canvas, a unique scroll scene per page via scene-kit.js, The Tear 2D hero on mobile, the /shoebox sorter, client side cart and full guest checkout with GOV.UK style errors
+- **build directive**: BUILD_DIRECTIVE.md: ten clauses (fresh build from the design doc; The Long Receipt identity; Meander and FULL PAGE RULE as hard layout contracts; the signature scene, loader, spine and Year Rule for real with per page total motion; verbatim copy and SMS block; the complete guest checkout; the working shoebox sorter; compose around the delivered assets with the remote media at its final paths; budgets; compliance)
+- **full page rule**: Harlem 2026-09-24 (restated for this run with red bar screenshots of Astroquanta and Smart Augment): media and layout must fill the full page at every desktop width; no empty outer thirds; gutters capped, sections span the viewport, media edge to edge; measured as a QA gate at 1440, 1920 and 2560.
+- **novelty check**: check_novelty.py vs registry_augmented.json (BioVirtua, Astroquanta, Smart Augment, Addabill, Financing Bot, Save The Will, Logifx, Cash Pass): ALL 16 applicable QUOTAS CLEAR on the first pass (quota 17 n/a at Tier 1); eight of fourteen techniques fresh; Typography never before a signature category
+- **registry comparison**: Registry (3 shipped): BioVirtua 2026-07-03 (Single-Object Hero 3D; GPGPU point cloud body, assemble and sequence; dark, coral, 'dark field with one warm accent'; Space Grotesk + Inter Tight; boot sequence loader; magnetic coral button; comparison; clinical voice; tier 3; SHD-004). Astroquanta 2026-09-21 (Sidebar-Anchored; 48 trial cell lattice, cull and hold, dolly through gate planes; dark charcoal console, phosphor yellow green, 'grey ladder with one surviving phosphor'; Schibsted Grotesk + IBM Plex Mono; trial grid gauge loader; left status rail; hairline console button; simulator; sober recorder voice; tier 1). Smart Augment 2026-09-23 (Magazine/Research Note Folio; five translucent paper sheets, collate, focus pull; light paper, prussian blue, 'paper and ink with one institutional accent'; Newsreader + Spline Sans Mono; ruled sheet loader; masthead nav; stamp button; calculator; sceptical analyst; tier 3; SHD-012; research desk subject world). Build Log adds five in flight builds, all excluded wholesale: Addabill (Full-Bleed Cinematic Hero, standing month on a kitchen counter, light cream + graphite + marigold, Fraunces + Figtree, flip calendar loader, paper tag button, builder, warm host, tier 2, STO-009, kitchen counter subject world); Financing Bot (Swiss/Modular Grid ops ledger, overnight queue wall, dark graphite + verdigris teal, Archivo + Fragment Mono, drum counter loader, ruled cell nav, paper block button, drafter, night shift handover, tier 1, MOT-021, night ops floor); Save The Will (Illustrated Scroll World, raymarched house at dusk with five lights, dark plum + rose, Young Serif + Hanken Grotesk, porch light loader, lit window button, finder, patient teacher, tier 3, SHD-001, home threshold at dusk); Logifx (Split-Screen Diptych, a photographic print turning over in a selenium void, dark chromatic violet + carmine, Instrument Serif + Instrument Sans + Martian Mono, latent image loader, spine header, extruded silver plate button, examination, plainspoken engineer, tier 2, TEX-018, body shop and loss scenes); Cash Pass (Sticky-Stacked Cards Narrative, lit cards on oxblood leather with a phone as the only light, dark oxblood + ice white, Familjen Grotesk + Instrument Serif, five shops index loader, usher's strip nav, glass tile button, quiz, quiet usher, tier 2, IMG-013 frame sequence, night till). Quotas for Brainbrook: heading font not Space Grotesk / Schibsted Grotesk / Newsreader / Fraunces / Archivo / Young Serif / Instrument Serif / Familjen Grotesk; archetype not Single-Object Hero, Sidebar-Anchored, Magazine, Full-Bleed Cinematic Hero, Swiss Grid, Illustrated Scroll World, Split-Screen Diptych, Sticky-Stacked Cards; signature category not Imagery & Media (previous build); accent not coral, phosphor green, prussian blue, marigold, verdigris teal, rose, carmine, ice white; interactive format not quiz, examination, finder (last 3) and avoid builder, drafter, calculator, simulator, comparison too; voice not quiet usher, plainspoken engineer, patient teacher (last 3) and avoid warm host, night shift handover, sceptical analyst, sober recorder; loader not a chapter index; field: six of eight builds are dark, the two light ones were both cream paper, so a light field that is visibly not cream or paper is the strongest novelty; signature world and subject world must not be a kitchen counter, calendar, paper stack, desk, ops floor, house at dusk, body shop, cards on a counter, point cloud or cube lattice; tier not 2 (Logifx 2, Cash Pass 2 are the last two).
+
+## Measured quality
+
+- **lcp**: 592 ms (home, 1324x797, the scene poster image)
+- **cls**: 0.003
+- **fps**: 60 average over 5s of wheel scrolling through the signature track
+- **js kb**: 73.4
+- **gates passed**: 96
+- **gates total**: 100
+- **qa iterations**: 3
+- **qa verdict**: DONE (direct-qa-loop final pass): Compliance, Gate 5 novelty and Gate 6 UX all pass; npm run build compiles; 17 routes plus /nope 404 verified at 1440 and 375

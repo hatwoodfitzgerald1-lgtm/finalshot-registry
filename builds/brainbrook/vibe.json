@@ -1,0 +1,119 @@
+{
+ "slug": "brainbrook",
+ "brand": "Brainbrook",
+ "domain": "brainbrook.com",
+ "date": "2026-09-25",
+ "tier": "1",
+ "live_url": "https://brainbrook-site.webflow.io",
+ "archetype": "Meander (invented, the brook spine): one continuous generative line swings across the full viewport width down the whole page; every section docks on the bank opposite the swing so both halves of every width are occupied; section labels ride the line as standing tags; media bands and the signature scene run edge to edge",
+ "heading_font": "Recursive (variable; headings MONO 0 CASL 0.65 wght 720; figures and receipt lines MONO 1 CASL 0 wght 500)",
+ "body_font": "Source Serif 4 (prose) with Recursive Mono Linear (figures and receipt lines)",
+ "palette": {
+  "field": "light celadon (a hued pale field, not cream or paper)",
+  "hexes": [
+   "DCE8DF",
+   "CFDFD3",
+   "E6EEE7",
+   "FFFFFF",
+   "F3F6F3",
+   "1B2622",
+   "4E5E56",
+   "B9CBBF",
+   "A04219",
+   "C25A2C",
+   "F1DDD3"
+  ],
+  "accent_hue_family": "copper (rust, red brown)",
+  "color_story": "brook celadon with white receipts and one copper tag"
+ },
+ "voice_stance": "the friend who already filed it (calm, a little satisfied, shows the drawer)",
+ "signature_move_category": "Typography (kinetic ledger type on a procedural 3D ribbon)",
+ "signature_move_id": "TYP-024 (invented: The Long Receipt, built on 3DW-007 mechanics)",
+ "governing_idea": "Every receipt you ever paid is one long tape, and Brainbrook keeps the whole tape crisp so the money printed on it can still come back.",
+ "shots": {
+  "home-1440": "shots/home-1440.jpg",
+  "home-375": "shots/home-375.jpg",
+  "plans-1440": "shots/plans-1440.jpg",
+  "about-1440": "shots/about-1440.jpg",
+  "post-1440": "shots/post-1440.jpg",
+  "nav": "shots/nav.jpg",
+  "button": "shots/button.jpg"
+ },
+ "speech": {
+  "h1": "Keep every HSA and FSA receipt. See what you are still owed back.",
+  "headlines": [
+   "The habit takes ten seconds",
+   "A receipt from 2023 is still worth its date",
+   "The dates you entered, and nothing you did not",
+   "One ledger for the whole household"
+  ],
+  "ctas": [
+   "Purchase Plus · $4 a month",
+   "Start Free",
+   "Empty the shoebox"
+  ],
+  "section_names": [
+   "The lines printed on the tape, newest first.",
+   "The habit takes ten seconds",
+   "Free for this year. Plus for the household.",
+   "What Brainbrook never does",
+   "Try the habit on a shoebox of receipts",
+   "Plain answers for tax time, open enrollment and the plan year end"
+  ],
+  "blog_titles": [
+   "Pay now, reimburse yourself later: why a receipt from 2023 is still worth keeping",
+   "The FSA plan year ends on a date you have to look up",
+   "What a reimbursement request actually needs",
+   "Ten seconds in the parking lot: the receipt habit that survives a job change"
+  ],
+  "opening_about": "Three from the shoebox. The oldest has nearly given up.",
+  "opening_post": "Pay now, reimburse yourself later: why a receipt from 2023 is still worth keeping"
+ },
+ "patterns": [
+  "button.lift-on-hover-flatten-on-press",
+  "button.tag-shape-notch-and-hole",
+  "color.neutral-field-one-accent",
+  "copy.blog.narrative-time",
+  "copy.cta.purchase-the-plan",
+  "feature.drag-sort-with-magnetic-snap",
+  "hero.continuous-line-across-the-page",
+  "loader.date-or-count-in-step-with-load",
+  "loader.flip-into-hero-element",
+  "motif.tag-on-tape-line",
+  "motion.rail-ride-then-lift-to-birdseye",
+  "nav.glyph-beneath-active-link",
+  "object.continuous-tape-or-thread",
+  "object.phone-as-destination-of-the-story",
+  "object.standing-tags-on-a-line",
+  "seal.ring-with-circular-text",
+  "section.docked-on-alternating-banks",
+  "type.variable-axis-settle-on-scroll",
+  "voice.friend-who-already-did-it"
+ ],
+ "copy_tags": [
+  "copy.blog.imperative",
+  "copy.blog.noun-phrase",
+  "copy.blog.number-led",
+  "copy.blog.what-explainer",
+  "copy.cta.purchase-noun",
+  "copy.cta.start-or-try",
+  "copy.h1.imperative",
+  "copy.h1.second-person",
+  "copy.h1.two-short-sentences",
+  "copy.headline.negation",
+  "copy.headline.wh-lead",
+  "copy.open.short-claim",
+  "copy.section.short-noun"
+ ],
+ "brief": {
+  "vibe": "A pale celadon brook with white thermal receipts running through it and one copper tag: calm, domestic, archival, a household ledger kept crisp.",
+  "hero": "Left column: a mono eyebrow, a large typed Recursive Mono H1 that prints in, serif lede, a dashed ruled mono price note and two tag shaped buttons (copper Purchase Plus, white Start Free); right and behind: a 3D receipt tape meandering across the full width with standing HSA tags.",
+  "type": "Recursive (variable, mono and casual axes) for headings and figures, Source Serif 4 for prose; set piece is the H1 printing like a receipt.",
+  "palette": "Light celadon field DCE8DF/CFDFD3, white receipt cards, ink 1B2622, one copper A04219/C25A2C for tags and the primary button.",
+  "motion": "Feed and Tear easings; a print head loader that prints load stages as receipt lines and tears into the hero tape; a low rail camera ride along the tape then a lift to a birdseye.",
+  "speech": "Two short imperative sentences in the H1; plain household second person; headlines state a fact or a negation (\"What Brainbrook never does\"); blog titles pair a claim with a colon explainer.",
+  "rhythm": "A meander spine swings across the page; each section docks on the bank opposite the swing; section labels ride the line as standing tags; media bands edge to edge.",
+  "tags": "button.lift-on-hover-flatten-on-press, button.tag-shape-notch-and-hole, color.neutral-field-one-accent, copy.blog.narrative-time, copy.cta.purchase-the-plan, feature.drag-sort-with-magnetic-snap, hero.continuous-line-across-the-page, loader.date-or-count-in-step-with-load, loader.flip-into-hero-element, motif.tag-on-tape-line, motion.rail-ride-then-lift-to-birdseye, nav.glyph-beneath-active-link, object.continuous-tape-or-thread, object.phone-as-destination-of-the-story, object.standing-tags-on-a-line, seal.ring-with-circular-text, section.docked-on-alternating-banks, type.variable-axis-settle-on-scroll, voice.friend-who-already-did-it"
+ },
+ "backfilled": "2026-09-26 from the live site (Chrome, 1440x780 frame scaled 0.85 and 375x780) and the Build Log claim; tenth amendment backfill."
+}
