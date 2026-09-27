@@ -429,6 +429,218 @@
       ],
       "full_page_rule": "media and layout fill the full page at every desktop width: two bank grids with auto fit content columns (two at 1440, three at 1920, four at 2560), media bands edge to edge, gutters clamp(16px, 2.5vw, 48px), no centered narrow column",
       "notes": "Private repo (the classifier refused a public one). Media handoff of the eleven photographs and the hero loop set follows as a second commit once the files come in from Harlem's Mac; they are referenced at their final /assets/media/ paths and show blur up placeholders meanwhile."
+    },
+    {
+      "slug": "savebrew",
+      "date": "2026-09-25",
+      "brand": "SaveBrew",
+      "domain": "savebrew.com",
+      "live_url": "https://savebrew-site.webflow.io",
+      "archetype": "Warp Columns (invented: five content columns from edge to edge, one per money thread, every section a row across them, heading passes between rows)",
+      "governing_idea": "Five threads run through every working month (savings rates, cashback, coupons, the seasons, the paycheck), and each weekday morning SaveBrew weaves the day's pass and hands you the five knots worth pulling.",
+      "signature_world": {
+        "object": "the Loom: five taut warp threads, one per money thread (rates, cashback, coupons, seasons, paychecks), spanning the full width and receding from the weaver's seat, with the day's weft passing and knotting once on each, and the woven weeks behind",
+        "verb": "weave and knot",
+        "camera_path": "cross-section sweep then gravity flip: the reed sweeps toward the camera through the woven weeks revealing one day's row of knots per pass, today's knots pull tight on a held beat, then the world's up turns as the camera pitches to top down and the cloth lays flat into the five-column board"
+      },
+      "signature_move_id": "TEX-008",
+      "signature_move_category": "Texture & Detail",
+      "palette": {
+        "field": "light",
+        "hexes": [
+          "F6E7A1",
+          "FFFFFF",
+          "EBD77A",
+          "FBF3CF",
+          "2B2F8F",
+          "1B1E5C",
+          "14163A",
+          "4F5280"
+        ],
+        "accent_hue_family": "indigo (blue violet)",
+        "color_story": "butter warp through a white weft, with indigo thread"
+      },
+      "heading_font": "Big Shoulders Display",
+      "body_font": "Manrope",
+      "motif": "the knot: a vertical warp thread crossed by a weft loop that pulls tight",
+      "motion_signature": {
+        "easings": [
+          "Shuttle cubic-bezier(0.36, 0.01, 0.10, 1)",
+          "Knot cubic-bezier(0.22, 1.12, 0.36, 1)"
+        ],
+        "durations": {
+          "fast": "0.11s",
+          "base": "0.38s",
+          "slow": "1.2s",
+          "idle": "11s"
+        }
+      },
+      "loader_transition": "selvedge stitch: a dashed indigo running stitch draws down the left gutter edge in step with real load over the already painted page, ties off at ready, no count, no Flip, skip at the bottom centre",
+      "nav_style": "the heading band: an opaque white weft band 84px that hides on scroll down and returns on scroll up, Big Shoulders wordmark with the knot mark top left, four destination links in Manrope with the active link at weight 800 and no marker glyph, About, Contact and Sign in at right, a spool cart glyph with a stitched count and the compact stitched Bobbin purchase button per the offering spec",
+      "button_style": "the bobbin: squat rectangle radius 4 with an inset dashed stitch border, indigo fill and butter label, the stitches run on hover, the fill deepens and the stitch tightens on press, one stitch travels the border every eleven seconds at idle, price never inside the button",
+      "technique_ids": [
+        "TEX-008",
+        "TEX-007",
+        "MOT-018",
+        "EXP-005",
+        "TYP-003",
+        "TYP-014",
+        "TRN-002",
+        "CUR-007",
+        "CUR-009",
+        "CUR-010",
+        "EXP-007",
+        "IMG-019"
+      ],
+      "typographic_set_piece": "The Tightening: the H1 in Big Shoulders Display starts at weight 500 like slack thread and each glyph pulls to weight 800 in turn as the weft passes beneath it",
+      "interactive_feature": "ranker (Your moves at /your-moves: six yes or no toggles re rank this week's seven public moves with editorial weights; the top four carry their action and the membership line with the Add the Daily to my cart Bobbin)",
+      "voice_stance": "the obsessive craftsman",
+      "tier": "1",
+      "tier_forced": false,
+      "engine_profile": "baseline-r128 (Three.js r128 from cdnjs plus the vendored Line2 fat lines, lazy after first paint behind a poster shipped in four aspect framings (16:10, 5:4, 1:1, 9:16) so object-fit cover always fits it by width, unlit MeshBasicMaterial, no post processing, no shadow maps, dpr capped at 1.5, paused offscreen and on hidden tabs)",
+      "signature_shader_id": "",
+      "media_manifest": true,
+      "repo_name": "savebrew-site",
+      "app_name": "savebrew-site",
+      "invented_techniques": [
+        "The Loom: a generative Three.js r128 weaving scene, five Line2 warp threads matched to the DOM columns, a weft that knots once per thread, ten woven weekday rows behind, a reed cross-section sweep, a held knot-tightening beat and a gravity flip that lays the cloth flat as the page's five-column board, unlit and high contrast on a butter ground"
+      ],
+      "invented_archetypes": [
+        "Warp Columns"
+      ],
+      "media": {
+        "subject_world": "material and texture with no people: woven cloth at macro, denim twill, raw canvas, cotton thread on spools, selvedge edges, a loom's warp under tension, morning light raking across fabric; the butter and indigo of the palette found in undyed cotton and indigo denim",
+        "video_concept": "a 12 second silent hero loop of four 3 second macro clips hard cut and seamless (pale warp threads under tension on a loom, indigo denim twill in raking light, a single indigo thread drawn taut across undyed cloth, the stitched selvedge of a canvas bolt unrolling), plus a 7 second built product pan across the Today, Rate Tracker and Goals views",
+        "shot_grammar": "macro and close up only, static tripod or a slider move of a few centimetres, shallow depth of field, warm early window light from one side, no hands, no faces, no text",
+        "product_shot_style": "HTML built captures of the three real dashboard views at 1440 by 900 and at phone width in the app's own frame, ungraded on the white weft, illustrative figures labelled",
+        "photography_subject_matter": "twelve stills of cloth and thread: canvas with an indigo selvedge stitch, a spool of indigo thread on linen, five indigo threads with one knot on raw canvas, a loom reed with warp threads, folded denim twill, a stack of plain, twill and herringbone cloths, a running stitch on a linen hem, a loose curling thread for the 404, and four guide heroes (a looping thread, a thin and a thick thread, a cloth tape measure on denim, four knots on one thread)",
+        "grade": "morning light on cloth (contrast 1.05, saturate 0.9, brightness 1.04, indigo lighten plus butter multiply overlays; light on photography, full on the hero loop, never on product shots or the kit)",
+        "generator": "Higgsfield MCP (gpt_image_2_5 stills, four video clips)",
+        "asset_count": 25,
+        "shipped_kb": 8621.0,
+        "budget_kb": 9000,
+        "tier": "1",
+        "shipped_kb_note": "includes the three extra loom poster framings added after launch (568.5 KB in the repo; a visitor loads exactly one framing)"
+      },
+      "patterns": [
+        "button.idle-breathing",
+        "button.stitched-border-running",
+        "color.neutral-field-one-accent",
+        "copy.blog.how-to",
+        "copy.blog.myth-negation",
+        "copy.blog.noun-phrase",
+        "copy.blog.why-explainer",
+        "copy.cta.choose-noun",
+        "copy.device.counting-as-story",
+        "copy.device.not-x-but-y",
+        "copy.h1.question",
+        "copy.h1.second-person",
+        "copy.headline.question",
+        "copy.headline.second-person",
+        "copy.open.short-claim",
+        "copy.section.question",
+        "feature.toggle-rerank",
+        "hero.columns-edge-to-edge",
+        "loader.stitch-draws-down-gutter",
+        "motif.knot-over-warp",
+        "motion.n-objects-complete-one-by-one",
+        "motion.sweep-then-gravity-flip",
+        "nav.active-weight-jump-no-mark",
+        "nav.hide-on-down-return-on-up",
+        "object.continuous-tape-or-thread",
+        "section.rows-across-fixed-columns",
+        "type.variable-axis-settle-on-scroll",
+        "voice.craftsman"
+      ],
+      "hero_composition": "the Loom full bleed behind the page: five taut indigo warp threads matched to the DOM's five content columns, the H1 top left in Big Shoulders Display across three columns tightening from weight 500 to 800, the standfirst and audience line on the columns beneath, the Bobbin and the free roundup link, the five knot labels at the foot of the threads",
+      "seal_form": "the Selvedge Seal: a square woven badge, five warps by seven weft rows in real over under weave with the S and B formed by which crossings are indigo, bounded by a running stitch; weaves itself row by row (never a ring with circular text)",
+      "feature_shape": "ranker",
+      "copy_fingerprint": "builds/savebrew/copy_fingerprint.json",
+      "hero_screenshot": "screenshots/savebrew-hero.jpg",
+      "full_page_rule": "five fluid content columns edge to edge at every desktop width with clamped gutters; heading passes, the loom, the week strip and every photo band full bleed; the checkout recomposes into two columns at 1920 and above; no centred narrow column",
+      "notes": "Deployed from Harlem's Workspace (Webflow Cloud app savebrew-site, branch main, mount /, custom domain not attached; site access set to Everyone in the Workspace can view on 2026-09-26). Repo pushed folder by folder through GitHub web upload in Chrome (the sandbox has no GitHub credentials); later fixes went through a branch and one squash merged PR so a single build deploys. The sixteen Higgsfield renders were pulled through the desktop browser because the CDN is outside the sandbox allowlist. Post deploy live QA found: two mobile reveal defects the pre deploy QA missed (the Terms columns and the membership cards at 375 never met a 15 percent reveal threshold on sections six and seven viewports tall) and a first paint blink on every route, fixed by gating all 58 entrance hidden states on html.sb-motion and revealing tall sections on their first pixel; then, between 900 and 1279 wide, the loom docking its threads onto the wrapped columns of the collapsed pass grid (threads missed the knot labels), an orphaned H1 line with a leading space, and the 16:10 poster fitted by height and cropping the outer threads (up to 290px off the labels under reduced motion), fixed in c224258 (dock on the hero knot centres when collapsed, H1 inline with balanced wrap under 1200, four poster framings by aspect ratio: worst thread offset now under 30px from 900x900 to 3440x1440, one framing fetched per viewport). 782762a changed three labels after the Step 8 sameness re check. Verified on the production build of each commit: 0 hidden frames on the first viewport blink probe across 12 routes at 1440 and 375, the tall section probe clean, buy path 50 of 50; live: every route 200 with its own title, the 301 aliases, the designed 404 with a 404 status, LCP 672 ms, CLS 0.030, the loom 60 fps average and 56.8 fps minimum through the signature scroll. The hero screenshot was captured from the production build of the deployed commit at 1440 by 900 because the browser window on the user's machine is occluded (a hidden tab freezes requestAnimationFrame, so a live capture shows a stale frame). Placeholders left for Harlem: [EIN Address] and [INSERT SHORT CODE] on /terms and /privacy; the footer and Contact carry the real address from Asana.",
+      "archive": "builds/savebrew/",
+      "code_log": "builds/savebrew/code/CODE.md",
+      "deployed_commit": "782762acd489d1957c8fee9de93376de89442f32",
+      "sameness_recheck_step8": {
+        "when": "2026-09-26, Step 8, against the tenth amendment registry (5 logged builds, 8 claims including SaveBrew, 109 ledger tags, 6 archived fingerprints)",
+        "fingerprint": "rebuilt from a labelled extraction of the shipped copy (builds/savebrew/copy_fingerprint_input.md) because the page dump parser had read the thread labels Rates, Seasonal and Cashback as blog titles and a form label as a CTA",
+        "quotas_18_to_32": "PASS (fonts, archetype, hero composition, nav, button, loader, motif, seal, hue, color story, voice, feature shape, set piece, signature object)",
+        "quota_35": "PASS after three labels changed in 782762a: Read next (identical to Astroquanta) became What should I read after this one?, about N minutes to read became N minutes to read, and the ranker's about N minutes (near Biovirtua) became N minutes of work",
+        "quota_33_shared_mechanism_tags": {
+          "button.idle-breathing": [
+            "addabill",
+            "save-the-will",
+            "smart-augment"
+          ],
+          "color.neutral-field-one-accent": [
+            "addabill",
+            "brainbrook",
+            "cash-pass",
+            "financing-bot",
+            "save-the-will",
+            "smart-augment"
+          ],
+          "motion.n-objects-complete-one-by-one": [
+            "cash-pass",
+            "save-the-will",
+            "smart-augment"
+          ],
+          "object.continuous-tape-or-thread": [
+            "brainbrook"
+          ],
+          "type.variable-axis-settle-on-scroll": [
+            "addabill",
+            "brainbrook"
+          ],
+          "copy.blog.myth-negation": [
+            "addabill",
+            "logifx"
+          ],
+          "copy.device.counting-as-story": [
+            "financing-bot"
+          ]
+        },
+        "quota_34_shared_copy_tags": {
+          "addabill": [
+            "copy.blog.myth-negation",
+            "copy.device.counting-as-story",
+            "copy.headline.second-person"
+          ],
+          "astroquanta": [
+            "copy.blog.myth-negation",
+            "copy.blog.noun-phrase"
+          ],
+          "biovirtua": [
+            "copy.blog.noun-phrase",
+            "copy.blog.why-explainer",
+            "copy.h1.second-person",
+            "copy.headline.second-person",
+            "copy.open.short-claim"
+          ],
+          "brainbrook": [
+            "copy.blog.noun-phrase",
+            "copy.h1.second-person",
+            "copy.open.short-claim"
+          ],
+          "financing-bot": [
+            "copy.blog.noun-phrase"
+          ],
+          "smart-augment": [
+            "copy.blog.noun-phrase"
+          ]
+        },
+        "context": "SaveBrew committed its direction at Step 2.5 on 2026-09-24 about 16:45 PDT under quotas 1 to 17 (all clear); the ledger and claims were seeded two hours later (a2b2749) and tagged SaveBrew alongside the builds already in flight, so 33 and 34 were never a gate for this direction. The overlaps are taxonomy level: the side by side below finds no recognizable pattern, and the mechanisms differ in what a visitor sees (the Bobbin idles with one stitch travelling its dashed border, not a breath; The Tightening moves weight glyph by glyph along the H1). Reported to the user, not reworked unattended, because each touches the locked design identity.",
+        "visual_verdicts_side_by_side": {
+          "addabill": "distinct: cream kitchen counter render, centred Fraunces serif H1, marigold pill buttons; SaveBrew is butter full bleed, a condensed left aligned H1 over five loom threads",
+          "brainbrook": "distinct: pale celadon, Recursive mono H1 printing like a receipt, a 3D receipt tape meandering the page; SaveBrew has five straight warp threads on a column grid",
+          "smart-augment": "distinct: a printed research memo on cream, Newsreader serif, black and white paper photography; SaveBrew is butter and indigo cloth",
+          "financing-bot": "distinct: dark graphite operations floor, sans category line H1, teal accent; SaveBrew is a light butter field with indigo",
+          "astroquanta": "distinct: black terminal console, phosphor green counters, left sidebar; SaveBrew has no console chrome or counters",
+          "biovirtua": "distinct: navy field, coral particle body, pill buttons; SaveBrew has no single object hero"
+        },
+        "claims_without_archive": "cash-pass, hill-wallet, logifx, save-the-will, ravencove: compared on their claimed direction fields by sameness_check.py (18 to 32 PASS); no vibe card exists for them yet"
+      }
     }
   ]
 }

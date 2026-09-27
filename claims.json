@@ -392,10 +392,10 @@
    "brand": "SaveBrew",
    "domain": "savebrew.com",
    "date": "20260924",
-   "status": "claimed",
+   "status": "shipped",
    "session": "savebrew--20260924--k7q2m",
    "archetype": "Warp Columns (invented: five content columns edge to edge, one per money thread, every section a row across them, heading passes between rows)",
-   "hero_composition": "",
+   "hero_composition": "the Loom full bleed behind the page: five taut indigo warp threads matched to the DOM's five content columns, the H1 top left in Big Shoulders Display across three columns tightening from weight 500 to 800, the standfirst and audience line on the columns beneath, the Bobbin and the free roundup link, the five knot labels at the foot of the threads",
    "governing_idea": "Five threads run through every working month (savings rates, cashback, coupons, the seasons, the paycheck), and each weekday morning SaveBrew weaves the day's pass and hands you the five knots worth pulling.",
    "signature_world": {
     "object": "The Loom: five taut warp threads (one per money thread) spanning the full width and receding from the weaver's seat, the day's weft passing and knotting once on each, the woven weeks behind",
@@ -456,7 +456,7 @@
    "feature_shape": "ranker",
    "voice_stance": "the obsessive craftsman",
    "tier": "1",
-   "seal_form": "",
+   "seal_form": "the Selvedge Seal: a square woven badge, five warps by seven weft rows in real over under weave with the S and B formed by which crossings are indigo, bounded by a running stitch; weaves itself row by row (never a ring with circular text)",
    "patterns": [
     "button.idle-breathing",
     "button.stitched-border-running",
@@ -474,7 +474,10 @@
     "type.variable-axis-settle-on-scroll",
     "voice.craftsman"
    ],
-   "seeded_from": "Build Log run record, 2026-09-24 (this claim was written by the ninth amendment's seed, not by the run itself)"
+   "seeded_from": "Build Log run record, 2026-09-24 (this claim was written by the ninth amendment's seed, not by the run itself)",
+   "shipped": "2026-09-25",
+   "live_url": "https://savebrew-site.webflow.io",
+   "archive": "builds/savebrew/"
   },
   {
    "slug": "addabill",

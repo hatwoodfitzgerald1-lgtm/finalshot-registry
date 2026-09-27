@@ -29,3 +29,13 @@
 **Fits.** Any brand whose story is one long continuous thing (a river, a road, a tape, a thread, a timeline). Pairs with a light hued field; on a dark field the line becomes a glow path.
 
 **Does not fit.** Dense catalogue pages with many equal items (the alternation reads as arbitrary) or brands that need a hard grid.
+
+## Warp Columns (SaveBrew, 2026-09-25)
+
+**What it is.** Five fluid content columns run from edge to edge of the page at every desktop width from 1280 up (three at 1024, two at 768, one on phones), one per money thread (rates, cashback, coupons, the seasons, the paycheck), and every section is a row across them: today's pass puts one item in each column, the membership row gives each plan two columns and the fifth to what is free to read, the FAQ is an editorial index with a question heading each column. Between rows run full width heading passes on the butter ground, a question in Big Shoulders Display over a weft pass rule. The five columns are also the five warp threads of the signature loom, whose 3D threads are solved from the DOM column centres, so the grid and the world are one object.
+
+**Why it exists.** It satisfies the full page rule (content fills every width, no centred narrow column) with a structure that belongs to the brand's governing idea: the page is literally woven, warp columns crossed by weft rows. Media bands (the loom, the week strip over the hero loop, the photo bands) run full bleed across all five.
+
+**Fits.** A brand whose offering divides naturally into a small fixed set of parallel lanes that recur on every page (threads, channels, categories, instruments), and content that is read across as well as down.
+
+**Does not fit.** Long single thread narratives, or catalogues whose item count is not a multiple of the lanes (cells go empty or stretch).

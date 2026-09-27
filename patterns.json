@@ -355,7 +355,8 @@
    "financing-bot"
   ],
   "copy.device.counting-as-story": [
-   "financing-bot"
+   "financing-bot",
+   "savebrew"
   ],
   "copy.device.numbered-01-02-03": [
    "financing-bot",
@@ -366,11 +367,45 @@
   ],
   "copy.blog.myth-negation": [
    "logifx",
-   "addabill"
+   "addabill",
+   "savebrew"
   ],
   "copy.blog.narrative-time": [
    "save-the-will",
    "brainbrook"
+  ],
+  "copy.blog.how-to": [
+   "savebrew"
+  ],
+  "copy.blog.noun-phrase": [
+   "savebrew"
+  ],
+  "copy.blog.why-explainer": [
+   "savebrew"
+  ],
+  "copy.cta.choose-noun": [
+   "savebrew"
+  ],
+  "copy.device.not-x-but-y": [
+   "savebrew"
+  ],
+  "copy.h1.question": [
+   "savebrew"
+  ],
+  "copy.h1.second-person": [
+   "savebrew"
+  ],
+  "copy.headline.question": [
+   "savebrew"
+  ],
+  "copy.headline.second-person": [
+   "savebrew"
+  ],
+  "copy.open.short-claim": [
+   "savebrew"
+  ],
+  "copy.section.question": [
+   "savebrew"
   ]
  }
 }
