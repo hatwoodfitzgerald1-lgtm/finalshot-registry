@@ -1,0 +1,121 @@
+{
+ "slug": "savebrew",
+ "brand": "SaveBrew",
+ "domain": "savebrew.com",
+ "date": "2026-09-25",
+ "tier": "1",
+ "live_url": "https://savebrew-site.webflow.io",
+ "archetype": "Warp Columns (invented: five content columns edge to edge, one per money thread, every section a row across them, heading passes between rows)",
+ "heading_font": "Big Shoulders Display",
+ "body_font": "Manrope",
+ "palette": {
+  "field": "light",
+  "hexes": [
+   "F6E7A1",
+   "EBD77A",
+   "FBF3CF",
+   "FFFFFF",
+   "2B2F8F",
+   "1B1E5C",
+   "14163A",
+   "4F5280"
+  ],
+  "accent_hue_family": "indigo (blue violet)",
+  "color_story": "butter warp through a white weft, with indigo thread"
+ },
+ "voice_stance": "the obsessive craftsman",
+ "signature_move_category": "Texture & Detail",
+ "signature_move_id": "TEX-008",
+ "governing_idea": "Five threads run through every working month (savings rates, cashback, coupons, the seasons, the paycheck), and each weekday morning SaveBrew weaves the day's pass and hands you the five knots worth pulling.",
+ "shots": {
+  "home-1440": "shots/home-1440.jpg",
+  "home-375": "shots/home-375.jpg",
+  "plans-1440": "shots/plans-1440.jpg",
+  "about-1440": "shots/about-1440.jpg",
+  "post-1440": "shots/post-1440.jpg",
+  "nav": "shots/nav.jpg",
+  "button": "shots/button.jpg"
+ },
+ "speech": {
+  "h1": "Which of the five threads your money runs on moved overnight?",
+  "headlines": [
+   "What's in today's pass?",
+   "Which threads should you pull first?",
+   "What's inside the dashboard?"
+  ],
+  "ctas": [
+   "Add the Daily to my cart",
+   "Add the Daily for Two to my cart",
+   "Open this week's free roundup",
+   "Open tracker",
+   "Remind me",
+   "Save code",
+   "Open Your moves",
+   "Open the guides",
+   "Open today's brief",
+   "Open the dashboard"
+  ],
+  "section_names": [
+   "Which of the five threads your money runs on moved overnight?",
+   "What's in today's pass?",
+   "What does it cost?",
+   "What did last week's pass look like?",
+   "What's inside the dashboard?",
+   "Which threads should you pull first?",
+   "Which of these are true of your money?",
+   "What's free to read?",
+   "What do people ask before they join?",
+   "What arrives, and when?"
+  ],
+  "blog_titles": [
+   "How to make a rotating cashback category actually pay",
+   "The national average savings rate is not a benchmark, it is a warning",
+   "A 4.00% account against the one you already have: the arithmetic on $10,000",
+   "Why patio furniture is cheap in October: the seasonal buying cycle, plainly"
+  ],
+  "opening_about": "Most writing about saving money fails in one of two ways, and we've read enough of it to name both.",
+  "opening_post": "Activation takes thirty seconds; the cap, the timing against the paycheck and the interest are where the 5 percent goes missing."
+ },
+ "patterns": [
+  "button.idle-breathing",
+  "button.stitched-border-running",
+  "color.neutral-field-one-accent",
+  "feature.toggle-rerank",
+  "hero.columns-edge-to-edge",
+  "loader.stitch-draws-down-gutter",
+  "motif.knot-over-warp",
+  "motion.n-objects-complete-one-by-one",
+  "motion.sweep-then-gravity-flip",
+  "nav.active-weight-jump-no-mark",
+  "nav.hide-on-down-return-on-up",
+  "object.continuous-tape-or-thread",
+  "section.rows-across-fixed-columns",
+  "type.variable-axis-settle-on-scroll",
+  "voice.craftsman"
+ ],
+ "copy_tags": [
+  "copy.blog.how-to",
+  "copy.blog.myth-negation",
+  "copy.blog.noun-phrase",
+  "copy.blog.why-explainer",
+  "copy.cta.choose-noun",
+  "copy.device.counting-as-story",
+  "copy.device.not-x-but-y",
+  "copy.h1.question",
+  "copy.h1.second-person",
+  "copy.headline.question",
+  "copy.headline.second-person",
+  "copy.open.short-claim",
+  "copy.section.question"
+ ],
+ "brief": {
+  "vibe": "A weaver's bench in morning light: butter ground, white weft bands, indigo thread, everything lives on five columns that run the full width of the page.",
+  "hero": "Five taut Three.js warp threads stand edge to edge behind the H1 at top left; the day's weft passes and knots once on each, the reed sweeps toward the camera through the woven weeks, the knots pull tight on a held beat, then the world flips top down and the cloth lays flat into the five column board.",
+  "type": "Big Shoulders Display condensed headings over Manrope body; the H1 glyphs start at weight 500 like slack thread and pull to 800 left to right as the weft passes (The Tightening).",
+  "palette": "Light field: butter #F6E7A1 ground, white #FFFFFF weft bands, indigo #2B2F8F thread with deep indigo #1B1E5C and ink #14163A; one hue family, the story is butter warp through a white weft with indigo thread.",
+  "motion": "Shuttle easing (fast in, long settle) for travel and Knot easing (overshoot and tighten) for arrivals, 0.11 / 0.38 / 1.2s; the loader is a dashed indigo running stitch drawing down the left gutter in step with real load; every section is a weft pass that wipes in across the columns; the Bobbin button runs its stitches on hover.",
+  "speech": "Every section heading is a question in the visitor's own voice (What's in today's pass? Which threads should you pull first?); CTAs are 'Add the Daily to my cart' and 'Open ...' verbs; the guides are titled as a how to, a negation, a comparison and a why (The national average savings rate is not a benchmark, it is a warning); About opens with a craftsman's complaint about bad writing.",
+  "rhythm": "Rows across five fixed columns: each section is a row that spans all five, heading passes on butter sit between rows, the membership row gives each plan a column and the fifth column carries the free tier over a photograph at 30 percent.",
+  "tags": "button.idle-breathing, button.stitched-border-running, color.neutral-field-one-accent, feature.toggle-rerank, hero.columns-edge-to-edge, loader.stitch-draws-down-gutter, motif.knot-over-warp, motion.n-objects-complete-one-by-one, motion.sweep-then-gravity-flip, nav.active-weight-jump-no-mark, nav.hide-on-down-return-on-up, object.continuous-tape-or-thread, section.rows-across-fixed-columns, type.variable-axis-settle-on-scroll, voice.craftsman, copy.blog.how-to, copy.blog.myth-negation, copy.blog.noun-phrase, copy.blog.why-explainer, copy.cta.choose-noun, copy.device.counting-as-story, copy.device.not-x-but-y, copy.h1.question, copy.h1.second-person, copy.headline.question, copy.headline.second-person, copy.open.short-claim, copy.section.question"
+ }
+}

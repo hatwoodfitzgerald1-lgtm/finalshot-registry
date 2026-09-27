@@ -1,0 +1,1673 @@
+{
+ "brand": "SaveBrew",
+ "domain": "savebrew.com",
+ "tier": 1,
+ "subject_world": "material and texture, no people: woven cloth at macro, undyed cotton, indigo denim twill, raw canvas, cotton thread on spools, selvedge edges, a loom's warp under tension, morning light raking across fabric",
+ "grade_recipe": "morning light on cloth: filter contrast(1.05) saturate(0.9) brightness(1.04); indigo #2B2F8F shadow overlay 8 to 14 percent mix-blend-mode lighten; butter #F6E7A1 highlight overlay 10 to 16 percent mix-blend-mode multiply; total overlay 12 to 24 percent; applied in CSS to video and img, never to product shots or the kit",
+ "public_root": "/assets",
+ "weight_budget": {
+  "total_kb": 9000,
+  "hero_loop_desktop_kb": 2600,
+  "hero_loop_mobile_kb": 1200,
+  "product_pan_kb": 1500,
+  "still_max_kb_at_1600w": 180,
+  "product_shot_max_kb": 260,
+  "kit_svg_max_kb": 24,
+  "texture_kb": 320
+ },
+ "slots": [
+  {
+   "id": "video.hero-loop",
+   "role": "12 second silent hero loop, four 3 second clips hard cut, clean wrap",
+   "aspect": "16:9",
+   "lives_on": [
+    "/ (What did last week's pass look like? row, behind the week strip at 35 percent)",
+    "/about (hero band)"
+   ],
+   "files": {
+    "desktop": "/assets/video/hero-loop.mp4",
+    "mobile": "/assets/video/hero-loop-720.mp4",
+    "poster": "/assets/video/hero-loop-poster.webp"
+   },
+   "generator": "higgsfield seedance_2_5",
+   "status": "review",
+   "jobs": [
+    "677bcedc-43b8-4362-ac0a-7be3a1250956",
+    "08a48778-0240-441c-af44-43080516d947",
+    "dc291d81-b8e5-49fb-8317-2adb5b148b63",
+    "360267d9-ab59-482b-bdda-3d238c44079a"
+   ],
+   "result_urls": [
+    "https://d8j0ntlcm91z4.cloudfront.net/user_39vLcqQmH8rxFFCbniS23PhTQMs/hf_20260924_234837_677bcedc-43b8-4362-ac0a-7be3a1250956.mp4",
+    "https://d8j0ntlcm91z4.cloudfront.net/user_39vLcqQmH8rxFFCbniS23PhTQMs/hf_20260924_234838_08a48778-0240-441c-af44-43080516d947.mp4",
+    "https://d8j0ntlcm91z4.cloudfront.net/user_39vLcqQmH8rxFFCbniS23PhTQMs/hf_20260924_234838_dc291d81-b8e5-49fb-8317-2adb5b148b63.mp4",
+    "https://d8j0ntlcm91z4.cloudfront.net/user_39vLcqQmH8rxFFCbniS23PhTQMs/hf_20260924_234838_360267d9-ab59-482b-bdda-3d238c44079a.mp4"
+   ],
+   "expected_incoming": [
+    "/home/claude/savebrew/assets/incoming/video.hero-loop.clip1.mp4",
+    "/home/claude/savebrew/assets/incoming/video.hero-loop.clip2.mp4",
+    "/home/claude/savebrew/assets/incoming/video.hero-loop.clip3.mp4",
+    "/home/claude/savebrew/assets/incoming/video.hero-loop.clip4.mp4"
+   ],
+   "resolved": [
+    {
+     "path": "/assets/video/hero-loop.mp4",
+     "disk": "/home/claude/savebrew/assets/video/hero-loop.mp4",
+     "bytes": 2050327,
+     "width": 1920,
+     "height": 1080,
+     "fps": "30/1",
+     "frames": 360,
+     "duration_s": 12.0,
+     "role": "desktop",
+     "crf": 28
+    },
+    {
+     "path": "/assets/video/hero-loop-720.mp4",
+     "disk": "/home/claude/savebrew/assets/video/hero-loop-720.mp4",
+     "bytes": 953294,
+     "width": 1280,
+     "height": 720,
+     "fps": "30/1",
+     "frames": 360,
+     "duration_s": 12.0,
+     "role": "mobile",
+     "crf": 28
+    },
+    {
+     "path": "/assets/video/hero-loop-poster.webp",
+     "disk": "/home/claude/savebrew/assets/video/hero-loop-poster.webp",
+     "bytes": 70396,
+     "width": 1600,
+     "height": 900,
+     "role": "poster, first frame"
+    },
+    {
+     "path": "/assets/video/hero-loop-last-1600.webp",
+     "disk": "/home/claude/savebrew/assets/video/hero-loop-last-1600.webp",
+     "bytes": 36266,
+     "width": 1600,
+     "height": 900,
+     "role": "loom fallback poster, last frame"
+    },
+    {
+     "path": "/assets/video/hero-clip1-3s.mp4",
+     "disk": "/home/claude/savebrew/assets/video/hero-clip1-3s.mp4",
+     "bytes": 1660844,
+     "width": 1920,
+     "height": 1080,
+     "fps": "30/1",
+     "frames": 90,
+     "duration_s": 3.0,
+     "role": "trimmed clip 1, 3.000 s"
+    },
+    {
+     "path": "/assets/video/hero-clip2-3s.mp4",
+     "disk": "/home/claude/savebrew/assets/video/hero-clip2-3s.mp4",
+     "bytes": 1772558,
+     "width": 1920,
+     "height": 1080,
+     "fps": "30/1",
+     "frames": 90,
+     "duration_s": 3.0,
+     "role": "trimmed clip 2, 3.000 s"
+    },
+    {
+     "path": "/assets/video/hero-clip3-3s.mp4",
+     "disk": "/home/claude/savebrew/assets/video/hero-clip3-3s.mp4",
+     "bytes": 977219,
+     "width": 1920,
+     "height": 1080,
+     "fps": "30/1",
+     "frames": 90,
+     "duration_s": 3.0,
+     "role": "trimmed clip 3, 3.000 s"
+    },
+    {
+     "path": "/assets/video/hero-clip4-3s.mp4",
+     "disk": "/home/claude/savebrew/assets/video/hero-clip4-3s.mp4",
+     "bytes": 873740,
+     "width": 1920,
+     "height": 1080,
+     "fps": "30/1",
+     "frames": 90,
+     "duration_s": 3.0,
+     "role": "trimmed clip 4, 3.000 s"
+    }
+   ]
+  },
+  {
+   "id": "video.product-pan",
+   "role": "6 to 8 second product in motion clip: one slow left to right pan across the three real dashboard views (Today, Rate Tracker, Goals) with one toggle click, one row ticking and one bar filling",
+   "aspect": "16:9",
+   "lives_on": [
+    "/ (What's inside the dashboard? row)",
+    "/membership"
+   ],
+   "files": {
+    "desktop": "/assets/video/product-pan.mp4",
+    "poster": "/assets/video/product-pan-poster.webp"
+   },
+   "generator": "built: Playwright capture of the HTML views",
+   "status": "review",
+   "resolved": [
+    {
+     "path": "/assets/video/product-pan.mp4",
+     "disk": "/home/claude/savebrew/assets/video/product-pan.mp4",
+     "bytes": 1376378,
+     "width": 1920,
+     "height": 1080,
+     "fps": "30/1",
+     "frames": 210,
+     "duration_s": 7.0,
+     "role": "desktop"
+    },
+    {
+     "path": "/assets/video/product-pan-poster.webp",
+     "disk": "/home/claude/savebrew/assets/video/product-pan-poster.webp",
+     "bytes": 130334,
+     "width": 1920,
+     "height": 1080,
+     "role": "poster, first frame"
+    }
+   ]
+  },
+  {
+   "id": "photo.about-hero",
+   "role": "About page hero band",
+   "aspect": {
+    "desktop": "21:9",
+    "phone": "4:5"
+   },
+   "lives_on": [
+    "/about"
+   ],
+   "files": {
+    "src": "/assets/photo/about-hero.webp"
+   },
+   "generator": "higgsfield gpt_image_2_5 (2k, high)",
+   "status": "review",
+   "jobs": [
+    "82f42275-cbaf-45fa-b632-7d8539bbb0f0"
+   ],
+   "prompt_id": "img-001",
+   "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_39vLcqQmH8rxFFCbniS23PhTQMs/hf_20260925_003146_82f42275-cbaf-45fa-b632-7d8539bbb0f0.png",
+   "aspect_generated": "21:9",
+   "crop_note": "desktop 21:9 as generated; phone 4:5 focal crop from the centre",
+   "expected_incoming": "/home/claude/savebrew/assets/incoming/photo.about-hero.png",
+   "resolved": [
+    {
+     "path": "/assets/photo/about-hero.webp",
+     "disk": "/home/claude/savebrew/assets/photo/about-hero.webp",
+     "bytes": 194140,
+     "width": 1600,
+     "height": 686,
+     "rendition": "default"
+    },
+    {
+     "path": "/assets/photo/about-hero-800.webp",
+     "disk": "/home/claude/savebrew/assets/photo/about-hero-800.webp",
+     "bytes": 72956,
+     "width": 800,
+     "height": 343,
+     "rendition": "desktop",
+     "width_hint": 800,
+     "quality": 82
+    },
+    {
+     "path": "/assets/photo/about-hero-1200.webp",
+     "disk": "/home/claude/savebrew/assets/photo/about-hero-1200.webp",
+     "bytes": 189758,
+     "width": 1200,
+     "height": 514,
+     "rendition": "desktop",
+     "width_hint": 1200,
+     "quality": 82
+    },
+    {
+     "path": "/assets/photo/about-hero-1600.webp",
+     "disk": "/home/claude/savebrew/assets/photo/about-hero-1600.webp",
+     "bytes": 194140,
+     "width": 1600,
+     "height": 686,
+     "rendition": "desktop",
+     "width_hint": 1600,
+     "quality": 50
+    },
+    {
+     "path": "/assets/photo/about-hero-1600.avif",
+     "disk": "/home/claude/savebrew/assets/photo/about-hero-1600.avif",
+     "bytes": 196754,
+     "width": 1600,
+     "height": 686,
+     "rendition": "desktop",
+     "width_hint": 1600,
+     "codec": "avif"
+    },
+    {
+     "path": "/assets/photo/about-hero-2400.webp",
+     "disk": "/home/claude/savebrew/assets/photo/about-hero-2400.webp",
+     "bytes": 611548,
+     "width": 2400,
+     "height": 1029,
+     "rendition": "desktop",
+     "width_hint": 2400,
+     "quality": 82
+    },
+    {
+     "path": "/assets/photo/about-hero-phone-800.webp",
+     "disk": "/home/claude/savebrew/assets/photo/about-hero-phone-800.webp",
+     "bytes": 233848,
+     "width": 800,
+     "height": 1000,
+     "rendition": "phone",
+     "width_hint": 800,
+     "quality": 82
+    }
+   ]
+  },
+  {
+   "id": "photo.membership-free-column",
+   "role": "membership row fifth column background at 30 percent",
+   "aspect": "1:1",
+   "lives_on": [
+    "/",
+    "/membership"
+   ],
+   "files": {
+    "src": "/assets/photo/membership-free-column.webp"
+   },
+   "generator": "higgsfield gpt_image_2_5 (2k, high)",
+   "status": "review",
+   "jobs": [
+    "f6c84adf-d5e3-4429-9468-0d97043c3bf5"
+   ],
+   "prompt_id": "img-002",
+   "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_39vLcqQmH8rxFFCbniS23PhTQMs/hf_20260925_003146_f6c84adf-d5e3-4429-9468-0d97043c3bf5.png",
+   "aspect_generated": "1:1",
+   "crop_note": "1:1 as generated",
+   "expected_incoming": "/home/claude/savebrew/assets/incoming/photo.membership-free-column.png",
+   "resolved": [
+    {
+     "path": "/assets/photo/membership-free-column.webp",
+     "disk": "/home/claude/savebrew/assets/photo/membership-free-column.webp",
+     "bytes": 162864,
+     "width": 1600,
+     "height": 1600,
+     "rendition": "default"
+    },
+    {
+     "path": "/assets/photo/membership-free-column-800.webp",
+     "disk": "/home/claude/savebrew/assets/photo/membership-free-column-800.webp",
+     "bytes": 84112,
+     "width": 800,
+     "height": 800,
+     "rendition": "desktop",
+     "width_hint": 800,
+     "quality": 82
+    },
+    {
+     "path": "/assets/photo/membership-free-column-1200.webp",
+     "disk": "/home/claude/savebrew/assets/photo/membership-free-column-1200.webp",
+     "bytes": 151226,
+     "width": 1200,
+     "height": 1200,
+     "rendition": "desktop",
+     "width_hint": 1200,
+     "quality": 82
+    },
+    {
+     "path": "/assets/photo/membership-free-column-1600.webp",
+     "disk": "/home/claude/savebrew/assets/photo/membership-free-column-1600.webp",
+     "bytes": 162864,
+     "width": 1600,
+     "height": 1600,
+     "rendition": "desktop",
+     "width_hint": 1600,
+     "quality": 74
+    },
+    {
+     "path": "/assets/photo/membership-free-column-1600.avif",
+     "disk": "/home/claude/savebrew/assets/photo/membership-free-column-1600.avif",
+     "bytes": 155232,
+     "width": 1600,
+     "height": 1600,
+     "rendition": "desktop",
+     "width_hint": 1600,
+     "codec": "avif"
+    },
+    {
+     "path": "/assets/photo/membership-free-column-2048.webp",
+     "disk": "/home/claude/savebrew/assets/photo/membership-free-column-2048.webp",
+     "bytes": 305454,
+     "width": 2048,
+     "height": 2048,
+     "rendition": "desktop",
+     "width_hint": 2048,
+     "quality": 82
+    }
+   ]
+  },
+  {
+   "id": "photo.todays-pass-heading",
+   "role": "What's in today's pass? heading pass background at 20 percent and the /brief header",
+   "aspect": {
+    "desktop": "3:1",
+    "phone": "4:3"
+   },
+   "lives_on": [
+    "/",
+    "/brief"
+   ],
+   "files": {
+    "src": "/assets/photo/todays-pass-heading.webp"
+   },
+   "generator": "higgsfield gpt_image_2_5 (2k, high)",
+   "status": "review",
+   "jobs": [
+    "40725e18-8378-4e66-a889-b9ecaae435fa"
+   ],
+   "prompt_id": "img-003",
+   "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_39vLcqQmH8rxFFCbniS23PhTQMs/hf_20260925_003145_40725e18-8378-4e66-a889-b9ecaae435fa.png",
+   "aspect_generated": "21:9",
+   "crop_note": "slot wants 3:1 on desktop; 21:9 is the widest the model supports, so optimise.py crops the centre band to 3:1; phone 4:3 focal crop from the centre",
+   "expected_incoming": "/home/claude/savebrew/assets/incoming/photo.todays-pass-heading.png",
+   "resolved": [
+    {
+     "path": "/assets/photo/todays-pass-heading.webp",
+     "disk": "/home/claude/savebrew/assets/photo/todays-pass-heading.webp",
+     "bytes": 171208,
+     "width": 1600,
+     "height": 533,
+     "rendition": "default"
+    },
+    {
+     "path": "/assets/photo/todays-pass-heading-800.webp",
+     "disk": "/home/claude/savebrew/assets/photo/todays-pass-heading-800.webp",
+     "bytes": 63568,
+     "width": 800,
+     "height": 267,
+     "rendition": "desktop",
+     "width_hint": 800,
+     "quality": 82
+    },
+    {
+     "path": "/assets/photo/todays-pass-heading-1200.webp",
+     "disk": "/home/claude/savebrew/assets/photo/todays-pass-heading-1200.webp",
+     "bytes": 127270,
+     "width": 1200,
+     "height": 400,
+     "rendition": "desktop",
+     "width_hint": 1200,
+     "quality": 82
+    },
+    {
+     "path": "/assets/photo/todays-pass-heading-1600.webp",
+     "disk": "/home/claude/savebrew/assets/photo/todays-pass-heading-1600.webp",
+     "bytes": 171208,
+     "width": 1600,
+     "height": 533,
+     "rendition": "desktop",
+     "width_hint": 1600,
+     "quality": 78
+    },
+    {
+     "path": "/assets/photo/todays-pass-heading-1600.avif",
+     "disk": "/home/claude/savebrew/assets/photo/todays-pass-heading-1600.avif",
+     "bytes": 139825,
+     "width": 1600,
+     "height": 533,
+     "rendition": "desktop",
+     "width_hint": 1600,
+     "codec": "avif"
+    },
+    {
+     "path": "/assets/photo/todays-pass-heading-2400.webp",
+     "disk": "/home/claude/savebrew/assets/photo/todays-pass-heading-2400.webp",
+     "bytes": 367794,
+     "width": 2400,
+     "height": 800,
+     "rendition": "desktop",
+     "width_hint": 2400,
+     "quality": 82
+    },
+    {
+     "path": "/assets/photo/todays-pass-heading-phone-800.webp",
+     "disk": "/home/claude/savebrew/assets/photo/todays-pass-heading-phone-800.webp",
+     "bytes": 116942,
+     "width": 800,
+     "height": 600,
+     "rendition": "phone",
+     "width_hint": 800,
+     "quality": 82
+    },
+    {
+     "path": "/assets/photo/todays-pass-heading-phone-1200.webp",
+     "disk": "/home/claude/savebrew/assets/photo/todays-pass-heading-phone-1200.webp",
+     "bytes": 217450,
+     "width": 1200,
+     "height": 900,
+     "rendition": "phone",
+     "width_hint": 1200,
+     "quality": 82
+    }
+   ]
+  },
+  {
+   "id": "photo.ranker-edge",
+   "role": "Which threads should you pull first? row edge image",
+   "aspect": "4:5",
+   "lives_on": [
+    "/",
+    "/your-moves"
+   ],
+   "files": {
+    "src": "/assets/photo/ranker-edge.webp"
+   },
+   "generator": "higgsfield gpt_image_2_5 (2k, high)",
+   "status": "review",
+   "jobs": [
+    "9e562061-8ba4-4253-8737-cb9844a77c9a"
+   ],
+   "prompt_id": "img-004",
+   "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_39vLcqQmH8rxFFCbniS23PhTQMs/hf_20260925_003145_9e562061-8ba4-4253-8737-cb9844a77c9a.png",
+   "aspect_generated": "4:5",
+   "crop_note": "4:5 as generated",
+   "expected_incoming": "/home/claude/savebrew/assets/incoming/photo.ranker-edge.png",
+   "resolved": [
+    {
+     "path": "/assets/photo/ranker-edge.webp",
+     "disk": "/home/claude/savebrew/assets/photo/ranker-edge.webp",
+     "bytes": 168918,
+     "width": 1600,
+     "height": 2000,
+     "rendition": "default"
+    },
+    {
+     "path": "/assets/photo/ranker-edge-800.webp",
+     "disk": "/home/claude/savebrew/assets/photo/ranker-edge-800.webp",
+     "bytes": 79458,
+     "width": 800,
+     "height": 1000,
+     "rendition": "desktop",
+     "width_hint": 800,
+     "quality": 82
+    },
+    {
+     "path": "/assets/photo/ranker-edge-1200.webp",
+     "disk": "/home/claude/savebrew/assets/photo/ranker-edge-1200.webp",
+     "bytes": 137894,
+     "width": 1200,
+     "height": 1500,
+     "rendition": "desktop",
+     "width_hint": 1200,
+     "quality": 82
+    },
+    {
+     "path": "/assets/photo/ranker-edge-1600.webp",
+     "disk": "/home/claude/savebrew/assets/photo/ranker-edge-1600.webp",
+     "bytes": 168918,
+     "width": 1600,
+     "height": 2000,
+     "rendition": "desktop",
+     "width_hint": 1600,
+     "quality": 78
+    },
+    {
+     "path": "/assets/photo/ranker-edge-1600.avif",
+     "disk": "/home/claude/savebrew/assets/photo/ranker-edge-1600.avif",
+     "bytes": 141546,
+     "width": 1600,
+     "height": 2000,
+     "rendition": "desktop",
+     "width_hint": 1600,
+     "codec": "avif"
+    },
+    {
+     "path": "/assets/photo/ranker-edge-1792.webp",
+     "disk": "/home/claude/savebrew/assets/photo/ranker-edge-1792.webp",
+     "bytes": 231078,
+     "width": 1792,
+     "height": 2240,
+     "rendition": "desktop",
+     "width_hint": 1792,
+     "quality": 82
+    }
+   ]
+  },
+  {
+   "id": "photo.roundup-header",
+   "role": "/roundup header band",
+   "aspect": {
+    "desktop": "16:9",
+    "phone": "1:1"
+   },
+   "lives_on": [
+    "/roundup"
+   ],
+   "files": {
+    "src": "/assets/photo/roundup-header.webp"
+   },
+   "generator": "higgsfield gpt_image_2_5 (2k, high)",
+   "status": "review",
+   "jobs": [
+    "20c96afe-5e48-4092-9196-ff6769ff1ef2"
+   ],
+   "prompt_id": "img-005",
+   "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_39vLcqQmH8rxFFCbniS23PhTQMs/hf_20260925_003145_20c96afe-5e48-4092-9196-ff6769ff1ef2.png",
+   "aspect_generated": "16:9",
+   "crop_note": "desktop 16:9 as generated; phone 1:1 focal crop from the centre",
+   "expected_incoming": "/home/claude/savebrew/assets/incoming/photo.roundup-header.png",
+   "resolved": [
+    {
+     "path": "/assets/photo/roundup-header.webp",
+     "disk": "/home/claude/savebrew/assets/photo/roundup-header.webp",
+     "bytes": 178856,
+     "width": 1600,
+     "height": 900,
+     "rendition": "default"
+    },
+    {
+     "path": "/assets/photo/roundup-header-800.webp",
+     "disk": "/home/claude/savebrew/assets/photo/roundup-header-800.webp",
+     "bytes": 115848,
+     "width": 800,
+     "height": 450,
+     "rendition": "desktop",
+     "width_hint": 800,
+     "quality": 82
+    },
+    {
+     "path": "/assets/photo/roundup-header-1200.webp",
+     "disk": "/home/claude/savebrew/assets/photo/roundup-header-1200.webp",
+     "bytes": 216940,
+     "width": 1200,
+     "height": 675,
+     "rendition": "desktop",
+     "width_hint": 1200,
+     "quality": 82
+    },
+    {
+     "path": "/assets/photo/roundup-header-1600.webp",
+     "disk": "/home/claude/savebrew/assets/photo/roundup-header-1600.webp",
+     "bytes": 178856,
+     "width": 1600,
+     "height": 900,
+     "rendition": "desktop",
+     "width_hint": 1600,
+     "quality": 50
+    },
+    {
+     "path": "/assets/photo/roundup-header-1600.avif",
+     "disk": "/home/claude/savebrew/assets/photo/roundup-header-1600.avif",
+     "bytes": 216170,
+     "width": 1600,
+     "height": 900,
+     "rendition": "desktop",
+     "width_hint": 1600,
+     "codec": "avif"
+    },
+    {
+     "path": "/assets/photo/roundup-header-2400.webp",
+     "disk": "/home/claude/savebrew/assets/photo/roundup-header-2400.webp",
+     "bytes": 501936,
+     "width": 2400,
+     "height": 1350,
+     "rendition": "desktop",
+     "width_hint": 2400,
+     "quality": 82
+    },
+    {
+     "path": "/assets/photo/roundup-header-phone-800.webp",
+     "disk": "/home/claude/savebrew/assets/photo/roundup-header-phone-800.webp",
+     "bytes": 157532,
+     "width": 800,
+     "height": 800,
+     "rendition": "phone",
+     "width_hint": 800,
+     "quality": 82
+    },
+    {
+     "path": "/assets/photo/roundup-header-phone-1200.webp",
+     "disk": "/home/claude/savebrew/assets/photo/roundup-header-phone-1200.webp",
+     "bytes": 256492,
+     "width": 1200,
+     "height": 1200,
+     "rendition": "phone",
+     "width_hint": 1200,
+     "quality": 82
+    }
+   ]
+  },
+  {
+   "id": "photo.guides-header",
+   "role": "/guides index header",
+   "aspect": {
+    "desktop": "21:9",
+    "phone": "4:5"
+   },
+   "lives_on": [
+    "/guides"
+   ],
+   "files": {
+    "src": "/assets/photo/guides-header.webp"
+   },
+   "generator": "higgsfield gpt_image_2_5 (2k, high)",
+   "status": "review",
+   "jobs": [
+    "e7057b70-b88a-4a98-86b8-4c991ae41cc9"
+   ],
+   "prompt_id": "img-006",
+   "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_39vLcqQmH8rxFFCbniS23PhTQMs/hf_20260925_003145_e7057b70-b88a-4a98-86b8-4c991ae41cc9.png",
+   "aspect_generated": "21:9",
+   "crop_note": "desktop 21:9 as generated; phone 4:5 focal crop from the centre",
+   "expected_incoming": "/home/claude/savebrew/assets/incoming/photo.guides-header.png",
+   "resolved": [
+    {
+     "path": "/assets/photo/guides-header.webp",
+     "disk": "/home/claude/savebrew/assets/photo/guides-header.webp",
+     "bytes": 109380,
+     "width": 1600,
+     "height": 686,
+     "rendition": "default"
+    },
+    {
+     "path": "/assets/photo/guides-header-800.webp",
+     "disk": "/home/claude/savebrew/assets/photo/guides-header-800.webp",
+     "bytes": 31594,
+     "width": 800,
+     "height": 343,
+     "rendition": "desktop",
+     "width_hint": 800,
+     "quality": 82
+    },
+    {
+     "path": "/assets/photo/guides-header-1200.webp",
+     "disk": "/home/claude/savebrew/assets/photo/guides-header-1200.webp",
+     "bytes": 68104,
+     "width": 1200,
+     "height": 514,
+     "rendition": "desktop",
+     "width_hint": 1200,
+     "quality": 82
+    },
+    {
+     "path": "/assets/photo/guides-header-1600.webp",
+     "disk": "/home/claude/savebrew/assets/photo/guides-header-1600.webp",
+     "bytes": 109380,
+     "width": 1600,
+     "height": 686,
+     "rendition": "desktop",
+     "width_hint": 1600,
+     "quality": 82
+    },
+    {
+     "path": "/assets/photo/guides-header-1600.avif",
+     "disk": "/home/claude/savebrew/assets/photo/guides-header-1600.avif",
+     "bytes": 77953,
+     "width": 1600,
+     "height": 686,
+     "rendition": "desktop",
+     "width_hint": 1600,
+     "codec": "avif"
+    },
+    {
+     "path": "/assets/photo/guides-header-2400.webp",
+     "disk": "/home/claude/savebrew/assets/photo/guides-header-2400.webp",
+     "bytes": 193358,
+     "width": 2400,
+     "height": 1029,
+     "rendition": "desktop",
+     "width_hint": 2400,
+     "quality": 82
+    },
+    {
+     "path": "/assets/photo/guides-header-phone-800.webp",
+     "disk": "/home/claude/savebrew/assets/photo/guides-header-phone-800.webp",
+     "bytes": 90872,
+     "width": 800,
+     "height": 1000,
+     "rendition": "phone",
+     "width_hint": 800,
+     "quality": 82
+    }
+   ]
+  },
+  {
+   "id": "photo.contact-side",
+   "role": "/contact side image beside the address",
+   "aspect": "4:5",
+   "lives_on": [
+    "/contact"
+   ],
+   "files": {
+    "src": "/assets/photo/contact-side.webp"
+   },
+   "generator": "higgsfield gpt_image_2_5 (2k, high)",
+   "status": "review",
+   "jobs": [
+    "a54ff7c1-4e14-4aff-b112-55124656963b"
+   ],
+   "prompt_id": "img-007",
+   "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_39vLcqQmH8rxFFCbniS23PhTQMs/hf_20260925_003145_a54ff7c1-4e14-4aff-b112-55124656963b.png",
+   "aspect_generated": "4:5",
+   "crop_note": "4:5 as generated",
+   "expected_incoming": "/home/claude/savebrew/assets/incoming/photo.contact-side.png",
+   "resolved": [
+    {
+     "path": "/assets/photo/contact-side.webp",
+     "disk": "/home/claude/savebrew/assets/photo/contact-side.webp",
+     "bytes": 175336,
+     "width": 1600,
+     "height": 2000,
+     "rendition": "default"
+    },
+    {
+     "path": "/assets/photo/contact-side-800.webp",
+     "disk": "/home/claude/savebrew/assets/photo/contact-side-800.webp",
+     "bytes": 112392,
+     "width": 800,
+     "height": 1000,
+     "rendition": "desktop",
+     "width_hint": 800,
+     "quality": 82
+    },
+    {
+     "path": "/assets/photo/contact-side-1200.webp",
+     "disk": "/home/claude/savebrew/assets/photo/contact-side-1200.webp",
+     "bytes": 182886,
+     "width": 1200,
+     "height": 1500,
+     "rendition": "desktop",
+     "width_hint": 1200,
+     "quality": 82
+    },
+    {
+     "path": "/assets/photo/contact-side-1600.webp",
+     "disk": "/home/claude/savebrew/assets/photo/contact-side-1600.webp",
+     "bytes": 175336,
+     "width": 1600,
+     "height": 2000,
+     "rendition": "desktop",
+     "width_hint": 1600,
+     "quality": 66
+    },
+    {
+     "path": "/assets/photo/contact-side-1600.avif",
+     "disk": "/home/claude/savebrew/assets/photo/contact-side-1600.avif",
+     "bytes": 177764,
+     "width": 1600,
+     "height": 2000,
+     "rendition": "desktop",
+     "width_hint": 1600,
+     "codec": "avif"
+    },
+    {
+     "path": "/assets/photo/contact-side-1792.webp",
+     "disk": "/home/claude/savebrew/assets/photo/contact-side-1792.webp",
+     "bytes": 289472,
+     "width": 1792,
+     "height": 2240,
+     "rendition": "desktop",
+     "width_hint": 1792,
+     "quality": 82
+    }
+   ]
+  },
+  {
+   "id": "photo.404",
+   "role": "404 page image, a loose thread",
+   "aspect": "1:1",
+   "lives_on": [
+    "/404"
+   ],
+   "files": {
+    "src": "/assets/photo/404-loose-thread.webp"
+   },
+   "generator": "higgsfield gpt_image_2_5 (2k, high)",
+   "status": "review",
+   "jobs": [
+    "08c1b061-bfc8-49ca-b066-54111fee1bd4"
+   ],
+   "prompt_id": "img-008",
+   "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_39vLcqQmH8rxFFCbniS23PhTQMs/hf_20260925_003147_08c1b061-bfc8-49ca-b066-54111fee1bd4.png",
+   "aspect_generated": "1:1",
+   "crop_note": "1:1 as generated",
+   "expected_incoming": "/home/claude/savebrew/assets/incoming/photo.404.png",
+   "resolved": [
+    {
+     "path": "/assets/photo/404-loose-thread.webp",
+     "disk": "/home/claude/savebrew/assets/photo/404-loose-thread.webp",
+     "bytes": 123532,
+     "width": 1600,
+     "height": 1600,
+     "rendition": "default"
+    },
+    {
+     "path": "/assets/photo/404-loose-thread-800.webp",
+     "disk": "/home/claude/savebrew/assets/photo/404-loose-thread-800.webp",
+     "bytes": 50158,
+     "width": 800,
+     "height": 800,
+     "rendition": "desktop",
+     "width_hint": 800,
+     "quality": 82
+    },
+    {
+     "path": "/assets/photo/404-loose-thread-1200.webp",
+     "disk": "/home/claude/savebrew/assets/photo/404-loose-thread-1200.webp",
+     "bytes": 85456,
+     "width": 1200,
+     "height": 1200,
+     "rendition": "desktop",
+     "width_hint": 1200,
+     "quality": 82
+    },
+    {
+     "path": "/assets/photo/404-loose-thread-1600.webp",
+     "disk": "/home/claude/savebrew/assets/photo/404-loose-thread-1600.webp",
+     "bytes": 123532,
+     "width": 1600,
+     "height": 1600,
+     "rendition": "desktop",
+     "width_hint": 1600,
+     "quality": 82
+    },
+    {
+     "path": "/assets/photo/404-loose-thread-1600.avif",
+     "disk": "/home/claude/savebrew/assets/photo/404-loose-thread-1600.avif",
+     "bytes": 92061,
+     "width": 1600,
+     "height": 1600,
+     "rendition": "desktop",
+     "width_hint": 1600,
+     "codec": "avif"
+    },
+    {
+     "path": "/assets/photo/404-loose-thread-2048.webp",
+     "disk": "/home/claude/savebrew/assets/photo/404-loose-thread-2048.webp",
+     "bytes": 165852,
+     "width": 2048,
+     "height": 2048,
+     "rendition": "desktop",
+     "width_hint": 2048,
+     "quality": 82
+    }
+   ]
+  },
+  {
+   "id": "photo.guide-hero.make-a-rotating-category-pay",
+   "role": "guide hero",
+   "aspect": {
+    "desktop": "16:9",
+    "phone": "4:5"
+   },
+   "lives_on": [
+    "/guides/make-a-rotating-category-pay",
+    "/guides"
+   ],
+   "files": {
+    "src": "/assets/photo/guide-rotating-category.webp"
+   },
+   "generator": "higgsfield gpt_image_2_5 (2k, high)",
+   "status": "review",
+   "jobs": [
+    "6e5a8db7-f64e-4457-bbf9-90af5821f2d8"
+   ],
+   "prompt_id": "img-009",
+   "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_39vLcqQmH8rxFFCbniS23PhTQMs/hf_20260925_003146_6e5a8db7-f64e-4457-bbf9-90af5821f2d8.png",
+   "aspect_generated": "16:9",
+   "crop_note": "desktop 16:9 as generated; phone 4:5 focal crop from the centre",
+   "expected_incoming": "/home/claude/savebrew/assets/incoming/photo.guide-hero.make-a-rotating-category-pay.png",
+   "resolved": [
+    {
+     "path": "/assets/photo/guide-rotating-category.webp",
+     "disk": "/home/claude/savebrew/assets/photo/guide-rotating-category.webp",
+     "bytes": 162710,
+     "width": 1600,
+     "height": 900,
+     "rendition": "default"
+    },
+    {
+     "path": "/assets/photo/guide-rotating-category-800.webp",
+     "disk": "/home/claude/savebrew/assets/photo/guide-rotating-category-800.webp",
+     "bytes": 61194,
+     "width": 800,
+     "height": 450,
+     "rendition": "desktop",
+     "width_hint": 800,
+     "quality": 82
+    },
+    {
+     "path": "/assets/photo/guide-rotating-category-1200.webp",
+     "disk": "/home/claude/savebrew/assets/photo/guide-rotating-category-1200.webp",
+     "bytes": 110106,
+     "width": 1200,
+     "height": 675,
+     "rendition": "desktop",
+     "width_hint": 1200,
+     "quality": 82
+    },
+    {
+     "path": "/assets/photo/guide-rotating-category-1600.webp",
+     "disk": "/home/claude/savebrew/assets/photo/guide-rotating-category-1600.webp",
+     "bytes": 162710,
+     "width": 1600,
+     "height": 900,
+     "rendition": "desktop",
+     "width_hint": 1600,
+     "quality": 82
+    },
+    {
+     "path": "/assets/photo/guide-rotating-category-1600.avif",
+     "disk": "/home/claude/savebrew/assets/photo/guide-rotating-category-1600.avif",
+     "bytes": 118627,
+     "width": 1600,
+     "height": 900,
+     "rendition": "desktop",
+     "width_hint": 1600,
+     "codec": "avif"
+    },
+    {
+     "path": "/assets/photo/guide-rotating-category-2400.webp",
+     "disk": "/home/claude/savebrew/assets/photo/guide-rotating-category-2400.webp",
+     "bytes": 273408,
+     "width": 2400,
+     "height": 1350,
+     "rendition": "desktop",
+     "width_hint": 2400,
+     "quality": 82
+    },
+    {
+     "path": "/assets/photo/guide-rotating-category-phone-800.webp",
+     "disk": "/home/claude/savebrew/assets/photo/guide-rotating-category-phone-800.webp",
+     "bytes": 100166,
+     "width": 800,
+     "height": 1000,
+     "rendition": "phone",
+     "width_hint": 800,
+     "quality": 82
+    },
+    {
+     "path": "/assets/photo/guide-rotating-category-phone-1200.webp",
+     "disk": "/home/claude/savebrew/assets/photo/guide-rotating-category-phone-1200.webp",
+     "bytes": 166168,
+     "width": 1200,
+     "height": 1500,
+     "rendition": "phone",
+     "width_hint": 1200,
+     "quality": 82
+    }
+   ]
+  },
+  {
+   "id": "photo.guide-hero.the-national-average-is-a-warning",
+   "role": "guide hero",
+   "aspect": {
+    "desktop": "16:9",
+    "phone": "4:5"
+   },
+   "lives_on": [
+    "/guides/the-national-average-is-a-warning",
+    "/guides"
+   ],
+   "files": {
+    "src": "/assets/photo/guide-national-average.webp"
+   },
+   "generator": "higgsfield gpt_image_2_5 (2k, high)",
+   "status": "review",
+   "jobs": [
+    "ae165dcc-3d02-481f-9669-f4afbc90e568"
+   ],
+   "prompt_id": "img-010",
+   "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_39vLcqQmH8rxFFCbniS23PhTQMs/hf_20260925_003146_ae165dcc-3d02-481f-9669-f4afbc90e568.png",
+   "aspect_generated": "16:9",
+   "crop_note": "desktop 16:9 as generated; phone 4:5 focal crop from the centre",
+   "expected_incoming": "/home/claude/savebrew/assets/incoming/photo.guide-hero.the-national-average-is-a-warning.png",
+   "resolved": [
+    {
+     "path": "/assets/photo/guide-national-average.webp",
+     "disk": "/home/claude/savebrew/assets/photo/guide-national-average.webp",
+     "bytes": 187146,
+     "width": 1600,
+     "height": 900,
+     "rendition": "default"
+    },
+    {
+     "path": "/assets/photo/guide-national-average-800.webp",
+     "disk": "/home/claude/savebrew/assets/photo/guide-national-average-800.webp",
+     "bytes": 122582,
+     "width": 800,
+     "height": 450,
+     "rendition": "desktop",
+     "width_hint": 800,
+     "quality": 82
+    },
+    {
+     "path": "/assets/photo/guide-national-average-1200.webp",
+     "disk": "/home/claude/savebrew/assets/photo/guide-national-average-1200.webp",
+     "bytes": 225588,
+     "width": 1200,
+     "height": 675,
+     "rendition": "desktop",
+     "width_hint": 1200,
+     "quality": 82
+    },
+    {
+     "path": "/assets/photo/guide-national-average-1600.webp",
+     "disk": "/home/claude/savebrew/assets/photo/guide-national-average-1600.webp",
+     "bytes": 187146,
+     "width": 1600,
+     "height": 900,
+     "rendition": "desktop",
+     "width_hint": 1600,
+     "quality": 50
+    },
+    {
+     "path": "/assets/photo/guide-national-average-1600.avif",
+     "disk": "/home/claude/savebrew/assets/photo/guide-national-average-1600.avif",
+     "bytes": 209492,
+     "width": 1600,
+     "height": 900,
+     "rendition": "desktop",
+     "width_hint": 1600,
+     "codec": "avif"
+    },
+    {
+     "path": "/assets/photo/guide-national-average-2400.webp",
+     "disk": "/home/claude/savebrew/assets/photo/guide-national-average-2400.webp",
+     "bytes": 564080,
+     "width": 2400,
+     "height": 1350,
+     "rendition": "desktop",
+     "width_hint": 2400,
+     "quality": 82
+    },
+    {
+     "path": "/assets/photo/guide-national-average-phone-800.webp",
+     "disk": "/home/claude/savebrew/assets/photo/guide-national-average-phone-800.webp",
+     "bytes": 181484,
+     "width": 800,
+     "height": 1000,
+     "rendition": "phone",
+     "width_hint": 800,
+     "quality": 82
+    },
+    {
+     "path": "/assets/photo/guide-national-average-phone-1200.webp",
+     "disk": "/home/claude/savebrew/assets/photo/guide-national-average-phone-1200.webp",
+     "bytes": 304072,
+     "width": 1200,
+     "height": 1500,
+     "rendition": "phone",
+     "width_hint": 1200,
+     "quality": 82
+    }
+   ]
+  },
+  {
+   "id": "photo.guide-hero.four-percent-against-the-account-you-have",
+   "role": "guide hero",
+   "aspect": {
+    "desktop": "16:9",
+    "phone": "4:5"
+   },
+   "lives_on": [
+    "/guides/four-percent-against-the-account-you-have",
+    "/guides"
+   ],
+   "files": {
+    "src": "/assets/photo/guide-four-percent.webp"
+   },
+   "generator": "higgsfield gpt_image_2_5 (2k, high)",
+   "status": "review",
+   "jobs": [
+    "8496a01c-022f-4ac2-b30a-90f8b5f1ea01"
+   ],
+   "prompt_id": "img-011",
+   "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_39vLcqQmH8rxFFCbniS23PhTQMs/hf_20260925_003146_8496a01c-022f-4ac2-b30a-90f8b5f1ea01.png",
+   "aspect_generated": "16:9",
+   "crop_note": "desktop 16:9 as generated; phone 4:5 focal crop from the centre",
+   "expected_incoming": "/home/claude/savebrew/assets/incoming/photo.guide-hero.four-percent-against-the-account-you-have.png",
+   "resolved": [
+    {
+     "path": "/assets/photo/guide-four-percent.webp",
+     "disk": "/home/claude/savebrew/assets/photo/guide-four-percent.webp",
+     "bytes": 156148,
+     "width": 1600,
+     "height": 900,
+     "rendition": "default"
+    },
+    {
+     "path": "/assets/photo/guide-four-percent-800.webp",
+     "disk": "/home/claude/savebrew/assets/photo/guide-four-percent-800.webp",
+     "bytes": 72458,
+     "width": 800,
+     "height": 450,
+     "rendition": "desktop",
+     "width_hint": 800,
+     "quality": 82
+    },
+    {
+     "path": "/assets/photo/guide-four-percent-1200.webp",
+     "disk": "/home/claude/savebrew/assets/photo/guide-four-percent-1200.webp",
+     "bytes": 125638,
+     "width": 1200,
+     "height": 675,
+     "rendition": "desktop",
+     "width_hint": 1200,
+     "quality": 82
+    },
+    {
+     "path": "/assets/photo/guide-four-percent-1600.webp",
+     "disk": "/home/claude/savebrew/assets/photo/guide-four-percent-1600.webp",
+     "bytes": 156148,
+     "width": 1600,
+     "height": 900,
+     "rendition": "desktop",
+     "width_hint": 1600,
+     "quality": 78
+    },
+    {
+     "path": "/assets/photo/guide-four-percent-1600.avif",
+     "disk": "/home/claude/savebrew/assets/photo/guide-four-percent-1600.avif",
+     "bytes": 123333,
+     "width": 1600,
+     "height": 900,
+     "rendition": "desktop",
+     "width_hint": 1600,
+     "codec": "avif"
+    },
+    {
+     "path": "/assets/photo/guide-four-percent-2400.webp",
+     "disk": "/home/claude/savebrew/assets/photo/guide-four-percent-2400.webp",
+     "bytes": 296056,
+     "width": 2400,
+     "height": 1350,
+     "rendition": "desktop",
+     "width_hint": 2400,
+     "quality": 82
+    },
+    {
+     "path": "/assets/photo/guide-four-percent-phone-800.webp",
+     "disk": "/home/claude/savebrew/assets/photo/guide-four-percent-phone-800.webp",
+     "bytes": 112308,
+     "width": 800,
+     "height": 1000,
+     "rendition": "phone",
+     "width_hint": 800,
+     "quality": 82
+    },
+    {
+     "path": "/assets/photo/guide-four-percent-phone-1200.webp",
+     "disk": "/home/claude/savebrew/assets/photo/guide-four-percent-phone-1200.webp",
+     "bytes": 180900,
+     "width": 1200,
+     "height": 1500,
+     "rendition": "phone",
+     "width_hint": 1200,
+     "quality": 82
+    }
+   ]
+  },
+  {
+   "id": "photo.guide-hero.why-patio-furniture-is-cheap-in-october",
+   "role": "guide hero",
+   "aspect": {
+    "desktop": "16:9",
+    "phone": "4:5"
+   },
+   "lives_on": [
+    "/guides/why-patio-furniture-is-cheap-in-october",
+    "/guides"
+   ],
+   "files": {
+    "src": "/assets/photo/guide-patio-october.webp"
+   },
+   "generator": "higgsfield gpt_image_2_5 (2k, high)",
+   "status": "review",
+   "jobs": [
+    "f8f258a7-84a1-49cf-8429-f406984516de"
+   ],
+   "prompt_id": "img-012",
+   "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_39vLcqQmH8rxFFCbniS23PhTQMs/hf_20260925_003146_f8f258a7-84a1-49cf-8429-f406984516de.png",
+   "aspect_generated": "16:9",
+   "crop_note": "desktop 16:9 as generated; phone 4:5 focal crop from the centre",
+   "expected_incoming": "/home/claude/savebrew/assets/incoming/photo.guide-hero.why-patio-furniture-is-cheap-in-october.png",
+   "resolved": [
+    {
+     "path": "/assets/photo/guide-patio-october.webp",
+     "disk": "/home/claude/savebrew/assets/photo/guide-patio-october.webp",
+     "bytes": 174286,
+     "width": 1600,
+     "height": 900,
+     "rendition": "default"
+    },
+    {
+     "path": "/assets/photo/guide-patio-october-800.webp",
+     "disk": "/home/claude/savebrew/assets/photo/guide-patio-october-800.webp",
+     "bytes": 107028,
+     "width": 800,
+     "height": 450,
+     "rendition": "desktop",
+     "width_hint": 800,
+     "quality": 82
+    },
+    {
+     "path": "/assets/photo/guide-patio-october-1200.webp",
+     "disk": "/home/claude/savebrew/assets/photo/guide-patio-october-1200.webp",
+     "bytes": 204332,
+     "width": 1200,
+     "height": 675,
+     "rendition": "desktop",
+     "width_hint": 1200,
+     "quality": 82
+    },
+    {
+     "path": "/assets/photo/guide-patio-october-1600.webp",
+     "disk": "/home/claude/savebrew/assets/photo/guide-patio-october-1600.webp",
+     "bytes": 174286,
+     "width": 1600,
+     "height": 900,
+     "rendition": "desktop",
+     "width_hint": 1600,
+     "quality": 54
+    },
+    {
+     "path": "/assets/photo/guide-patio-october-1600.avif",
+     "disk": "/home/claude/savebrew/assets/photo/guide-patio-october-1600.avif",
+     "bytes": 202236,
+     "width": 1600,
+     "height": 900,
+     "rendition": "desktop",
+     "width_hint": 1600,
+     "codec": "avif"
+    },
+    {
+     "path": "/assets/photo/guide-patio-october-2400.webp",
+     "disk": "/home/claude/savebrew/assets/photo/guide-patio-october-2400.webp",
+     "bytes": 472938,
+     "width": 2400,
+     "height": 1350,
+     "rendition": "desktop",
+     "width_hint": 2400,
+     "quality": 82
+    },
+    {
+     "path": "/assets/photo/guide-patio-october-phone-800.webp",
+     "disk": "/home/claude/savebrew/assets/photo/guide-patio-october-phone-800.webp",
+     "bytes": 160616,
+     "width": 800,
+     "height": 1000,
+     "rendition": "phone",
+     "width_hint": 800,
+     "quality": 82
+    },
+    {
+     "path": "/assets/photo/guide-patio-october-phone-1200.webp",
+     "disk": "/home/claude/savebrew/assets/photo/guide-patio-october-phone-1200.webp",
+     "bytes": 257026,
+     "width": 1200,
+     "height": 1500,
+     "rendition": "phone",
+     "width_hint": 1200,
+     "quality": 82
+    }
+   ]
+  },
+  {
+   "id": "product.today-desktop",
+   "role": "Today view, desktop window 1440x900 at 2x, app's own bar, knot mark and wordmark left",
+   "aspect": "16:10",
+   "lives_on": [
+    "/ (What's inside the dashboard?)",
+    "/membership",
+    "/brief"
+   ],
+   "files": {
+    "src": "/assets/product/today-desktop.webp",
+    "html": "/home/claude/savebrew/assets/product-ui/today.html"
+   },
+   "generator": "built in HTML, screenshotted",
+   "status": "review",
+   "resolved": [
+    {
+     "path": "/assets/product/today-desktop.webp",
+     "disk": "/home/claude/savebrew/assets/product/today-desktop.webp",
+     "bytes": 248198,
+     "width": 2880,
+     "height": 1800,
+     "rendition": "default"
+    },
+    {
+     "path": "/assets/product/today-desktop.png",
+     "disk": "/home/claude/savebrew/assets/product/today-desktop.png",
+     "bytes": 410540,
+     "width": 2880,
+     "height": 1800,
+     "rendition": "png master"
+    }
+   ]
+  },
+  {
+   "id": "product.rates-desktop",
+   "role": "Rate Tracker view, desktop window",
+   "aspect": "16:10",
+   "lives_on": [
+    "/",
+    "/membership"
+   ],
+   "files": {
+    "src": "/assets/product/rates-desktop.webp",
+    "html": "/home/claude/savebrew/assets/product-ui/rates.html"
+   },
+   "generator": "built in HTML, screenshotted",
+   "status": "review",
+   "resolved": [
+    {
+     "path": "/assets/product/rates-desktop.webp",
+     "disk": "/home/claude/savebrew/assets/product/rates-desktop.webp",
+     "bytes": 173874,
+     "width": 2880,
+     "height": 1800,
+     "rendition": "default"
+    },
+    {
+     "path": "/assets/product/rates-desktop.png",
+     "disk": "/home/claude/savebrew/assets/product/rates-desktop.png",
+     "bytes": 330654,
+     "width": 2880,
+     "height": 1800,
+     "rendition": "png master"
+    }
+   ]
+  },
+  {
+   "id": "product.goals-desktop",
+   "role": "Goals view, desktop window",
+   "aspect": "16:10",
+   "lives_on": [
+    "/",
+    "/membership"
+   ],
+   "files": {
+    "src": "/assets/product/goals-desktop.webp",
+    "html": "/home/claude/savebrew/assets/product-ui/goals.html"
+   },
+   "generator": "built in HTML, screenshotted",
+   "status": "review",
+   "resolved": [
+    {
+     "path": "/assets/product/goals-desktop.webp",
+     "disk": "/home/claude/savebrew/assets/product/goals-desktop.webp",
+     "bytes": 152328,
+     "width": 2880,
+     "height": 1800,
+     "rendition": "default"
+    },
+    {
+     "path": "/assets/product/goals-desktop.png",
+     "disk": "/home/claude/savebrew/assets/product/goals-desktop.png",
+     "bytes": 279009,
+     "width": 2880,
+     "height": 1800,
+     "rendition": "png master"
+    }
+   ]
+  },
+  {
+   "id": "product.today-phone",
+   "role": "Today view, phone 375x812 at 3x, frameless",
+   "aspect": "375:812",
+   "lives_on": [
+    "/",
+    "/membership"
+   ],
+   "files": {
+    "src": "/assets/product/today-phone.webp"
+   },
+   "generator": "built in HTML, screenshotted",
+   "status": "review",
+   "resolved": [
+    {
+     "path": "/assets/product/today-phone.webp",
+     "disk": "/home/claude/savebrew/assets/product/today-phone.webp",
+     "bytes": 139430,
+     "width": 1125,
+     "height": 2436,
+     "rendition": "default"
+    },
+    {
+     "path": "/assets/product/today-phone.png",
+     "disk": "/home/claude/savebrew/assets/product/today-phone.png",
+     "bytes": 234872,
+     "width": 1125,
+     "height": 2436,
+     "rendition": "png master"
+    }
+   ]
+  },
+  {
+   "id": "product.rates-phone",
+   "role": "Rate Tracker view, phone",
+   "aspect": "375:812",
+   "lives_on": [
+    "/"
+   ],
+   "files": {
+    "src": "/assets/product/rates-phone.webp"
+   },
+   "generator": "built in HTML, screenshotted",
+   "status": "review",
+   "resolved": [
+    {
+     "path": "/assets/product/rates-phone.webp",
+     "disk": "/home/claude/savebrew/assets/product/rates-phone.webp",
+     "bytes": 120872,
+     "width": 1125,
+     "height": 2436,
+     "rendition": "default"
+    },
+    {
+     "path": "/assets/product/rates-phone.png",
+     "disk": "/home/claude/savebrew/assets/product/rates-phone.png",
+     "bytes": 234624,
+     "width": 1125,
+     "height": 2436,
+     "rendition": "png master"
+    }
+   ]
+  },
+  {
+   "id": "product.goals-phone",
+   "role": "Goals view, phone",
+   "aspect": "375:812",
+   "lives_on": [
+    "/"
+   ],
+   "files": {
+    "src": "/assets/product/goals-phone.webp"
+   },
+   "generator": "built in HTML, screenshotted",
+   "status": "review",
+   "resolved": [
+    {
+     "path": "/assets/product/goals-phone.webp",
+     "disk": "/home/claude/savebrew/assets/product/goals-phone.webp",
+     "bytes": 98930,
+     "width": 1125,
+     "height": 2436,
+     "rendition": "default"
+    },
+    {
+     "path": "/assets/product/goals-phone.png",
+     "disk": "/home/claude/savebrew/assets/product/goals-phone.png",
+     "bytes": 198954,
+     "width": 1125,
+     "height": 2436,
+     "rendition": "png master"
+    }
+   ]
+  },
+  {
+   "id": "kit.logo",
+   "role": "primary, reversed, stacked and icon only lockups of the knot mark and the SaveBrew wordmark, SVG and PNG, checked on white, on indigo and on butter",
+   "lives_on": [
+    "header",
+    "footer",
+    "app bar",
+    "/brand-kit/"
+   ],
+   "files": {
+    "dir": "/home/claude/savebrew/assets/brand-kit/"
+   },
+   "generator": "drawn",
+   "status": "review",
+   "resolved": [
+    "/home/claude/savebrew/assets/brand-kit/logo/savebrew-icon-512.png",
+    "/home/claude/savebrew/assets/brand-kit/logo/savebrew-icon-reversed.png",
+    "/home/claude/savebrew/assets/brand-kit/logo/savebrew-icon-reversed.svg",
+    "/home/claude/savebrew/assets/brand-kit/logo/savebrew-icon.png",
+    "/home/claude/savebrew/assets/brand-kit/logo/savebrew-icon.svg",
+    "/home/claude/savebrew/assets/brand-kit/logo/savebrew-knot.svg",
+    "/home/claude/savebrew/assets/brand-kit/logo/savebrew-primary-currentcolor.svg",
+    "/home/claude/savebrew/assets/brand-kit/logo/savebrew-primary.png",
+    "/home/claude/savebrew/assets/brand-kit/logo/savebrew-primary.svg",
+    "/home/claude/savebrew/assets/brand-kit/logo/savebrew-reversed.png",
+    "/home/claude/savebrew/assets/brand-kit/logo/savebrew-reversed.svg",
+    "/home/claude/savebrew/assets/brand-kit/logo/savebrew-stacked-reversed.png",
+    "/home/claude/savebrew/assets/brand-kit/logo/savebrew-stacked-reversed.svg",
+    "/home/claude/savebrew/assets/brand-kit/logo/savebrew-stacked.png",
+    "/home/claude/savebrew/assets/brand-kit/logo/savebrew-stacked.svg",
+    "/home/claude/savebrew/assets/brand-kit/logo/savebrew-wordmark.svg"
+   ]
+  },
+  {
+   "id": "kit.favicon",
+   "role": "favicon set: svg, 32 png, 180 apple touch, ico",
+   "files": {
+    "dir": "/home/claude/savebrew/assets/brand-kit/favicon/"
+   },
+   "generator": "drawn",
+   "status": "review",
+   "resolved": [
+    "/home/claude/savebrew/assets/brand-kit/favicon/apple-touch-icon-180.png",
+    "/home/claude/savebrew/assets/brand-kit/favicon/apple-touch-icon.svg",
+    "/home/claude/savebrew/assets/brand-kit/favicon/favicon-16.png",
+    "/home/claude/savebrew/assets/brand-kit/favicon/favicon-32.png",
+    "/home/claude/savebrew/assets/brand-kit/favicon/favicon-48.png",
+    "/home/claude/savebrew/assets/brand-kit/favicon/favicon.ico",
+    "/home/claude/savebrew/assets/brand-kit/favicon/favicon.svg"
+   ]
+  },
+  {
+   "id": "kit.banners",
+   "role": "LinkedIn cover 1128x191 and logo 400x400, X header 1500x500, Crunchbase 1200x628, OG 1200x630",
+   "files": {
+    "dir": "/home/claude/savebrew/assets/brand-kit/banners/"
+   },
+   "generator": "built in HTML, screenshotted",
+   "status": "review",
+   "resolved": [
+    "/home/claude/savebrew/assets/brand-kit/banners/crunchbase-1200x628.png",
+    "/home/claude/savebrew/assets/brand-kit/banners/linkedin-cover-1128x191.png",
+    "/home/claude/savebrew/assets/brand-kit/banners/linkedin-logo-400x400.png",
+    "/home/claude/savebrew/assets/brand-kit/banners/og-1200x630.png",
+    "/home/claude/savebrew/assets/brand-kit/banners/x-header-1500x500.png"
+   ]
+  },
+  {
+   "id": "kit.svg",
+   "role": "the graphic kit: the Knot motif, the Selvedge Seal, the thread strip, the weft pass divider, the eleven icons, four guide graphics (one per post), the 404 loose thread",
+   "files": {
+    "dir": "/home/claude/savebrew/assets/kit-svg/"
+   },
+   "generator": "drawn",
+   "status": "review",
+   "resolved": [
+    "/home/claude/savebrew/assets/kit-svg/404-loose-thread.svg",
+    "/home/claude/savebrew/assets/kit-svg/guide-graphics/four-percent-against-the-account-you-have.svg",
+    "/home/claude/savebrew/assets/kit-svg/guide-graphics/make-a-rotating-category-pay.svg",
+    "/home/claude/savebrew/assets/kit-svg/guide-graphics/the-national-average-is-a-warning.svg",
+    "/home/claude/savebrew/assets/kit-svg/guide-graphics/why-patio-furniture-is-cheap-in-october.svg",
+    "/home/claude/savebrew/assets/kit-svg/icons/archive.svg",
+    "/home/claude/savebrew/assets/kit-svg/icons/cashback.svg",
+    "/home/claude/savebrew/assets/kit-svg/icons/coupons.svg",
+    "/home/claude/savebrew/assets/kit-svg/icons/goals.svg",
+    "/home/claude/savebrew/assets/kit-svg/icons/membership.svg",
+    "/home/claude/savebrew/assets/kit-svg/icons/paycheck.svg",
+    "/home/claude/savebrew/assets/kit-svg/icons/rates.svg",
+    "/home/claude/savebrew/assets/kit-svg/icons/roundup.svg",
+    "/home/claude/savebrew/assets/kit-svg/icons/seasonal.svg",
+    "/home/claude/savebrew/assets/kit-svg/icons/texts.svg",
+    "/home/claude/savebrew/assets/kit-svg/icons/your-moves.svg",
+    "/home/claude/savebrew/assets/kit-svg/knot.svg",
+    "/home/claude/savebrew/assets/kit-svg/selvedge-seal.svg",
+    "/home/claude/savebrew/assets/kit-svg/thread-strip.svg",
+    "/home/claude/savebrew/assets/kit-svg/weft-pass.svg"
+   ]
+  },
+  {
+   "id": "texture.fabric",
+   "role": "one CC0 plain weave cotton or linen colour map, 1K, WebP, for the mobile poster ground and the 404 field",
+   "files": {
+    "src": "/assets/texture/fabric-1k.webp"
+   },
+   "generator": "procedural fallback",
+   "status": "review",
+   "resolved": [
+    {
+     "path": "/assets/texture/fabric-1k.webp",
+     "disk": "/home/claude/savebrew/assets/texture/fabric-1k.webp",
+     "bytes": 31274,
+     "width": 1024,
+     "height": 1024
+    }
+   ]
+  },
+  {
+   "id": "scene.loom-poster",
+   "role": "the loom's poster: the flat cloth at progress 1.0 in four framings (1600 by 1000, 1500 by 1200, 1200 by 1200, 1080 by 1920 WebP, each with the same static grain baked in), shown behind the hero until Three.js is live and kept under reduced motion, low power and init failure",
+   "aspect": "16:10 (src), 5:4 (mid), 1:1 (square), 9:16 (tall)",
+   "lives_on": [
+    "/ (the hero, behind the loom canvas)"
+   ],
+   "files": {
+    "src": "/assets/scene/loom-poster.webp",
+    "mid": "/assets/scene/loom-poster-mid.webp",
+    "square": "/assets/scene/loom-poster-square.webp",
+    "tall": "/assets/scene/loom-poster-tall.webp"
+   },
+   "generator": "built: Playwright render of the loom scene at progress 1.0 (B1, src/routes/home/loom.ts with ?qa=poster at 1600x1000, 1500x1200, 1200x1200 and 1080x1920; qa/render-tall-poster.mjs), toned and grained to the first render",
+   "status": "shipped",
+   "crop_note": "object-fit cover, anchored centre bottom; the picture element picks the framing whose aspect is at or just under the viewport's (16:10 and wider, 5:4 to 16:10, 1:1 to 5:4, under 1:1), so the poster always fits by width and the five threads land on the five knot labels"
+  }
+ ],
+ "updated": "2026-09-25T17:08Z",
+ "fonts": {
+  "path": "/home/claude/savebrew/assets/fonts/",
+  "source": "google/fonts GitHub raw (fonts.googleapis.com is blocked from the sandbox)",
+  "files": [
+   "BigShouldersDisplay[wght].ttf",
+   "Manrope[wght].ttf"
+  ],
+  "licence": "SIL Open Font License 1.1 (OFL text beside each file)",
+  "loaded_by": "@font-face in product-ui/tokens.css; the build may swap in the Google Fonts link"
+ },
+ "knot_mark": {
+  "grid": 24,
+  "stroke": 2,
+  "paths": [
+   "M12 2V4.8M12 8.4V22",
+   "M2.5 12H8.4C8.4 8.4 10 6.6 12 6.6C14 6.6 15.6 8.4 15.6 12H21.5",
+   "M15.6 12C15.6 13.6 14.6 14.6 13.5 14.9M10.5 14.9C9.4 14.6 8.4 13.6 8.4 12"
+  ],
+  "note": "the warp is broken where the loop passes over it, the loop is broken where it passes under; same paths in the product UI, the brand kit and kit-svg/knot.svg"
+ },
+ "pipeline": {
+  "optimise": "/home/claude/savebrew/assets/optimise.py",
+  "contact_sheet": "/home/claude/savebrew/assets/build_contact_sheet.py",
+  "incoming_dir": "/home/claude/savebrew/assets/incoming/",
+  "incoming_naming": "<slot-id>.png for stills, video.hero-loop.clip1.mp4 to clip4.mp4 for the clips"
+ }
+}

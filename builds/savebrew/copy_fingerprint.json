@@ -1,0 +1,412 @@
+{
+  "brand": "SaveBrew",
+  "source": "savebrew_site_copy_labelled.md",
+  "h1": "Which of the five threads your money runs on moved overnight?",
+  "h1_shapes": [
+    "question",
+    "second-person"
+  ],
+  "headlines": [
+    {
+      "text": "What's in today's pass?",
+      "shapes": [
+        "question"
+      ]
+    },
+    {
+      "text": "What does it cost?",
+      "shapes": [
+        "question"
+      ]
+    },
+    {
+      "text": "Add the Daily for Two to my cart",
+      "shapes": [
+        "imperative"
+      ]
+    },
+    {
+      "text": "What's free to read",
+      "shapes": [
+        "declarative"
+      ]
+    },
+    {
+      "text": "What did last week's pass look like?",
+      "shapes": [
+        "question"
+      ]
+    },
+    {
+      "text": "What's inside the dashboard?",
+      "shapes": [
+        "question"
+      ]
+    },
+    {
+      "text": "Which threads should you pull first?",
+      "shapes": [
+        "question",
+        "second-person"
+      ]
+    },
+    {
+      "text": "What's free to read?",
+      "shapes": [
+        "question"
+      ]
+    },
+    {
+      "text": "What do people ask before they join?",
+      "shapes": [
+        "question"
+      ]
+    },
+    {
+      "text": "What arrives, and when?",
+      "shapes": [
+        "question"
+      ]
+    },
+    {
+      "text": "What can I read without paying?",
+      "shapes": [
+        "question"
+      ]
+    },
+    {
+      "text": "Is this financial advice?",
+      "shapes": [
+        "question"
+      ]
+    },
+    {
+      "text": "How do I cancel?",
+      "shapes": [
+        "question"
+      ]
+    },
+    {
+      "text": "Can I get a refund?",
+      "shapes": [
+        "question"
+      ]
+    },
+    {
+      "text": "What are the texts, and what aren't they?",
+      "shapes": [
+        "question"
+      ]
+    },
+    {
+      "text": "What is the Daily for Two?",
+      "shapes": [
+        "question"
+      ]
+    },
+    {
+      "text": "How does the yearly price work out?",
+      "shapes": [
+        "question"
+      ]
+    },
+    {
+      "text": "What is the Rate Tracker, and what isn't it?",
+      "shapes": [
+        "question",
+        "negation"
+      ]
+    },
+    {
+      "text": "Who is behind SaveBrew?",
+      "shapes": [
+        "question"
+      ]
+    },
+    {
+      "text": "What does the members' version add?",
+      "shapes": [
+        "question"
+      ]
+    },
+    {
+      "text": "Can I switch from monthly to yearly later?",
+      "shapes": [
+        "question"
+      ]
+    },
+    {
+      "text": "What happens if a payment fails?",
+      "shapes": [
+        "question"
+      ]
+    },
+    {
+      "text": "Is sales tax included in the price?",
+      "shapes": [
+        "question"
+      ]
+    },
+    {
+      "text": "Can I move from the Daily to the Daily for Two?",
+      "shapes": [
+        "question"
+      ]
+    },
+    {
+      "text": "What does the second reader pay, and what do they need?",
+      "shapes": [
+        "question"
+      ]
+    },
+    {
+      "text": "What moved this week?",
+      "shapes": [
+        "question"
+      ]
+    },
+    {
+      "text": "Where did the tracked rates end the week?",
+      "shapes": [
+        "question"
+      ]
+    },
+    {
+      "text": "Past Saturdays",
+      "shapes": [
+        "three-words-or-fewer"
+      ]
+    },
+    {
+      "text": "How do I reach a person?",
+      "shapes": [
+        "question"
+      ]
+    },
+    {
+      "text": "Or write to us here",
+      "shapes": [
+        "declarative"
+      ]
+    },
+    {
+      "text": "Your cart",
+      "shapes": [
+        "second-person",
+        "three-words-or-fewer"
+      ]
+    },
+    {
+      "text": "Checkout",
+      "shapes": [
+        "three-words-or-fewer"
+      ]
+    },
+    {
+      "text": "Your membership is on.",
+      "shapes": [
+        "second-person"
+      ]
+    },
+    {
+      "text": "What happens now?",
+      "shapes": [
+        "question",
+        "three-words-or-fewer"
+      ]
+    },
+    {
+      "text": "Invite your second reader",
+      "shapes": [
+        "second-person"
+      ]
+    },
+    {
+      "text": "Your membership",
+      "shapes": [
+        "second-person",
+        "three-words-or-fewer"
+      ]
+    },
+    {
+      "text": "Sign in",
+      "shapes": [
+        "three-words-or-fewer"
+      ]
+    },
+    {
+      "text": "This thread isn't on the loom.",
+      "shapes": [
+        "negation"
+      ]
+    },
+    {
+      "text": "Who checks the threads?",
+      "shapes": [
+        "question"
+      ]
+    }
+  ],
+  "headline_shape_profile": {
+    "question": 28,
+    "three-words-or-fewer": 6,
+    "second-person": 5,
+    "declarative": 2,
+    "negation": 2,
+    "imperative": 1
+  },
+  "ctas": [
+    "Add the Daily to my cart",
+    "Open this week's free roundup",
+    "Look inside the dashboard",
+    "Open today's brief in full",
+    "Open the guides",
+    "Open Your moves",
+    "Send my message",
+    "Choose a membership",
+    "Set my password",
+    "Send the invite",
+    "Yesterday's brief",
+    "Email me a sign in link",
+    "Sign in",
+    "Search",
+    "Home",
+    "This week's Roundup",
+    "Membership",
+    "What each membership includes"
+  ],
+  "cta_classes": [
+    "choose-noun",
+    "other:add-the-daily-to-my-cart",
+    "other:email-me-a-sign-in-link",
+    "other:home",
+    "other:look-inside-the-dashboard",
+    "other:membership",
+    "other:open-the-guides",
+    "other:open-this-week-s-free-roundup",
+    "other:open-today-s-brief-in-full",
+    "other:open-your-moves",
+    "other:search",
+    "other:send-my-message",
+    "other:send-the-invite",
+    "other:set-my-password",
+    "other:sign-in",
+    "other:this-week-s-roundup",
+    "other:what-each-membership-includes",
+    "other:yesterday-s-brief"
+  ],
+  "section_names": [
+    "What's in today's pass?",
+    "What does it cost?",
+    "What's free to read",
+    "What did last week's pass look like?",
+    "What's inside the dashboard?",
+    "Which threads should you pull first?",
+    "What's free to read?",
+    "What do people ask before they join?",
+    "What does the members' version add?",
+    "How do I cancel?",
+    "What moved this week?",
+    "Where did the tracked rates end the week?",
+    "Past Saturdays",
+    "How do I reach a person?",
+    "Or write to us here",
+    "Your cart",
+    "Checkout",
+    "Your membership is on.",
+    "What happens now?",
+    "Invite your second reader",
+    "Your membership",
+    "Sign in",
+    "This thread isn't on the loom."
+  ],
+  "section_naming_devices": {
+    "question": 13,
+    "noun-phrase": 5,
+    "short-noun": 5
+  },
+  "blog_titles": [
+    {
+      "text": "How to make a rotating cashback category actually pay",
+      "format": "how-to"
+    },
+    {
+      "text": "The national average savings rate is not a benchmark, it is a warning",
+      "format": "myth-negation"
+    },
+    {
+      "text": "A 4.00% account against the one you already have: the arithmetic on $10,000",
+      "format": "noun-phrase"
+    },
+    {
+      "text": "Why patio furniture is cheap in October: the seasonal buying cycle, plainly",
+      "format": "why-explainer"
+    }
+  ],
+  "blog_title_formats": [
+    "how-to",
+    "myth-negation",
+    "noun-phrase",
+    "why-explainer"
+  ],
+  "opening_lines": [
+    {
+      "text": "The 5 percent is real.",
+      "shape": "short-claim"
+    },
+    {
+      "text": "The FDIC publishes a national rate for savings deposits, and for September 2026 it's 0.37 percent (the National Rate on Non Jumbo Deposits, Savings, updated September 21, with the next release due October 19).",
+      "shape": "claim"
+    },
+    {
+      "text": "You have an account.",
+      "shape": "second-person"
+    },
+    {
+      "text": "A four piece patio set that was listed at $899 in May is listed at $549 this week at all three of the home retailers we track.",
+      "shape": "past-tense-story"
+    },
+    {
+      "text": "Most writing about saving money fails in one of two ways, and we've read enough of it to name both.",
+      "shape": "claim"
+    }
+  ],
+  "opening_shapes": [
+    "claim",
+    "past-tense-story",
+    "second-person",
+    "short-claim"
+  ],
+  "devices": {
+    "counting-as-story": 6,
+    "not-x-but-y": 7,
+    "second-person-conditional": 15,
+    "one-word-sentences": 6,
+    "question-headlines": 28
+  },
+  "stats": {
+    "sentences": 855,
+    "words": 15417,
+    "mean_sentence_words": 18.0,
+    "sentence_length_stdev": 14.5,
+    "share_short_sentences_le5": 0.14,
+    "share_long_sentences_ge25": 0.22,
+    "contractions_per_100_words": 1.9,
+    "questions_per_100_sentences": 9.5
+  },
+  "tags": [
+    "copy.blog.how-to",
+    "copy.blog.myth-negation",
+    "copy.blog.noun-phrase",
+    "copy.blog.why-explainer",
+    "copy.cta.choose-noun",
+    "copy.device.counting-as-story",
+    "copy.device.not-x-but-y",
+    "copy.h1.question",
+    "copy.h1.second-person",
+    "copy.headline.question",
+    "copy.headline.second-person",
+    "copy.open.short-claim",
+    "copy.section.question"
+  ]
+}
