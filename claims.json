@@ -6,7 +6,7 @@
    "brand": "Brainbrook",
    "domain": "brainbrook.com",
    "date": "20260924",
-   "status": "claimed",
+   "status": "shipped",
    "session": "brainbrook--20260924--n8k2d",
    "archetype": "Meander (invented, the brook spine): one continuous generative line swings across the full viewport width down the whole page; every section docks on the bank opposite the swing so both halves of every width are occupied; section labels ride the line as standing tags; media bands and the signature scene run edge to edge",
    "hero_composition": "",
@@ -97,7 +97,9 @@
     "type.variable-axis-settle-on-scroll",
     "voice.friend-who-already-did-it"
    ],
-   "seeded_from": "Build Log run record, 2026-09-24 (this claim was written by the ninth amendment's seed, not by the run itself)"
+   "seeded_from": "Build Log run record, 2026-09-24 (this claim was written by the ninth amendment's seed, not by the run itself)",
+   "shipped": "2026-09-25",
+   "archive": "builds/brainbrook/"
   },
   {
    "slug": "cash-pass",
@@ -473,6 +475,175 @@
     "voice.craftsman"
    ],
    "seeded_from": "Build Log run record, 2026-09-24 (this claim was written by the ninth amendment's seed, not by the run itself)"
+  },
+  {
+   "slug": "addabill",
+   "brand": "Addabill",
+   "domain": "addabill.com",
+   "date": "20260923",
+   "status": "claimed",
+   "session": "addabill--20260923--k7m2q",
+   "archetype": "Full-Bleed Cinematic Hero (cast as the standing month: a rendered world filling the viewport under centered type)",
+   "hero_composition": "",
+   "governing_idea": "One month on the kitchen wall: every bill stands on its day, the light moves across the counter, and the heads-up arrives before the day does.",
+   "signature_world": {
+    "object": "a standing month: a wall calendar page laid on a kitchen counter with paper bill tags standing on their due dates and a phone at the frame edge",
+    "verb": "add and come due",
+    "camera_path": "pull back from one day cell to the whole standing month, then a time-lapse light sweep across the days while bills land on their dates and one heads-up lifts into the phone, settling to an elevated reading angle"
+   },
+   "signature_move_id": "STO-009",
+   "signature_move_category": "Storytelling & Structure",
+   "palette": {
+    "field": "light",
+    "hexes": [
+     "FAF3E6",
+     "FFFFFF",
+     "EDE2CF",
+     "2B2622",
+     "6B6058",
+     "E9A825",
+     "3F6B4B"
+    ],
+    "accent_hue_family": "marigold (orange yellow)",
+    "color_story": "cream and graphite with one marigold highlighter"
+   },
+   "heading_font": "Fraunces",
+   "body_font": "Figtree",
+   "motif": "the day cell with a standing tag (SVG square, graphite border, date numeral, paper tag with ink stripe over a soft shadow) plus the heads-up arc",
+   "motion_signature": {
+    "easings": [
+     "cubic-bezier(0.24, 0.8, 0.26, 1) Heads-up",
+     "cubic-bezier(0.42, 0, 0.14, 1) Page turn"
+    ],
+    "durations": {
+     "base": "0.48s",
+     "fast": "0.2s",
+     "slow": "1.4s"
+    }
+   },
+   "loader_transition": "flip calendar: the day card flips from the 1st to today's date in step with real load, then flips into the hero month as today's marker",
+   "nav_style": "calendar header: cream row, Fraunces wordmark top left, horizontal Figtree links with a hollow day-cell square sliding under the active link, paper-tag cart top right, condenses to 56px on scroll",
+   "button_style": "paper tag: marigold rounded rectangle with a folded corner, graphite Figtree label, lifts onto shadow-2 with a sliding label on hover, flattens on press, idle shadow breathing",
+   "technique_ids": [
+    "STO-009",
+    "3DW-020",
+    "MOT-005",
+    "MOT-018",
+    "TYP-003",
+    "TYP-004",
+    "COL-017",
+    "TEX-013",
+    "TRN-001",
+    "EXP-002",
+    "CUR-007",
+    "CUR-011"
+   ],
+   "typographic_set_piece": "The Settled Numeral: the oversized due date 2 in Fraunces starts at WONK 1 / SOFT 100 like a date circled by hand and settles to WONK 0 with opsz sharpening as the pull-back completes",
+   "interactive_feature": "builder: Build your month at /builder (add 3 to 5 bills, they land on a live month with reminder arcs, result recommends a plan with the purchase CTA)",
+   "feature_shape": "",
+   "voice_stance": "warm host",
+   "tier": "2",
+   "seal_form": "",
+   "patterns": [
+    "button.idle-breathing",
+    "button.lift-on-hover-flatten-on-press",
+    "button.sliding-duplicate-label",
+    "button.tag-shape-notch-and-hole",
+    "color.neutral-field-one-accent",
+    "feature.inputs-to-live-preview",
+    "hero.rendered-world-under-centered-type",
+    "loader.date-or-count-in-step-with-load",
+    "loader.flip-into-hero-element",
+    "motif.cell-with-tag",
+    "motion.camera-pull-back-micro-to-macro",
+    "motion.idle-object-lifts-and-resettles",
+    "motion.light-sweep-as-time-of-day",
+    "nav.condense-on-scroll",
+    "nav.glyph-beneath-active-link",
+    "object.paper-on-a-counter",
+    "object.phone-as-destination-of-the-story",
+    "object.standing-tags-on-a-line",
+    "seal.ring-with-circular-text",
+    "section.full-bleed-bands-alternating-with-spreads",
+    "type.variable-axis-settle-on-scroll",
+    "voice.host"
+   ],
+   "seeded_from": "Build Log run addabill--20260923--k7m2q, 2026-09-26 (tenth amendment: every run in flight is claimed)"
+  },
+  {
+   "slug": "ravencove",
+   "brand": "Ravencove",
+   "domain": "ravencove.com",
+   "date": "20260924",
+   "status": "claimed",
+   "session": "ravencove--20260924--k7m2q",
+   "archetype": "Split-Screen Diptych (cast as The Two Shores)",
+   "hero_composition": "",
+   "governing_idea": "Two shores and a level: every page is paired halves meeting at a drawn water line; the signature world is a cove at slack water where one expense cleaves into two shares that moor on opposite shores and the water settles level",
+   "signature_world": {
+    "object": "a cove at slack water: two slate headlands with mooring posts and iris lanterns, a still water plane with faked mirror reflections and a swell, one white expense tablet that cleaves into two shares",
+    "verb": "cleave and moor",
+    "camera_path": "pendulum arc in one vertical plane from a grazing mirror view at the near shore, up and over the cleave to a plan view, the water flipping from pale mirror to slate depth, ending in a full fade handoff into the DOM water line"
+   },
+   "signature_move_id": "3DW-001",
+   "signature_move_category": "3D & WebGL",
+   "palette": {
+    "field": "light (cold)",
+    "hexes": [
+     "EDF0F3",
+     "DCE2E8",
+     "F6F8FA",
+     "3C4550",
+     "121519",
+     "F3EEE4",
+     "5A3FD8",
+     "4632B0",
+     "E4E0F7"
+    ],
+    "accent_hue_family": "iris (violet)",
+    "color_story": "cold morning water: mist field, slate ink, receipt paper warmth on the one object, one iris lantern"
+   },
+   "heading_font": "Bricolage Grotesque",
+   "body_font": "Instrument Sans (words and tabular figures)",
+   "motif": "the Level: a water line drawn in from both shores meeting at a seam with one float above it",
+   "motion_signature": {
+    "easings": [
+     "cubic-bezier(0.26, 0.88, 0.14, 1) slack water",
+     "cubic-bezier(0.62, 0.05, 0.28, 0.98) swell"
+    ],
+    "durations": {
+     "base": "0.56s",
+     "fast": "0.2s",
+     "slow": "1.4s"
+    }
+   },
+   "loader_transition": "fog lift with the line meeting: a mist veil thins with real load while one hairline draws in from both edges and meets, then Flips into the hero water line",
+   "nav_style": "mooring line nav: sentence case links resting on one full width hairline with an iris float that slides to the hovered or active route; cart as a hairline ring; fixed opaque header that never shrinks",
+   "button_style": "the float: capsule cut flat on one end (radius 999 left, 0 right), iris fill, hover grows a mooring hairline from the flat end and bobs the label, press ripples",
+   "technique_ids": [
+    "3DW-001",
+    "3DW-018",
+    "3DW-020",
+    "LAY-005",
+    "TYP-003",
+    "COL-002",
+    "STO-001",
+    "EXP-005",
+    "MOT-018",
+    "TRN-014",
+    "TRN-005",
+    "TEX-007",
+    "INT-001",
+    "CUR-011"
+   ],
+   "typographic_set_piece": "The Cleave: the sentence 'Every expense, split the way you both agreed.' splits at the comma on scroll, halves widening on the Bricolage width axis to the margins with a share figure beneath each",
+   "interactive_feature": "sorter (Sort a month: flick twelve household items to a shore, the ledger answers live, plan recommended)",
+   "feature_shape": "",
+   "voice_stance": "patient teacher",
+   "tier": "2",
+   "seal_form": "",
+   "patterns": [],
+   "seeded_from": "Build Log run ravencove--20260924--k7m2q, 2026-09-26 (tenth amendment: every run in flight is claimed)"
   }
  ]
 }
