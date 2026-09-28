@@ -1578,7 +1578,7 @@
   },
   {
    "id": "kit.svg",
-   "role": "the graphic kit: the Knot motif, the Selvedge Seal, the thread strip, the weft pass divider, the eleven icons, four guide graphics (one per post), the 404 loose thread",
+   "role": "the graphic kit: the Knot motif, the Selvedge Seal, the thread strip, the weft pass divider, the eleven icons, four guide graphics (one per post), two pass graphics (the Coupons and Paycheck lanes on /guides, which carry today's pass item until those threads have a guide), the 404 loose thread",
    "files": {
     "dir": "/home/claude/savebrew/assets/kit-svg/"
    },
@@ -1602,6 +1602,8 @@
     "/home/claude/savebrew/assets/kit-svg/icons/texts.svg",
     "/home/claude/savebrew/assets/kit-svg/icons/your-moves.svg",
     "/home/claude/savebrew/assets/kit-svg/knot.svg",
+    "/home/claude/savebrew/assets/kit-svg/pass-graphics/coupons.svg",
+    "/home/claude/savebrew/assets/kit-svg/pass-graphics/paycheck.svg",
     "/home/claude/savebrew/assets/kit-svg/selvedge-seal.svg",
     "/home/claude/savebrew/assets/kit-svg/thread-strip.svg",
     "/home/claude/savebrew/assets/kit-svg/weft-pass.svg"
