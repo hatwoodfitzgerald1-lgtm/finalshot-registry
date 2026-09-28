@@ -641,6 +641,99 @@
         },
         "claims_without_archive": "cash-pass, hill-wallet, logifx, save-the-will, ravencove: compared on their claimed direction fields by sameness_check.py (18 to 32 PASS); no vibe card exists for them yet"
       }
+    },
+    {
+      "date": "2026-09-28",
+      "brand": "Hill Wallet",
+      "domain": "hillwallet.com",
+      "live_url": "https://hillwallet-site.webflow.io",
+      "archetype": "Maximalist Color-Block, cast as Altitude Bands (every section a full-bleed band in the next altitude tint up the hill, bands joined by hill-crest masks cut from the climb profile, content grids that add columns at 1920 and 2560 instead of margin)",
+      "governing_idea": "Wall to Hill: the scary down payment number is a sheer wall that lies down into a green hill of 40 steps of $900, and the summit date writes itself along the ridge.",
+      "signature_world": {
+        "object": "a full-bleed hillside heightfield that loads as a sheer huckleberry wall carrying the $36,000 summit amount and lies down into a wide terraced slope of 40 switchbacks tinted in altitude bands, with a base camp tent at its foot",
+        "verb": "lie down and walk up",
+        "camera_path": "locked-off tripod with no camera travel at all: the land moves instead (the wall tilts back and slumps into a slope, the number splits into 40 terraces, haze clears to high sky, a walker climbs seven switchbacks, the summit date writes along the ridge)"
+      },
+      "signature_move_id": "3DW-018 (with 3DW-017; invented: Wall to Hill terrain morph)",
+      "signature_move_category": "3D & WebGL",
+      "palette": {
+        "field": "chromatic multi band (sky, meadow, barley and heather bands; no neutral field)",
+        "hexes": [
+          "BFDCEB",
+          "A9CC7E",
+          "6FA35A",
+          "E6D27A",
+          "B9A6D9",
+          "34287A",
+          "1F2A1E",
+          "F7F9F4"
+        ],
+        "accent_hue_family": "violet (huckleberry, blue leaning purple)",
+        "color_story": "altitude tints: a hypsometric ladder of open air bands threaded by one huckleberry trail"
+      },
+      "heading_font": "Bricolage Grotesque",
+      "body_font": "Rubik",
+      "motif": "the climb line: a wide hill profile with a switchback zigzag, a base camp ledge at the foot and a small flag at the crest; also cut as the crest mask between bands",
+      "motion_signature": {
+        "easings": [
+          "cubic-bezier(0.45, 0.05, 0.25, 0.95)",
+          "cubic-bezier(0.18, 0.88, 0.32, 1.12)"
+        ],
+        "names": [
+          "Steady Grade",
+          "Footing"
+        ],
+        "durations": {
+          "fast": "0.27s",
+          "base": "0.545s",
+          "slow": "1.09s",
+          "long": "2.18s"
+        }
+      },
+      "loader_transition": "tent flap unzip: a flat heather tent wall fills the screen, a huckleberry zipper pull runs up and over a dome arch as real assets arrive (no numbers, no stage list, no counter), the flap folds back and its dome edge morphs into the first hill crest of the hero; Skip from 0s, 1.6s target, 4s cap",
+      "nav_style": "altimeter bar: full width bar that takes the color of the altitude band beneath it, logo top left, horizontal Bricolage links whose letters step up like a staircase on hover, a live miniature elevation profile of the current page filling the middle of the bar with a you-are-here dot that climbs as you scroll, active link set on a rising baseline in huckleberry, backpack cart with count top right, never shrinks",
+      "button_style": "hill button: huckleberry dome with a flat base (full arc top, near square bottom corners), cloud white Bricolage label with the price, dome rises 4px and the label steps up on hover while a switchback zigzag draws along the base, springs flat and rebounds on press, a walker dot crosses the crest every 9s at idle; secondary is a spruce ink outline dome",
+      "technique_ids": [
+        "3DW-018",
+        "3DW-017",
+        "LAY-014",
+        "COL-013",
+        "TYP-016",
+        "MOT-023",
+        "STO-006",
+        "TRN-010",
+        "INT-003",
+        "TEX-007",
+        "IMG-019",
+        "MOT-003"
+      ],
+      "typographic_set_piece": "Summit on the Ridge: the projected summit date writes itself along the ridge line as path text, each glyph widening on the Bricolage wdth axis from 75 at the foot to 100 at the crest, reprised on the planner result and the order confirmation",
+      "interactive_feature": "planner: Plan a climb at /plan (home price, down payment percent, closing and move-in costs, monthly expenses, base camp months, monthly amount; drag the summit flag or the pace handle and the hill reshapes steeper or gentler; result lays out base camp, switchbacks and the projected summit and names Free or Plus with purchase buttons)",
+      "voice_stance": "field guide (a trail partner who has walked this route: answers the question you were about to ask, in plain words, with your numbers)",
+      "tier": "1",
+      "tier_forced": false,
+      "engine_profile": "baseline-r128",
+      "signature_shader_id": "",
+      "media_manifest": true,
+      "media": {
+        "subject_world": "an ordinary Saturday on a local hillside trail above a town, mid morning, clear air; people only as small figures, hands or boots",
+        "video_concept": "12s silent hero loop of four 3s clips that always climb left to right: boots on a gravel switchback, a wooden trail post, hands passing a thermos on a bench above a valley, two small figures walking up a grassy ridge",
+        "shot_grammar": "eye level or lower, stabilized handheld at walking pace, mid morning light, cuts on a footfall, no drone, no faces, no text",
+        "product_shot_style": "HTML built phone app screens on a generic CSS phone frame (14 screens, one shell, logo in the app header) plus a 16:10 desktop routes window; 7.9s product in motion clip",
+        "photography_subject": "trail post, switchback from above, bench and thermos, mown path, renter kitchen table with two mugs and a phone, valley from a crest, boots on a step, tent at a meadow edge, tall grass, hand holding a phone, trailhead packs",
+        "asset_count": "53 slots: 20 graded photographs, hero loop, product clip, brand kit, 14 product screens, 6 guide graphics",
+        "tier": "1"
+      },
+      "repo_name": "hillwallet-site (private)",
+      "app_name": "hillwallet-site",
+      "workspace": "Harlem's Workspace",
+      "invented_techniques": [
+        "Wall to Hill: a locked-camera terrain morph where a vertical heightfield wall bearing the goal amount interpolates into a terraced slope with hypsometric tinting, scroll scrubbed"
+      ],
+      "invented_archetypes": [
+        "Altitude Bands"
+      ],
+      "notes": "No max width containers anywhere; every section spans edge to edge at 1440, 1920 and 2560 (Harlem's negative space rule), verified by gutter_check at 60 of 60 route and width checks."
     }
   ]
 }
