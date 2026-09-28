@@ -39,3 +39,16 @@
 **Fits.** A brand whose offering divides naturally into a small fixed set of parallel lanes that recur on every page (threads, channels, categories, instruments), and content that is read across as well as down.
 
 **Does not fit.** Long single thread narratives, or catalogues whose item count is not a multiple of the lanes (cells go empty or stretch).
+
+
+## Altitude Bands
+
+**Build:** Hill Wallet (hillwallet.com), 2026-09-28. Live at https://hillwallet-site.webflow.io.
+
+**Parent archetype:** Maximalist Color-Block. For the quota it counts as Maximalist Color-Block; the casting is what is new.
+
+**What it is:** every section is a full bleed band in the next altitude tint up the hill (meadow, fern, barley, heather, sky, huckleberry), with no neutral field anywhere. Bands meet on hill crest masks cut from the climb profile, never straight lines. There are no max width containers: side padding stops at clamp(16px, 2.5vw, 48px), the grid runs 12 columns at 1440, 16 at 1920 and 20 at 2560, and each section adds columns, media or data at wider widths instead of margin. Verified by gutter_check.mjs (every section spans at least 94 percent of the viewport; no empty rectangle over 18 percent) at 1440, 1920 and 2560.
+
+**Where it fits:** consumer brands whose promise is progress or elevation, and any build where Harlem's no negative space rule is the priority.
+
+**Conventions floor held:** logo top left linking home, horizontal nav on desktop, cart top right, footer with address, phone, email, Privacy and Terms, buttons that look like buttons, product then cart then checkout then confirmation.
