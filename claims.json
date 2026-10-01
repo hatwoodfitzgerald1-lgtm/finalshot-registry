@@ -647,6 +647,105 @@
    "seal_form": "",
    "patterns": [],
    "seeded_from": "Build Log run ravencove--20260924--k7m2q, 2026-09-26 (tenth amendment: every run in flight is claimed)"
+  },
+  {
+   "slug": "duncrest",
+   "brand": "Duncrest Motorworks",
+   "domain": "duncrest.com",
+   "date": "2026-10-01",
+   "status": "claimed",
+   "session": "duncrest--20261001--kpqrj",
+   "governing_idea": "The restoration you can scroll: every Duncrest page opens as a black and white print of a classic 4x4 out where it belongs and develops into faded film colour the deeper you go, so the visitor watches the site do what the shop does, bring the vehicle back to life without losing what made it iconic.",
+   "archetype": "Road Book (invented: a rally road book descent: one film print per section set on a fixed six column hairline grid, each print followed by a paper field holding one statement, the dirt road passing between prints from top to bottom)",
+   "hero_style": "image",
+   "webgl_pages": "0 of 13 (planned; measured live at Step 8)",
+   "hero_composition": "full bleed film photograph of the debadged Land Cruiser low left and the skier striding right toward the peak, the plain H1 and subhead in Cormorant caps and Work Sans over the clear sky top left, Start your build in mustard beneath, the frame opening as a warm black and white print",
+   "signature_world": {
+    "object": "a debadged vintage Land Cruiser parked at a snowy trailhead in the mountain West with a modern skier beside it heading for the peak, printed first as a warm silver gelatin black and white photograph",
+    "verb": "develop",
+    "camera_path": "slow push in toward the skier while the black and white print develops into disposable camera colour from the sky downward, a held beat as the skier's next stride lands in full colour, then the ski track in the foreground snow narrows into the dirt road that leads down into The vehicles we rebuild and the photograph unpins and scrolls away"
+   },
+   "signature_move_id": "MOT-017 (invented: The Develop, a black and white to film colour push in on the hero photograph)",
+   "signature_move_category": "Motion & Scroll",
+   "palette": {
+    "field": "light (warm paper)",
+    "hexes": [
+     "F2EBE5",
+     "161512",
+     "BAC0C3",
+     "24251D",
+     "5D6450",
+     "D4A977",
+     "8A6A4A",
+     "B98A2C"
+    ],
+    "accent_hue_family": "mustard (dark ochre yellow)",
+    "color_story": "restoration film: warm silver gelatin black and white that develops into faded disposable camera colour by scroll depth, on warm paper, with one mustard accent"
+   },
+   "heading_font": "Cormorant Garamond",
+   "body_font": "Work Sans",
+   "motif": "the dirt road: two wavering wheel ruts with a broken tuft line between them, drawn as an SVG that bends down from the end of one section to the start of the next and draws on with scroll",
+   "motion_signature": {
+    "easings": [
+     "cubic-bezier(0.33, 0.07, 0.21, 0.99) Road Trip",
+     "cubic-bezier(0.52, 0.02, 0.36, 0.97) Develop"
+    ],
+    "durations": {
+     "fast": "0.22s",
+     "base": "0.62s",
+     "slow": "1.6s",
+     "develop": "2.4s"
+    }
+   },
+   "loader_transition": "film leader: a strip of 35mm leader with sprocket holes runs along the top edge of the already painted black and white hero, advancing one frame per real asset stage, then winds off the right edge at ready; skip from 0s, 1.6s target, 4s cap",
+   "nav_style": "dashboard placard nav: a paper band with the Duncrest wordmark top left, horizontal Work Sans links set like engraved placard labels, the active link framed by four viewfinder corner marks like a disposable camera's frame guide, Start your build in mustard at top right in place of a cart, the band's ink warming from silver to film amber as the page develops",
+   "button_style": "the dash toggle: a mustard rectangle with a small period toggle lever at its left end that throws down on hover while the label shifts right 3px, a 2px press like a dash switch on click, the arrow glyph rolls forward once like a wheel turning every 10s at idle; secondary is an ink hairline outline",
+   "technique_ids": [
+    "MOT-017",
+    "MOT-001",
+    "EXP-005",
+    "COL-017",
+    "TYP-019",
+    "TYP-008",
+    "STO-009",
+    "TEX-002",
+    "TRN-014",
+    "CUR-007",
+    "CUR-009",
+    "CUR-010"
+   ],
+   "typographic_set_piece": "Two Words, Equal Weight: in the powertrain section CRATE and ELECTRIC are set at the same huge Cormorant caps size side by side, each letterform filled with a film photograph of a vehicle being driven, and both fills develop from black and white into colour at the same moment as the section crosses the viewport",
+   "interactive_feature": "configurator (Draft your build sheet at /build-sheet: vehicle, build level, powertrain, own vehicle or donor search, how it will be driven; a draft build sheet fills in and develops into colour line by line, lists what that level includes from the comparison table and the from $100,000 floor, and ends on Start your build, prefilled)",
+   "feature_shape": "build sheet that develops into colour as each choice fills a line",
+   "voice_stance": "the curious historian",
+   "seal_form": "the Build Plate: a horizontal riveted plate with four corner rivets, DUNCREST MOTORWORKS stamped across the top, MERIDIAN IDAHO beneath, a blank stamped build line and a small peak over road emblem; it stamps in (never a ring with circular text)",
+   "tier": "2",
+   "tier_forced": false,
+   "signature_shader_id": "",
+   "patterns": [
+    "hero.monochrome-photograph-develops-into-film-colour",
+    "nav.viewfinder-corner-marks-frame-active-link",
+    "button.dash-toggle-throws-on-hover",
+    "loader.film-leader-advances-then-winds-off",
+    "type.film-photographs-fill-two-equal-words",
+    "motion.colour-returns-section-by-section-down-the-page",
+    "object.debadged-classic-4x4-out-in-the-mountain-west",
+    "motif.dirt-road-leads-down-between-sections",
+    "seal.riveted-build-plate",
+    "section.film-print-then-paper-field-on-a-hairline-grid",
+    "color.black-and-white-develops-to-film-colour-by-scroll-depth",
+    "feature.build-sheet-develops-as-choices-fill",
+    "voice.curious-historian"
+   ],
+   "media": {
+    "subject_world": "the moment of use: classic Land Cruisers and Defenders out in the mountain West doing capable things (a river ford, a forest track, a snowy trailhead with a skier, a lakeside stop years after the build), candid hands and passengers, the shop only in one or two craft close ups",
+    "video_concept": "one seamless single shot hero loop of about 8 seconds (TM-2): a debadged mustard FJ40 style wagon crossing a wide river ford right to left, seen from the downstream bank, water and spray moving, animated from one recreated still",
+    "shot_grammar": "35mm disposable camera eye: low and level, handheld drift, slow push ins, natural light only, no drone, no faces held, no badges, no text",
+    "photography_subject": "trailhead with skier (hero), river ford (loop poster), dirt road through a windshield, hands over a blank build sheet, a wagon by an alpine lake years later, a forest track climb, a snowfield crossing, a stitched seat close up, a weld close up, a fuel stop in sagebrush, a ski lot at dusk, a ranch gate road, a closed gate at a road's end",
+    "grade_recipe": "Disposable film: saturate(0.82) contrast(0.9) brightness(1.04) with a F2EBE5 8 percent lighten overlay (lifted blacks) and a D4A977 10 percent soft light warm cast plus animated grain; the opening state of each section is the same file graded grayscale(1) contrast(1.08) brightness(1.03) under a 6 percent D4A977 multiply (warm silver, no sepia, no halftone)",
+    "loop_mode": "single_shot",
+    "tier": "2"
+   }
   }
  ]
 }
