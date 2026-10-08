@@ -746,6 +746,124 @@
     "loop_mode": "single_shot",
     "tier": "2"
    }
+  },
+  {
+   "slug": "wellhype",
+   "brand": "WellHype",
+   "domain": "wellhype.com",
+   "date": "2026-10-08",
+   "status": "claimed",
+   "session": "wellhype--20261008--bpf0m",
+   "governing_idea": "Every sample adds up to one hundred percent, and WellHype shows the whole hundred: the composition bar is the brand, and the site is that one bar read in full.",
+   "archetype": "Bento Dashboard, cast as Share Panels (invented casting: every section is a set of ruled report panels on brightfield or darkfield, and the panel widths in a row are taken from the shares of the labelled sample, 41, 27, 12 and 20 of the width, so the page is built from the reading)",
+   "hero_style": "2d_motion",
+   "webgl_pages": "0 (planned; measured live at Step 8)",
+   "hero_composition": "darkfield first viewport: the plain H1 and subhead top left across five of twelve columns with Buy the Test beneath, the labelled sample composition bar drawn beside them across the right seven columns with its figure row and the sample label under it, the micrograph band's top edge visible at the fold",
+   "signature_world": {
+    "object": "one labelled sample's composition bar: every bacterium and fungus in a vaginal sample as shares of one hundred, drawn in flat vector on darkfield with the protective share the one solid mark",
+    "verb": "read in full",
+    "camera_path": "a single plotter pass draws the bar left to right beside the H1, then on scroll the twenty percent remainder fans open across the full width into twenty hairline slivers each named in mono, holds while every organism is on screen, folds shut, and the bar slides down to dock as the header band of the result panels whose widths are its shares"
+   },
+   "signature_move_id": "STO-007",
+   "signature_move_category": "Storytelling & Structure",
+   "palette": {
+    "field": "alternating brightfield and darkfield",
+    "hexes": [
+     "0B0C0E",
+     "F4F5F6",
+     "16181B",
+     "323840",
+     "8B9096",
+     "D5D8DC"
+    ],
+    "accent_hue_family": "none (monochrome: data marked by weight and pattern)",
+    "color_story": "specimen monochrome: brightfield and darkfield, data marked by weight and pattern"
+   },
+   "heading_font": "Host Grotesk",
+   "body_font": "Atkinson Hyperlegible Next (words) with Atkinson Hyperlegible Mono (figures)",
+   "motif": "the micrograph scale bar: a short solid bar with end ticks and a mono measure label (10 um), used as the section divider, the measure beside every figure and the footer rule",
+   "motion_signature": {
+    "easings": [
+     "cubic-bezier(0.15, 0.02, 0.85, 0.98) Plotter",
+     "cubic-bezier(0.83, 0, 0.17, 1) Focus snap"
+    ],
+    "durations": {
+     "fast": "0.12s",
+     "base": "0.36s",
+     "slow": "1.2s",
+     "draw": "900px per second"
+    }
+   },
+   "loader_transition": "slide on the stage: a blank glass slide outline slides onto a darkfield stage and two stage clips close on it while the page's real assets load; at ready the clips open and the slide lifts off the top edge and is gone, the hero already painted beneath; no count, no fill, no handoff into any hero element; skip from 0s, 1.6s target, 4s cap",
+   "nav_style": "the reading bar: an opaque ink header with the WellHype wordmark top left, horizontal links in Atkinson Hyperlegible Next, cart top right; the active link sits on a solid lab white block like the one solid segment of a composition bar, and a hovered link fills with a fine diagonal hatch drawn left to right at plotter speed; the header never condenses, hides or changes colour",
+   "button_style": "the segment button: a square cornered solid ink block (lab white on darkfield) whose right end is a separate hatched cell set off by a 2px field gap; on hover the hatch plots across into solid at constant speed until the gap closes; on press the block focus snaps one step darker; no idle motion; secondary is a graphite hairline outline",
+   "technique_ids": [
+    "STO-007",
+    "LAY-001",
+    "TYP-020",
+    "COL-003",
+    "MOT-005",
+    "IMG-005",
+    "TRN-014",
+    "EXP-002",
+    "CUR-007",
+    "CUR-011",
+    "TEX-014",
+    "IMG-012"
+   ],
+   "typographic_set_piece": "The Hundred Splits: a huge Atkinson Hyperlegible Mono 100% on the result panels splits along its baseline as 2px field gaps open into the sample's shares (41, 27, 12, 20), each part dropping its species label beneath; settles once, never rolls; recalled small on the retest view",
+   "interactive_feature": "finder: Find your test at /find-your-test (where symptoms show, how many rounds in the past year, whether it came back after treatment, whether you want to check a treatment worked, whether you want STIs checked); each answer plots a segment of a personal reading bar, and the finished bar names the test with its full price, the optional STI Panel and Add to Cart",
+   "feature_shape": "answers plot a personal reading bar that names the test",
+   "voice_stance": "quietly annoyed insider",
+   "seal_form": "the slide label seal: a rectangular glass microscope slide drawn in hairline with a frosted label end that carries the WH monogram and a mono specimen line; it slides onto the stage and the clips close (never a ring with circular text, never a square box)",
+   "tier": "1",
+   "tier_forced": false,
+   "signature_shader_id": "",
+   "engine_profile": "none (no WebGL)",
+   "patterns": [
+    "hero.composition-bar-draws-beside-plain-h1",
+    "nav.active-link-solid-block-others-hatch-on-hover",
+    "button.hatched-end-cell-plots-into-solid",
+    "loader.slide-clipped-to-stage-then-lifted-off",
+    "type.figure-splits-into-its-shares-along-the-baseline",
+    "motion.plotter-constant-speed-draw-no-overshoot",
+    "object.species-composition-bar",
+    "motif.micrograph-scale-bar",
+    "seal.glass-slide-with-frosted-label-end",
+    "section.panels-sized-by-the-sample-shares",
+    "color.brightfield-darkfield-monochrome-data-by-weight-and-pattern",
+    "feature.answers-plot-a-reading-bar-that-names-the-test",
+    "voice.quietly-annoyed-insider"
+   ],
+   "media": {
+    "subject_world": "the specimen bench where one sample is read: the WellHype kit box, the swab, the sealed sample tube, the return envelope and the instruction card on brightfield or darkfield, and the organisms of a vaginal sample under darkfield; no people",
+    "video_concept": "one seamless silent 8 second darkfield single_shot loop of lactobacillus rods, short rods and budding yeast drifting as under a live scope (TM-1, Method A then B), plus a 7 second product clip of the kit box lid lifting and the contents settling, locked camera, no hands",
+    "shot_grammar": "locked off only, top down or 15 degree studio angle, darkfield micro at one magnification with drift and no camera travel, even studio light on brightfield, no hands, faces or people, no hue",
+    "photography_subject": "kit flat lay, sealed tube, return envelope, swab sleeve, urine cup, capsules, suppository tray, boric blister, hyaluronic capsule, tube rack, empty bench, labelled slide, slide stack, capped tube, empty slide, kit edge and tamper strip, sealed envelope, kit corner, postbox envelope, micrograph sibling, budding yeast micrograph",
+    "grade_recipe": "Specimen silver: grayscale(1) contrast(1.08) brightness(1.02) with a 0B0C0E 8 percent lighten and an F4F5F6 6 percent multiply overlay, strength 0.85 to 1.0 on photographs, never on product photos, product UI or kit SVG; moodboard made assets palette match only",
+    "loop_mode": "single_shot"
+   },
+   "benchmarks": [
+    {
+     "slug": "odysseeclinic-com-au",
+     "url": "https://www.odysseeclinic.com.au/",
+     "award": "Awwwards Site of the Day",
+     "date": "2026-10-08",
+     "source": "plugin"
+    },
+    {
+     "slug": "alethia-earth",
+     "url": "https://www.alethia.earth/",
+     "award": "Awwwards Site of the Day",
+     "date": "2026-08-05",
+     "source": "plugin"
+    }
+   ],
+   "borrowing_mode": "feel",
+   "moodboard_overlap_kept": [
+    "OV-10"
+   ],
+   "note": "Committed at Step 2.5 by the director (director-4) after Usman picked Option A (decision d72); check_novelty.py, sameness_check.py and hero_mix_check.py clear against 13 builds and 9 claims. The moodboard overlap OV-10 (specimen photography subject world vs smart-augment) was kept by Usman at Checkpoint 1 (d48)."
   }
  ]
 }
